@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\services\\productdetailservices\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\services\\productdetailservices\\productdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:49:34.236Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Services\\ProductDetailServices\\ProductDetailService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Services\\ProductDetailServices\\ProductDetailService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Services\\ProductDetailServices\\ProductDetailService.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Services\\ProductDetailServices\\ProductDetailService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:03:38.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -26,15 +77,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
               "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
               "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T15:38:23.271Z",
+              "WhenOpened": "2025-05-15T17:00:21.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:54:24.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T16:54:24.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:51:06.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:49:48.885Z",
               "EditorCaption": ""
             }
           ]

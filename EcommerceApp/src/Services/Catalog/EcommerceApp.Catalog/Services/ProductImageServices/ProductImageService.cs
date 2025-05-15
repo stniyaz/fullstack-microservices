@@ -26,7 +26,7 @@ public class ProductImageService : IProductImageService
     public async Task DeleteProductImageAsync(string productImageId)
         => await _productImagesCollection.DeleteOneAsync(x => x.ProductImageId == productImageId);
 
-    public async Task<List<ResultProductImageDto>> GetAllCategoriesAsync()
+    public async Task<List<ResultProductImageDto>> GetAllProductImagesAsync()
         => _mapper.Map<List<ResultProductImageDto>>(await _productImagesCollection.Find(x => true).ToListAsync());
 
     public async Task<GetByIdProductImageDto> GetByIdProductImageAsync(string productImageId)

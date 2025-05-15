@@ -25,11 +25,11 @@ public class ProductDetailService : IProductDetailService
     public async Task DeleteProductDetailAsync(string productDetailId)
         => await _productsCollection.DeleteOneAsync(x => x.ProductDetailId == productDetailId);
 
-    public async Task<List<ResultProductDetailDto>> GetAllCategoriesAsync()
+    public async Task<List<ResultProductDetailDto>> GetAllProductDetailsAsync()
         => _mapper.Map<List<ResultProductDetailDto>>(await _productsCollection.Find(x => true).ToListAsync());
 
     public async Task<GetByIdProductDetailDto> GetByIdProductDetailAsync(string productDetailId)
-        => _mapper.Map<GetByIdProductDetailDto>(await _productsCollection.Find(x => productDetailId == x.ProductId).FirstOrDefaultAsync());
+        => _mapper.Map<GetByIdProductDetailDto>(await _productsCollection.Find(x => productDetailId == x.ProductDetailId).FirstOrDefaultAsync());
 
     public async Task UpdateProductDetailAsync(UpdateProductDetailDto updateProductDetailDto)
         => await _productsCollection.FindOneAndReplaceAsync(x => x.ProductId == updateProductDetailDto.ProductId,

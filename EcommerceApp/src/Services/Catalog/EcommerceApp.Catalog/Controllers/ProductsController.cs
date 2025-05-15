@@ -17,9 +17,9 @@ public class ProductsController(IProductService _productService) : ControllerBas
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetProductById(string productId)
+    public async Task<IActionResult> GetProductById(string id)
     {
-        var value = await _productService.GetByIdProductAsync(productId);
+        var value = await _productService.GetByIdProductAsync(id);
 
         return Ok(value);
     }

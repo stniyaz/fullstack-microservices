@@ -17,9 +17,9 @@ public class ProductImagesController(IProductImageService _productImageService) 
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetProductImageById(string productImageId)
+    public async Task<IActionResult> GetProductImageById(string id)
     {
-        var value = await _productImageService.GetByIdProductImageAsync(productImageId);
+        var value = await _productImageService.GetByIdProductImageAsync(id);
 
         return Ok(value);
     }
