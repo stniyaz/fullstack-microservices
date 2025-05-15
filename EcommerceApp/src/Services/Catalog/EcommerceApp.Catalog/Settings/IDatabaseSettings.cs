@@ -1,6 +1,6 @@
 ﻿namespace EcommerceApp.Catalog.Settings;
 
-public interface IDatabaseSetting
+public interface IDatabaseSettings
 {
     public string DatabaseName { get; set; }
     public string ConnectionString { get; set; }

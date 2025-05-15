@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B45F4D-B450-495F-A106-F462FE58AE3C}|src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj|solutionrelative:src\\services\\catalog\\ecommerceapp.catalog\\controllers\\productdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
+              "RelativeToolTip": "src\\Services\\Catalog\\EcommerceApp.Catalog\\Controllers\\ProductDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:38:23.271Z",
+              "EditorCaption": ""
             }
           ]
         }
