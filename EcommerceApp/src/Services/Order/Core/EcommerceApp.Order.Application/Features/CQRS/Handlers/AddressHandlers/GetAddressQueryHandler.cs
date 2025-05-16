@@ -1,7 +1,6 @@
 ﻿using EcommerceApp.Order.Application.Features.CQRS.Results.AddressResults;
 using EcommerceApp.Order.Application.Interfaces;
 using EcommerceApp.Order.Domain.Entities;
-using System.Threading.Tasks;
 
 namespace EcommerceApp.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 

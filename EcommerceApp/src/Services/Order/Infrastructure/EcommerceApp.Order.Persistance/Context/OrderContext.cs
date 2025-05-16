@@ -7,7 +7,7 @@ public class OrderContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=DESKTOP-H1O7HUU;Database=EcommerceAppOrderDb;Trusted_Connection=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost,1440;Database=EcommerceAppOrderDb;User=sa;Password=Salam123$;TrustServerCertificate=True;");
     }
 
     public DbSet<Address> Addresses { get; set; }

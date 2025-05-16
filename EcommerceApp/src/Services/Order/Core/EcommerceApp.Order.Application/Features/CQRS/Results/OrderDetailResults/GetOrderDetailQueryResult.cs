@@ -2,7 +2,7 @@
 
 public class GetOrderDetailQueryResult
 {
-    public int OderDetailId { get; set; }
+    public int OrderDetailId { get; set; }
     public string ProductId { get; set; }
     public string ProductName { get; set; }
     public decimal ProductPrice { get; set; }

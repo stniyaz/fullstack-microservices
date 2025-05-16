@@ -16,7 +16,7 @@ public class OrderDetailsController(GetOrderDetailByIdQueryHandler _getOrderDeta
     [HttpGet("")]
     public async Task<IActionResult> GetAllOrderDetails()
     {
-        var values = _getOrderDetailQueryHandler.Handle();
+        var values = await _getOrderDetailQueryHandler.Handle();
 
         return Ok(values);
     }

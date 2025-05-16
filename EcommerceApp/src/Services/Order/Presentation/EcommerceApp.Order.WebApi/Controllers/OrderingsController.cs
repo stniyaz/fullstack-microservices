@@ -42,9 +42,9 @@ public class OrderingsController(IMediator _mediator) : ControllerBase
     }
 
     [HttpDelete]
-    public async Task<IActionResult> DeleteOrdering(DeleteOrderingCommand command)
+    public async Task<IActionResult> DeleteOrdering(int id)
     {
-        await _mediator.Send(command);
+        await _mediator.Send(new DeleteOrderingCommand(id));
 
         return Ok("Ordering deleted successfully.");
     }

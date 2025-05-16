@@ -15,7 +15,7 @@ public class UpdateOrderDetailCommandHandler
 
     public async Task Handle(UpdateOrderDetailCommand command)
     {
-        var value = await _repository.GetByIdAsync(command.OderDetailId);
+        var value = await _repository.GetByIdAsync(command.OrderDetailId);
 
         if (value != null)
         {

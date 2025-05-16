@@ -146,5 +146,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetAllOrderings",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "CreateOrdering",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "EcommerceApp.Order.Application.Features.Mediator.Commands.OrderingCommands.CreateOrderingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "UpdateOrdering",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "EcommerceApp.Order.Application.Features.Mediator.Commands.OrderingCommands.UpdateOrderingCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "DeleteOrdering",
+    "RelativePath": "api/Orderings",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetOrderingById",
+    "RelativePath": "api/Orderings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

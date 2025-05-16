@@ -25,7 +25,7 @@ public class GetOrderDetailByIdQueryHandler
             ProductId = value.ProductId,
             ProductTotalPrice = value.ProductTotalPrice,
             OrderingId = value.OrderingId,
-            OderDetailId = query.OrderDetailId,
+            OrderDetailId = query.OrderDetailId,
             ProductPrice = value.ProductPrice,
         };
     }
