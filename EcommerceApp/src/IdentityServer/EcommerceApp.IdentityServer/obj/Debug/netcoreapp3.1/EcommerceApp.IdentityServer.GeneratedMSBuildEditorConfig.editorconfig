@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = EcommerceApp.IdentityServer
+build_property.ProjectDir = C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\IdentityServer\EcommerceApp.IdentityServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
