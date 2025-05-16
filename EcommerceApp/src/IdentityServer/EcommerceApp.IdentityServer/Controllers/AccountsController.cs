@@ -1,11 +1,14 @@
 ﻿using EcommerceApp.IdentityServer.Dtos;
 using EcommerceApp.IdentityServer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using static IdentityServer4.IdentityServerConstants;
 
 namespace EcommerceApp.IdentityServer.Controllers
 {
+    [Authorize(LocalApi.PolicyName)]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
@@ -27,15 +30,15 @@ namespace EcommerceApp.IdentityServer.Controllers
                 UserName = dto.Username
             };
 
-            var result = await _userManager.CreateAsync(newUser,dto.Password);
+            var result = await _userManager.CreateAsync(newUser, dto.Password);
 
-            if(!result.Succeeded)
+            if (!result.Succeeded)
             {
                 return BadRequest("Something went wrong.");
             }
             else
             {
-                return StatusCode(201,"User created successfully.");
+                return StatusCode(201, "User created successfully.");
             }
         }
     }
