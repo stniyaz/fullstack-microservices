@@ -15,7 +15,7 @@ public class DeleteAddressCommandHandler
 
     public async Task Handle(DeleteAddressCommand deleteAddressCommand)
     {
-        var value = await _repository.GetByIdAsync(deleteAddressCommand.Id);
+        var value = await _repository.GetByIdAsync(deleteAddressCommand.AddressId);
 
         if(value != null)
         {

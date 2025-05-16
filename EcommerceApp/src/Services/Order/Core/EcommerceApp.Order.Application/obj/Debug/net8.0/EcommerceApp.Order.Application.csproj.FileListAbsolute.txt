@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.AssemblyInfo.cs
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.sourcelink.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\bin\Debug\net8.0\EcommerceApp.Order.Application.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\bin\Debug\net8.0\EcommerceApp.Order.Application.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\bin\Debug\net8.0\EcommerceApp.Order.Application.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\bin\Debug\net8.0\EcommerceApp.Order.Domain.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\bin\Debug\net8.0\EcommerceApp.Order.Domain.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\Ecommerc.A5D17A70.Up2Date
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\refint\EcommerceApp.Order.Application.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\EcommerceApp.Order.Application.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Core\EcommerceApp.Order.Application\obj\Debug\net8.0\ref\EcommerceApp.Order.Application.dll
