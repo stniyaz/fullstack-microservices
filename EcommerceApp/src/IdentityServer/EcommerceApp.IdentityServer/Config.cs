@@ -53,7 +53,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName ="EcommerceApp Manager",
                 AllowedGrantTypes= GrantTypes.ClientCredentials,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "catalog_fullpermission" }
+                AllowedScopes = { "disocunt_fullpermission" }
             },
 
             // Admin

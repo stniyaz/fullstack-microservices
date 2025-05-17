@@ -1,10 +1,12 @@
 ﻿using EcommerceApp.Order.Application.Features.CQRS.Commands.OrderDetailCommands;
 using EcommerceApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
 using EcommerceApp.Order.Application.Features.CQRS.Queries.OrderDetailQueries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Order.WebApi.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class OrderDetailsController(GetOrderDetailByIdQueryHandler _getOrderDetailByIdQueryHandler,

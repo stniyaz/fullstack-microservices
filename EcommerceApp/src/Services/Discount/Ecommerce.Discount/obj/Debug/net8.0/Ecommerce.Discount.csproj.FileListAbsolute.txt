@@ -147,3 +147,4 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\appsettings.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\Dapper.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

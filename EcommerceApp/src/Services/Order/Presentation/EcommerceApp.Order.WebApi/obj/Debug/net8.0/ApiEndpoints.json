@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AdressesController",
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AddressesController",
     "Method": "GetAllAddresses",
-    "RelativePath": "api/Adresses",
+    "RelativePath": "api/Addresses",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AdressesController",
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AddressesController",
     "Method": "CreateAddress",
-    "RelativePath": "api/Adresses",
+    "RelativePath": "api/Addresses",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AdressesController",
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AddressesController",
     "Method": "UpdateAddress",
-    "RelativePath": "api/Adresses",
+    "RelativePath": "api/Addresses",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AdressesController",
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AddressesController",
     "Method": "DeleteAddress",
-    "RelativePath": "api/Adresses",
+    "RelativePath": "api/Addresses",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -58,9 +58,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AdressesController",
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.AddressesController",
     "Method": "GetAddressById",
-    "RelativePath": "api/Adresses/{id}",
+    "RelativePath": "api/Addresses/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

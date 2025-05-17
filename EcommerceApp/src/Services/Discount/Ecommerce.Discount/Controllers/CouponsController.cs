@@ -1,9 +1,11 @@
 ﻿using Ecommerce.Discount.Dtos.CouponDtos;
 using Ecommerce.Discount.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.Discount.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class CouponsController(ICouponService _couponService) : ControllerBase

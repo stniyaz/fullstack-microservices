@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Adresses": {
+    "/api/Addresses": {
       "get": {
         "tags": [
-          "Adresses"
+          "Addresses"
         ],
         "responses": {
           "200": {
@@ -18,7 +18,7 @@
       },
       "post": {
         "tags": [
-          "Adresses"
+          "Addresses"
         ],
         "requestBody": {
           "content": {
@@ -47,7 +47,7 @@
       },
       "put": {
         "tags": [
-          "Adresses"
+          "Addresses"
         ],
         "requestBody": {
           "content": {
@@ -76,7 +76,7 @@
       },
       "delete": {
         "tags": [
-          "Adresses"
+          "Addresses"
         ],
         "parameters": [
           {
@@ -95,10 +95,10 @@
         }
       }
     },
-    "/api/Adresses/{id}": {
+    "/api/Addresses/{id}": {
       "get": {
         "tags": [
-          "Adresses"
+          "Addresses"
         ],
         "parameters": [
           {

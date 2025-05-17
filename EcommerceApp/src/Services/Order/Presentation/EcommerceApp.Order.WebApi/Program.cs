@@ -2,10 +2,17 @@ using EcommerceApp.Order.Application.Interfaces;
 using EcommerceApp.Order.Application.Services;
 using EcommerceApp.Order.Persistance.Context;
 using EcommerceApp.Order.Persistance.Repositories;
-using Microsoft.Identity.Client;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServer"];
+    opt.Audience = "resource_order";
+    opt.RequireHttpsMetadata = false;
+});
 
 // Add services to the container.
 
@@ -29,6 +36,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

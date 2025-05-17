@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\identityserver\\ecommerceapp.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|solutionrelative:src\\identityserver\\ecommerceapp.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0523A911-45BE-4C88-A601-421805B7A483}|src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\order\\presentation\\ecommerceapp.order.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0523A911-45BE-4C88-A601-421805B7A483}|src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj|solutionrelative:src\\services\\order\\presentation\\ecommerceapp.order.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\identityserver\\ecommerceapp.identityserver\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|solutionrelative:src\\identityserver\\ecommerceapp.identityserver\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\identityserver\\ecommerceapp.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{996441E0-C609-D246-6B89-D4D1E325DD33}|src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj|solutionrelative:src\\identityserver\\ecommerceapp.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "src\\IdentityServer\\EcommerceApp.IdentityServer\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "src\\IdentityServer\\EcommerceApp.IdentityServer\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:23:26.346Z",
+              "WhenOpened": "2025-05-17T00:25:50.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs",
               "RelativeDocumentMoniker": "src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs*",
-              "RelativeToolTip": "src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwD0AAAAoAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs",
+              "RelativeToolTip": "src\\IdentityServer\\EcommerceApp.IdentityServer\\Config.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:22:37.546Z",
+              "WhenOpened": "2025-05-17T00:25:23.673Z",
               "EditorCaption": ""
             }
           ]

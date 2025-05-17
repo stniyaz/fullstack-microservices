@@ -1,13 +1,15 @@
 ﻿using EcommerceApp.Order.Application.Features.CQRS.Commands.AddressCommands;
 using EcommerceApp.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using EcommerceApp.Order.Application.Features.CQRS.Queries.AddressQueries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Order.WebApi.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
-public class AdressesController(GetAddressQueryHandler _getAddressQueryHandler,
+public class AddressesController(GetAddressQueryHandler _getAddressQueryHandler,
                                 GetAddressByIdQueryHandler _getAddressByIdQueryHandler,
                                 CreateAddressCommandHandler _createAddressCommandHandler,
                                 UpdateAddressCommandHandler _updateAddressCommandHandler,
