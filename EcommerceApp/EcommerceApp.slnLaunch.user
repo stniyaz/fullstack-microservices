@@ -7,15 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "src\\Services\\Discount\\Ecommerce.Discount\\Ecommerce.Discount.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
+        "Path": "src\\Services\\Cargo\\EcommerceApp.Cargo.WebApi\\EcommerceApp.Cargo.WebApi.csproj",
         "Action": "Start"
       }
     ]

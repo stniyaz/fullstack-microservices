@@ -15,6 +15,7 @@ namespace EcommerceApp.IdentityServer
             new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission", "catalog_readPermission"}},
             new ApiResource("resource_discount"){Scopes={"disocunt_fullpermission"}},
             new ApiResource("resource_order"){Scopes={"order_fullpermission"}},
+            new ApiResource("resource_cargo"){Scopes={"cargo_fullpermission"}},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName),
         };
 
@@ -31,6 +32,7 @@ namespace EcommerceApp.IdentityServer
             new ApiScope("catalog_fullpermission", "Full permission for Catalog API."),
             new ApiScope("disocunt_fullpermission", "Full permission for Discount API."),
             new ApiScope("order_fullpermission", "Full permission for Order API."),
+            new ApiScope("cargo_fullpermission", "Full permission for Cargo API."),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName),
         };
 
@@ -63,7 +65,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName = "EcommerceApp Admin",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "catalog_fullpermission", "disocunt_fullpermission","order_fullpermission",
+                AllowedScopes = { "catalog_fullpermission", "disocunt_fullpermission","order_fullpermission","cargo_fullpermission",
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.Profile,

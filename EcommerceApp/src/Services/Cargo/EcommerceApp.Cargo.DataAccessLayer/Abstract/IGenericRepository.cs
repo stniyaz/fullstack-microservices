@@ -1,6 +1,6 @@
 ﻿namespace EcommerceApp.Cargo.DataAccessLayer.Abstract;
 
-public interface ICargoDetailRepository<T> where T : class, new()
+public interface IGenericRepository<T> where T : class, new()
 {
     void Delete(T entity);
     Task SaveChangesAsync();

@@ -10,3 +10,11 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\refint\EcommerceApp.Cargo.BusinessLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.pdb
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.BusinessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\Ecommerc.EC259985.Up2Date

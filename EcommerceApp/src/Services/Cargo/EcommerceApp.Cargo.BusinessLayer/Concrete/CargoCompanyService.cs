@@ -11,7 +11,7 @@ public class CargoCompanyService(ICargoCompanyRepository _repository) : ICargoCo
     {
         await _repository.CreateAsync(new CargoCompany
         {
-            CompanyName = createCargoCompanyDto.CompanyName,
+            CargoCompanyName = createCargoCompanyDto.CompanyName,
         });
         await _repository.SaveChangesAsync();
     }
@@ -31,7 +31,7 @@ public class CargoCompanyService(ICargoCompanyRepository _repository) : ICargoCo
         return values.Select(x => new ResultCargoCompanyDto
         {
             CargoCompanyId = x.CargoCompanyId,
-            CompanyName = x.CompanyName,
+            CompanyName = x.CargoCompanyName,
         }).ToList();
     }
 
@@ -41,7 +41,7 @@ public class CargoCompanyService(ICargoCompanyRepository _repository) : ICargoCo
 
         return new GetByIdCargoCompanyDto
         {
-            CompanyName = value.CompanyName,
+            CompanyName = value.CargoCompanyName,
             CargoCompanyId = value.CargoCompanyId,
         };
     }
@@ -50,7 +50,7 @@ public class CargoCompanyService(ICargoCompanyRepository _repository) : ICargoCo
     {
         var value = await _repository.GetByIdAsync(updateCargoCompanyDto.CargoCompanyId);
 
-        value.CompanyName = updateCargoCompanyDto.CompanyName;
+        value.CargoCompanyName = updateCargoCompanyDto.CompanyName;
 
         await _repository.SaveChangesAsync();
     }

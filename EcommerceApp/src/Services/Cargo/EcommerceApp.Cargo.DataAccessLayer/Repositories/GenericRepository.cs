@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApp.Cargo.DataAccessLayer.Repositories;
 
-public class GenericRepository<T>(CargoContext _context) : ICargoDetailRepository<T> where T : class, new()
+public class GenericRepository<T>(CargoContext _context) : IGenericRepository<T> where T : class, new()
 {
     public async Task CreateAsync(T entity)
         => await _context.Set<T>().AddAsync(entity);
@@ -18,6 +18,6 @@ public class GenericRepository<T>(CargoContext _context) : ICargoDetailRepositor
     public async Task<T> GetByIdAsync(int id)
         => await _context.Set<T>().FindAsync(id);
 
-    public async Task SaveChangesAsync(T entity)
+    public async Task SaveChangesAsync()
         => await _context.SaveChangesAsync();
 }

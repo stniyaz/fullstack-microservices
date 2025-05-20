@@ -2,4 +2,4 @@
 
 namespace EcommerceApp.Cargo.DataAccessLayer.Abstract;
 
-public interface ICargoDetailRepository : ICargoDetailRepository<CargoDetail> { }
+public interface ICargoDetailRepository : IGenericRepository<CargoDetail> { }
