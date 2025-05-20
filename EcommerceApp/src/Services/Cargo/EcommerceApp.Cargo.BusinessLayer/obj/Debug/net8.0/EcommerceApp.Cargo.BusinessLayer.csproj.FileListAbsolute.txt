@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.sourcelink.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\refint\EcommerceApp.Cargo.BusinessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.BusinessLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.BusinessLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.BusinessLayer.dll

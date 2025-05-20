@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.sourcelink.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\refint\EcommerceApp.Cargo.DataAccessLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DataAccessLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DataAccessLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.DataAccessLayer.dll

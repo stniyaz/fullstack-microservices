@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\bin\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.sourcelink.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\refint\EcommerceApp.Cargo.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\EcommerceApp.Cargo.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.DtoLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.DtoLayer.dll
