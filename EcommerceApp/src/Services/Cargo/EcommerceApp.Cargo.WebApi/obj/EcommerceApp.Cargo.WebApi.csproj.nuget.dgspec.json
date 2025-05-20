@@ -32,7 +32,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\EcommerceApp.Cargo.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\EcommerceApp.Cargo.DtoLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceApp.Cargo.DataAccessLayer\EcommerceApp.Cargo.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EcommerceApp.Cargo.DtoLayer\EcommerceApp.Cargo.DtoLayer.csproj" />
+  </ItemGroup>
+
 </Project>

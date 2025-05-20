@@ -1585,6 +1585,10 @@
       "EcommerceApp.Cargo.BusinessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EcommerceApp.Cargo.DataAccessLayer": "1.0.0",
+          "EcommerceApp.Cargo.DtoLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/EcommerceApp.Cargo.BusinessLayer.dll": {}
         },
