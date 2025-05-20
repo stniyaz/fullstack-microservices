@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49709E19-46F6-4A3F-9A03-4B692A4F3912}|src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\EcommerceApp.Cargo.EntityLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.entitylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49709E19-46F6-4A3F-9A03-4B692A4F3912}|src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\EcommerceApp.Cargo.EntityLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.entitylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{061A2ABD-5EA9-4756-800C-BD5918DA94F0}|src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\EcommerceApp.Cargo.DtoLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.dtolayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061A2ABD-5EA9-4756-800C-BD5918DA94F0}|src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\EcommerceApp.Cargo.DtoLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.dtolayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561FD52A-ED44-4FED-9A96-E89A21BD6F57}|src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\EcommerceApp.Cargo.BusinessLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{561FD52A-ED44-4FED-9A96-E89A21BD6F57}|src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\EcommerceApp.Cargo.BusinessLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\migrations\\20250520141857_cargocompaniescargocustomerscarodetailscargooperationstablescreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{843B56C7-84D0-425E-B94A-B58DE5553AC7}|src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\EcommerceApp.Cargo.DataAccessLayer.csproj|solutionrelative:src\\services\\cargo\\ecommerceapp.cargo.dataaccesslayer\\migrations\\20250520141857_cargocompaniescargocustomerscarodetailscargooperationstablescreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\Class1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\Class1.cs",
-              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:52:17.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\Class1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\Class1.cs",
-              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.DtoLayer\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20250520141857_CargoCompaniesCargoCustomersCaroDetailsCargoOperationsTablesCreated.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Migrations\\20250520141857_CargoCompaniesCargoCustomersCaroDetailsCargoOperationsTablesCreated.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Migrations\\20250520141857_CargoCompaniesCargoCustomersCaroDetailsCargoOperationsTablesCreated.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Migrations\\20250520141857_CargoCompaniesCargoCustomersCaroDetailsCargoOperationsTablesCreated.cs",
+              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Migrations\\20250520141857_CargoCompaniesCargoCustomersCaroDetailsCargoOperationsTablesCreated.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:51:52.393Z",
+              "WhenOpened": "2025-05-20T14:18:58.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Class1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Class1.cs",
-              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CargoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs*",
+              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:51:23.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\Class1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\Class1.cs",
-              "RelativeToolTip": "src\\Services\\Cargo\\EcommerceApp.Cargo.BusinessLayer\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:50:44.714Z",
+              "WhenOpened": "2025-05-20T14:17:31.63Z",
               "EditorCaption": ""
             }
           ]

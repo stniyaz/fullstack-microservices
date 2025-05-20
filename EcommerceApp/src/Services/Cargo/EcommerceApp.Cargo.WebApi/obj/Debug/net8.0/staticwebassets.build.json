@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "B9gM7n7FVZgQ4hOq612ZbHxPMsRANVXZwH+GS8LZmYM=",
+  "Source": "EcommerceApp.Cargo.WebApi",
+  "BasePath": "_content/EcommerceApp.Cargo.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
