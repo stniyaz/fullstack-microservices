@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcommerceApp.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd19f10a24167076493ebf26f5926124655693c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9e6834bf80d482cf8d65ee628604ba3ef37b295")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommerceApp.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommerceApp.Cargo.BusinessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
