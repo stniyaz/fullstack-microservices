@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2DEF7E52-0169-432D-8A47-73381119C2FE}|src\\Services\\Basket\\EcommerceApp.Basket\\EcommerceApp.Basket.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\basket\\ecommerceapp.basket\\services\\basketservices\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DEF7E52-0169-432D-8A47-73381119C2FE}|src\\Services\\Basket\\EcommerceApp.Basket\\EcommerceApp.Basket.csproj|solutionrelative:src\\services\\basket\\ecommerceapp.basket\\services\\basketservices\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Basket\\EcommerceApp.Basket\\Services\\BasketServices\\BasketService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Basket\\EcommerceApp.Basket\\Services\\BasketServices\\BasketService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Basket\\EcommerceApp.Basket\\Services\\BasketServices\\BasketService.cs",
-              "RelativeToolTip": "src\\Services\\Basket\\EcommerceApp.Basket\\Services\\BasketServices\\BasketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T20:45:55.541Z",
-              "EditorCaption": ""
             }
           ]
         }
