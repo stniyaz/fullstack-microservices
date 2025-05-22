@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\bin\Debug\net8.0\EcommerceApp.DtoLayer.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\bin\Debug\net8.0\EcommerceApp.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\bin\Debug\net8.0\EcommerceApp.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.sourcelink.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\refint\EcommerceApp.DtoLayer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\EcommerceApp.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.DtoLayer\obj\Debug\net8.0\ref\EcommerceApp.DtoLayer.dll

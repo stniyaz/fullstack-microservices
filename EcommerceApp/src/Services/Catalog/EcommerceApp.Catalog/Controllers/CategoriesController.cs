@@ -7,7 +7,8 @@ namespace EcommerceApp.Catalog.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+//[Authorize]
+[AllowAnonymous]
 public class CategoriesController(ICategoryService _categoryService) : ControllerBase
 {
     [HttpGet("")]

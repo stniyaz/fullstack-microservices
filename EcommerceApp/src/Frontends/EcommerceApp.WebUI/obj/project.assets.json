@@ -1991,6 +1991,16 @@
             "rid": "win"
           }
         }
+      },
+      "EcommerceApp.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/EcommerceApp.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EcommerceApp.DtoLayer.dll": {}
+        }
       }
     }
   },
@@ -5558,10 +5568,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "EcommerceApp.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../EcommerceApp.DtoLayer/EcommerceApp.DtoLayer.csproj",
+      "msbuildProject": "../EcommerceApp.DtoLayer/EcommerceApp.DtoLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EcommerceApp.DtoLayer >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
     ]
   },
@@ -5597,7 +5613,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.DtoLayer\\EcommerceApp.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.DtoLayer\\EcommerceApp.DtoLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

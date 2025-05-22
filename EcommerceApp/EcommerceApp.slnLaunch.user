@@ -3,11 +3,11 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
+        "Path": "src\\Services\\Catalog\\EcommerceApp.Catalog\\EcommerceApp.Catalog.csproj",
         "Action": "Start"
       },
       {
-        "Path": "src\\Services\\Basket\\EcommerceApp.Basket\\EcommerceApp.Basket.csproj",
+        "Path": "src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
         "Action": "Start"
       }
     ]
