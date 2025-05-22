@@ -3684,6 +3684,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vtdtm8l0BiAdxqPto4e6j29YlIYO4A2mUimWwWy4fus="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"21617"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vtdtm8l0BiAdxqPto4e6j29YlIYO4A2mUimWwWy4fus=\u0022"},{"Name":"Last-Modified","Value":"Tue, 02 Jul 2024 07:14:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EcommerceApp.WebUI/manage/img/logo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\img\logo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tHIx4CG\u002Bk0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"233563"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tHIx4CG\u002Bk0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:35:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EcommerceApp.WebUI/manage/img/logo.o3nfwk21d1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\img\logo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o3nfwk21d1"},{"Name":"integrity","Value":"sha256-tHIx4CG\u002Bk0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ="},{"Name":"label","Value":"_content/EcommerceApp.WebUI/manage/img/logo.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"233563"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tHIx4CG\u002Bk0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:35:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EcommerceApp.WebUI/manage/maps/et-line-font/et-line-font.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\maps\et-line-font\et-line-font.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

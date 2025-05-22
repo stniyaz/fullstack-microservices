@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aKQ0ZLf0xctjU+zQBbRSeAcAQIjQFy489Lq9xtH5tjg=",
+  "Hash": "dIeyDVP9JF2e+REV8/d8919rmPj4hzqKBnKeqLiHb2c=",
   "Source": "EcommerceApp.WebUI",
   "BasePath": "_content/EcommerceApp.WebUI",
   "Mode": "Default",
@@ -6483,6 +6483,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\forms\\wizard.html"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\img\\logo.jpg",
+      "SourceId": "EcommerceApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\",
+      "BasePath": "_content/EcommerceApp.WebUI",
+      "RelativePath": "manage/img/logo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3nfwk21d1",
+      "Integrity": "tHIx4CG+k0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manage\\img\\logo.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\et-line-font.css",
@@ -33461,6 +33482,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vtdtm8l0BiAdxqPto4e6j29YlIYO4A2mUimWwWy4fus="
+        }
+      ]
+    },
+    {
+      "Route": "manage/img/logo.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\img\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHIx4CG+k0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHIx4CG+k0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ="
+        }
+      ]
+    },
+    {
+      "Route": "manage/img/logo.o3nfwk21d1.jpg",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\img\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHIx4CG+k0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3nfwk21d1"
+        },
+        {
+          "Name": "label",
+          "Value": "manage/img/logo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHIx4CG+k0xzOX/avEz3nnZ9zk6yWepvUNwSm4EOgfQ="
         }
       ]
     },

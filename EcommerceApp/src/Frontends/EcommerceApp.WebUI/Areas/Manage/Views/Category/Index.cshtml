@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+    ViewData["h1"] = "Category actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Category";
+    ViewData["v3"] = null;
+}
+
+<!-- Main content -->
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <h4>Category List</h4>
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>
+                                    <a asp-action="update" asp-controller="category" asp-area="manage"><i class="fa-solid fa-pen-to-square"></i></a>
+                                    <a asp-action="delete" asp-controller="category" asp-area="manage"><i class="fa-solid fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- content -->

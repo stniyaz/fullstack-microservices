@@ -1229,6 +1229,10 @@
       "PackagePath": "staticwebassets\\manage\\forms\\wizard.html"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\et-line-font.css",
       "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\et-line-font.css"
     },

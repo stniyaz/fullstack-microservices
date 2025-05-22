@@ -304,6 +304,7 @@ wwwroot\manage\forms\general-elements.html
 wwwroot\manage\forms\layouts.html
 wwwroot\manage\forms\validation.html
 wwwroot\manage\forms\wizard.html
+wwwroot\manage\img\logo.jpg
 wwwroot\manage\maps\et-line-font\et-line-font.css
 wwwroot\manage\maps\et-line-font\fonts\et-line.eot
 wwwroot\manage\maps\et-line-font\fonts\et-line.svg
