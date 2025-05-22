@@ -589,6 +589,974 @@
       "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\calendar.html",
+      "PackagePath": "staticwebassets\\manage\\app\\calendar.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\contacts.html",
+      "PackagePath": "staticwebassets\\manage\\app\\contacts.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\app\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\app\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\gallery.html",
+      "PackagePath": "staticwebassets\\manage\\app\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\invoice.html",
+      "PackagePath": "staticwebassets\\manage\\app\\invoice.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\project-summary.html",
+      "PackagePath": "staticwebassets\\manage\\app\\project-summary.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\timeline.html",
+      "PackagePath": "staticwebassets\\manage\\app\\timeline.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\app\\weather.html",
+      "PackagePath": "staticwebassets\\manage\\app\\weather.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\manage\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\3d.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\3d.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\area.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\area.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\bar.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\bar.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\bubble.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\bubble.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\combinations.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\combinations.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\charts\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\charts\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\line.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\line.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\charts\\pie.html",
+      "PackagePath": "staticwebassets\\manage\\charts\\pie.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\alerts.html",
+      "PackagePath": "staticwebassets\\manage\\component\\alerts.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\buttons.html",
+      "PackagePath": "staticwebassets\\manage\\component\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\carousel.html",
+      "PackagePath": "staticwebassets\\manage\\component\\carousel.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\collapse.html",
+      "PackagePath": "staticwebassets\\manage\\component\\collapse.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\component\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\component\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\listgroup.html",
+      "PackagePath": "staticwebassets\\manage\\component\\listgroup.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\mediaobjects.html",
+      "PackagePath": "staticwebassets\\manage\\component\\mediaobjects.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\pagination.html",
+      "PackagePath": "staticwebassets\\manage\\component\\pagination.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\popovers.html",
+      "PackagePath": "staticwebassets\\manage\\component\\popovers.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\progress.html",
+      "PackagePath": "staticwebassets\\manage\\component\\progress.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\tabs.html",
+      "PackagePath": "staticwebassets\\manage\\component\\tabs.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\component\\tooltips.html",
+      "PackagePath": "staticwebassets\\manage\\component\\tooltips.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\css\\style.css",
+      "PackagePath": "staticwebassets\\manage\\dist\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfont-2.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfont-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfont-3.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfont-3.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfont-4.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfont-4.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfont-5.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfont-5.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfont.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfont.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\font\\weathericons-regular-webfontd41d.html",
+      "PackagePath": "staticwebassets\\manage\\dist\\font\\weathericons-regular-webfontd41d.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\body-bg.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\body-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img10.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img11.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img12.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img13.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img14.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img15.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img16.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img17.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img18.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img2.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img3.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img4.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img5.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img6.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img7.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img8.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\img9.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\logo-lg.png",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\logo-lg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\logo.png",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-10.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-11.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-12.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\portfolio-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb1.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb10.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb11.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb12.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb2.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb3.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb4.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb5.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb6.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb7.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb8.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\img\\media\\thumb\\thumb9.jpg",
+      "PackagePath": "staticwebassets\\manage\\dist\\img\\media\\thumb\\thumb9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\manage\\dist\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\js\\ovio.js",
+      "PackagePath": "staticwebassets\\manage\\dist\\js\\ovio.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\font\\weathericons-regular-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\font\\weathericons-regular-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\weather-icons-wind.min.css",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\weather-icons-wind.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\dist\\weather\\weather-icons.min.css",
+      "PackagePath": "staticwebassets\\manage\\dist\\weather\\weather-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\cropper.html",
+      "PackagePath": "staticwebassets\\manage\\forms\\cropper.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\forms\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\forms\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\general-elements.html",
+      "PackagePath": "staticwebassets\\manage\\forms\\general-elements.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\layouts.html",
+      "PackagePath": "staticwebassets\\manage\\forms\\layouts.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\validation.html",
+      "PackagePath": "staticwebassets\\manage\\forms\\validation.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\forms\\wizard.html",
+      "PackagePath": "staticwebassets\\manage\\forms\\wizard.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\maps\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\maps\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\google-maps.html",
+      "PackagePath": "staticwebassets\\manage\\maps\\google-maps.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\maps\\vector-map.html",
+      "PackagePath": "staticwebassets\\manage\\maps\\vector-map.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\coming-soon.html",
+      "PackagePath": "staticwebassets\\manage\\pages\\coming-soon.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\pages\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\pages\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\forgot-password.html",
+      "PackagePath": "staticwebassets\\manage\\pages\\forgot-password.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\login.html",
+      "PackagePath": "staticwebassets\\manage\\pages\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\maintenance.html",
+      "PackagePath": "staticwebassets\\manage\\pages\\maintenance.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\pages\\register.html",
+      "PackagePath": "staticwebassets\\manage\\pages\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\calendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\calendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\calendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\calendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\calendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\calendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\3d-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\3d-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\area-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\area-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\bar-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\bar-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\bubble-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\bubble-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\code\\highcharts-3d.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\code\\highcharts-3d.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\code\\highcharts-more.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\code\\highcharts-more.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\code\\highcharts.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\code\\highcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\code\\modules\\exporting.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\code\\modules\\exporting.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\comb-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\comb-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\line-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\line-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\charts\\pie-chart-functions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\charts\\pie-chart-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\countdown.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\css\\images\\loading.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\css\\images\\loading.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\css\\style.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\custom.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\jquery.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\vegas\\images\\js\\cubeportfolio\\jquery-1.9.1.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\vegas\\images\\js\\cubeportfolio\\jquery-1.9.1.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\vegas\\images\\loading.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\vegas\\images\\loading.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\vegas\\jquery.vegas.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\vegas\\jquery.vegas.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\vegas\\jquery.vegas.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\vegas\\jquery.vegas.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\countdown\\vegas\\overlays\\01.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\countdown\\vegas\\overlays\\01.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\cubeportfolio\\css\\cubeportfolio.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\cubeportfolio\\css\\cubeportfolio.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\cubeportfolio\\img\\cbp-sprite.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\cubeportfolio\\img\\cbp-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\cubeportfolio\\jquery-latest.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\cubeportfolio\\jquery-latest.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\cubeportfolio\\jquery.cubeportfolio.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\cubeportfolio\\jquery.cubeportfolio.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\cubeportfolio\\main.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\cubeportfolio\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\maps\\jquery.mapael.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\maps\\jquery.mapael.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\maps\\world_countries.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\maps\\world_countries.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\maps\\world_countries_mercator.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\maps\\world_countries_mercator.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\maps\\world_countries_miller.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\maps\\world_countries_miller.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\stepform\\jq.stepform.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\stepform\\jq.stepform.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\plugins\\tables\\jquery.tablesort.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tables\\jquery.tablesort.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\basic.html",
+      "PackagePath": "staticwebassets\\manage\\tables\\basic.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\data.html",
+      "PackagePath": "staticwebassets\\manage\\tables\\data.html"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\et-line-font.css",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\et-line-font.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\et-line-font\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\manage\\tables\\et-line-font\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\manage\\tables\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EcommerceApp.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
