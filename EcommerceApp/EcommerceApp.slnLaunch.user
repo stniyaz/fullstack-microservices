@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "src\\Services\\Cargo\\EcommerceApp.Cargo.WebApi\\EcommerceApp.Cargo.WebApi.csproj",
+        "Path": "src\\Services\\Basket\\EcommerceApp.Basket\\EcommerceApp.Basket.csproj",
         "Action": "Start"
       }
     ]

@@ -13,7 +13,7 @@ public static class ServiceRegistration
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
         {
             opt.Authority = configuration["IdentityServer"];
-            opt.Audience = "ResourceBasket";
+            opt.Audience = "resource_basket";
             opt.RequireHttpsMetadata = false;
             opt.MapInboundClaims = false;
         });

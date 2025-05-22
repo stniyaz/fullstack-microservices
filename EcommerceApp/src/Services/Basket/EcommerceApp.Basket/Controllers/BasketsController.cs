@@ -16,6 +16,8 @@ public class BasketsController(IBasketService _basketService, ILoginService _log
     [HttpPost]
     public async Task<IActionResult> SaveBasket(BasketTotalDto basketTotalDto)
     {
+        var user = User.Claims;
+
         basketTotalDto.UserId = _loginService.GetUserId;
 
         await _basketService.SaveBasketAsync(basketTotalDto);
