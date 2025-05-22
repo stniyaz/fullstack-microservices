@@ -1756,13 +1756,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EcommerceApp.WebUI.s4y4k5udxv.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:27:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 22:07:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EcommerceApp.WebUI/EcommerceApp.WebUI.s4y4k5udxv.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EcommerceApp.WebUI.s4y4k5udxv.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s4y4k5udxv"},{"Name":"integrity","Value":"sha256-NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU="},{"Name":"label","Value":"_content/EcommerceApp.WebUI/EcommerceApp.WebUI.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:27:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NJJMGfjBIgnA8jaVLX1Qcg\u002BV2QpNVNt\u002BMkaDVSFdLUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 22:07:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EcommerceApp.WebUI/manage/app/calendar.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\app\calendar.html'))</AssetFile>
