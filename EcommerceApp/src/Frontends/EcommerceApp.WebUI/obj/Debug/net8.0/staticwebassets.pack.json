@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\cat-4.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\assets\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\wwwroot\\assets\\img\\offer-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\offer-1.jpg"
     },

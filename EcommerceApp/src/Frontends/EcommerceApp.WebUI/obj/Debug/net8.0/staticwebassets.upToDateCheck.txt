@@ -13,6 +13,7 @@ wwwroot\assets\img\cat-1.jpg
 wwwroot\assets\img\cat-2.jpg
 wwwroot\assets\img\cat-3.jpg
 wwwroot\assets\img\cat-4.jpg
+wwwroot\assets\img\logo.jpg
 wwwroot\assets\img\offer-1.jpg
 wwwroot\assets\img\offer-2.jpg
 wwwroot\assets\img\payments.png
