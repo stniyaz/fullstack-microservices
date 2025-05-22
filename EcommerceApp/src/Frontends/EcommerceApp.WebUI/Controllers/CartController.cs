@@ -1,13 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.WebUI.Controllers;
 
-public class HomeController : Controller
+public class CartController : Controller
 {
     public IActionResult Index()
     {
-        ViewBag.Active = "home";
-
         return View();
     }
 }

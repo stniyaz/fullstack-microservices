@@ -12,7 +12,7 @@
     <link href="img/favicon.ico" rel="icon">
 
     <link rel="icon" href="~/assets/img/logo.jpg" type="image/png">
-    
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -145,24 +145,17 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="shop.html" class="nav-item nav-link">Shop</a>
-                            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
-                                <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                    <a href="cart.html" class="dropdown-item">Shopping Cart</a>
-                                    <a href="checkout.html" class="dropdown-item">Checkout</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a asp-action="index" asp-controller="home" class="nav-item nav-link @(ViewBag.Active=="home" ? "active" :"")">Home</a>
+                            <a asp-action="index" asp-controller="product" class="nav-item nav-link @(ViewBag.Active=="products" ? "active" :"")">Products</a>
+                            <a asp-action="index" asp-controller="detail" class="nav-item nav-link @(ViewBag.Active=="dealOfTheDay" ? "active" :"")">Deal of the day</a>
+                            <a asp-action="index" asp-controller="contact" class="nav-item nav-link @(ViewBag.Active=="contact" ? "active" :"")">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
-                            <a href="" class="btn px-0 ml-3">
+                            <a asp-action="index" asp-controller="cart" class="btn px-0 ml-3">
                                 <i class="fas fa-shopping-cart text-primary"></i>
                                 <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
@@ -173,9 +166,8 @@
         </div>
     </div>
     <!-- Navbar End -->
-   
     @RenderBody()
-   
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
         <div class="row px-xl-5 pt-5">

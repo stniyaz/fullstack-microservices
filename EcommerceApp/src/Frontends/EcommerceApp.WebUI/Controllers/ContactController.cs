@@ -2,7 +2,7 @@
 
 namespace EcommerceApp.WebUI.Controllers;
 
-public class ShopController : Controller
+public class ContactController : Controller
 {
     public IActionResult Index()
     {
