@@ -24,6 +24,51 @@ public class ProductController(IHttpClientFactory _clientFactory) : Controller
         return View();
     }
 
+    public async Task<IActionResult> Create()
+    {
+        // get categories
+        var client = _clientFactory.CreateClient();
+        var responseMessage = await client.GetAsync("https://localhost:7070/api/categories");
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+
+            ViewBag.Categories = values;
+        }
+
+        return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Create(CreateProductDto dto)
+    {
+        // get categories
+        var client = _clientFactory.CreateClient();
+        var responseMessage = await client.GetAsync("https://localhost:7070/api/categories");
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+
+            ViewBag.Categories = values;
+        }
+
+        // create product
+        var client2 = _clientFactory.CreateClient();
+        var jsonData2 = JsonConvert.SerializeObject(dto);
+        var content = new StringContent(jsonData2, Encoding.UTF8, "application/json");
+        var responseMessage2 = await client2.PostAsync("https://localhost:7070/api/products", content);
+
+        if (responseMessage2.IsSuccessStatusCode)
+        {
+            return RedirectToAction("index", "product", new { area = "manage" });
+        }
+
+        return View();
+    }
+
     public async Task<IActionResult> Update(string id)
     {
         // get categories
@@ -84,5 +129,18 @@ public class ProductController(IHttpClientFactory _clientFactory) : Controller
         }
 
         return View(dto);
+    }
+
+    public async Task<IActionResult> Delete(string id)
+    {
+        var client = _clientFactory.CreateClient();
+        var responseMessage = await client.DeleteAsync($"https://localhost:7070/api/products?productId=" + id);
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            return RedirectToAction("index", "product", new { area = "manage" });
+        }
+
+        return NotFound();
     }
 }
