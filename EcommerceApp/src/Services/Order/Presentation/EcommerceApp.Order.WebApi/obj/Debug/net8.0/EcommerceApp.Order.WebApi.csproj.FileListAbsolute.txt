@@ -25,12 +25,6 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.Order.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.Order.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.EcommerceApp.Order.WebApi.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcommerceApp.Order.WebApi.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcommerceApp.Order.WebApi.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\Ecommerc.59D5CB86.Up2Date
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\EcommerceApp.Order.WebApi.dll
@@ -156,3 +150,4 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Order\Presentation\EcommerceApp.Order.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache

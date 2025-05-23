@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\EcommerceApp.Order.WebApi.props" />
-</Project>

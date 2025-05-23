@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jF4u+tUwehY=",
+  "dgSpecHash": "qK9Ah3JU3RE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
   "expectedPackageFiles": [
@@ -90,12 +90,23 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.5.0 was resolved.",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
       "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"
       ]
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
+      "targetGraphs": []
     }
   ]
 }

@@ -30,12 +30,6 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.Catalog.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.Catalog.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.build.EcommerceApp.Catalog.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcommerceApp.Catalog.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcommerceApp.Catalog.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\Ecommerc.1680A604.Up2Date
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\EcommerceApp.Catalog.dll
@@ -51,3 +45,4 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Catalog\EcommerceApp.Catalog\obj\Debug\net8.0\staticwebassets.build.json.cache

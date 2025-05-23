@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qy41Hhlb6f4=",
+  "dgSpecHash": "I6GflClkOgw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
   "expectedPackageFiles": [
@@ -121,5 +121,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

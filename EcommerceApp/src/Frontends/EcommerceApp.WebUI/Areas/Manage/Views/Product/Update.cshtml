@@ -1,0 +1,45 @@
+﻿@model UpdateProductDto
+
+@{
+    ViewData["Title"] = "Products";
+    ViewData["h1"] = "Product actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Product";
+    ViewData["v3"] = "Update";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <form method="post">
+                    <input asp-for="ProductId" hidden readonly>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label asp-for="ProductName">Product Name</label>
+                            <input class="form-control" asp-for="ProductName" placeholder="Product Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for="ProductImageUrl">Image</label>
+                            <input asp-for="ProductImageUrl" type="text" class="form-control" placeholder="image">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ProductDescription">Description</label>
+                        <textarea class="form-control" asp-for="ProductDescription" rows="3"></textarea>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "CategoryName"))" style="height:50px" id="inputState" class="form-control">
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label asp-for="ProductPrice"></label>
+                        <input asp-for="ProductPrice" type="text" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

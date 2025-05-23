@@ -21,12 +21,6 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Fro
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.EcommerceApp.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.build.EcommerceApp.WebUI.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcommerceApp.WebUI.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcommerceApp.WebUI.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\EcommerceApp.WebUI.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\refint\EcommerceApp.WebUI.dll
@@ -232,3 +226,4 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Fro
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\Ecommerc.718CD4DF.Up2Date
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\EcommerceApp.DtoLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\EcommerceApp.DtoLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache

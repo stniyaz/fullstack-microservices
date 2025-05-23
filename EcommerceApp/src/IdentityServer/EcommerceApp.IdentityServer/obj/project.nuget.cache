@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IUg2tzHqihU=",
+  "dgSpecHash": "lumFgYR7GaI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
   "expectedPackageFiles": [
@@ -146,5 +146,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

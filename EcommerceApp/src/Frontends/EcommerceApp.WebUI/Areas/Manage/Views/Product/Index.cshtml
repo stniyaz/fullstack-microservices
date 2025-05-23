@@ -1,0 +1,49 @@
+﻿@model List<ResultProductDto>
+
+@{
+    ViewData["Title"] = "Products";
+    ViewData["h1"] = "Product actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Product";
+    ViewData["v3"] = null;
+
+    var counter = 0;
+}
+
+<!-- Main content -->
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Product Name</th>
+                                <th>Product Price</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var pdt in Model)
+                            {
+                                counter++;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>@pdt.ProductName</td>
+                                    <td>@pdt.ProductPrice $</td>
+                                    <td><a asp-action="update" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-success">Update</a></td>
+                                    <td><a asp-action="delete" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-danger">Delete</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a asp-controller="product" asp-action="create" class="btn btn-primary">Create new Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- content -->

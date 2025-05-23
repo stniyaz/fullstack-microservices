@@ -131,12 +131,6 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets\msbuild.Ecommerce.Discount.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets\msbuild.Ecommerce.Discount.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets\msbuild.build.Ecommerce.Discount.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Ecommerce.Discount.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Ecommerce.Discount.props
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\Ecommerc.8AAD119D.Up2Date
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\Ecommerce.Discount.dll
@@ -148,3 +142,4 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\appsettings.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\Dapper.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Discount\Ecommerce.Discount\obj\Debug\net8.0\staticwebassets.build.json.cache

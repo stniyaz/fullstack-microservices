@@ -22,7 +22,6 @@ public class CategoryController(IHttpClientFactory _httpClientFactory) : Control
             return View(values);
         }
 
-
         return View();
     }
 
