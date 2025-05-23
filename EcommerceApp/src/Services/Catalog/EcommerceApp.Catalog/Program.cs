@@ -7,6 +7,7 @@ using System.Reflection;
 using EcommerceApp.Catalog.Settings;
 using EcommerceApp.Catalog.Services.ProductServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using EcommerceApp.Catalog.Services.SliderServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     opt.RequireHttpsMetadata = false;
 });
 
+builder.Services.AddScoped<ISliderService,SliderService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();

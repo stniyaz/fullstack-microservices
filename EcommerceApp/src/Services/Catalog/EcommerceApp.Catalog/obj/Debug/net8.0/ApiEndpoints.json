@@ -304,5 +304,79 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
+    "Method": "GetAllSliders",
+    "RelativePath": "api/Sliders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
+    "Method": "CreateSlider",
+    "RelativePath": "api/Sliders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSliderDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SliderDtos.CreateSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
+    "Method": "UpdateSlider",
+    "RelativePath": "api/Sliders",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSliderDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SliderDtos.UpdateSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
+    "Method": "DeleteSlider",
+    "RelativePath": "api/Sliders",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
+    "Method": "GetSliderById",
+    "RelativePath": "api/Sliders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

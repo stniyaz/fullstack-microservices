@@ -3,6 +3,7 @@ using EcommerceApp.Catalog.Dtos.CategoryDtos;
 using EcommerceApp.Catalog.Dtos.ProductDetailDtos;
 using EcommerceApp.Catalog.Dtos.ProductDtos;
 using EcommerceApp.Catalog.Dtos.ProductImageDtos;
+using EcommerceApp.Catalog.Dtos.SliderDtos;
 using EcommerceApp.Catalog.Entities;
 
 namespace EcommerceApp.Catalog.Mapping;
@@ -20,6 +21,7 @@ public class GeneralMapping : Profile
         CreateMap<ResultProductDto, Product>().ReverseMap();
         CreateMap<GetByIdProductDto, Product>().ReverseMap();
         CreateMap<UpdateProductDto, Product>().ReverseMap();
+        CreateMap<ResultProductsWithCategoryDto, Product>().ReverseMap();
 
         CreateMap<CreateProductDetailDto, ProductDetail>().ReverseMap();
         CreateMap<UpdateProductDetailDto, ProductDetail>().ReverseMap();
@@ -31,6 +33,9 @@ public class GeneralMapping : Profile
         CreateMap<UpdateProductImageDto, ProductImage>().ReverseMap();
         CreateMap<ResultProductImageDto, ProductImage>().ReverseMap();
 
-        CreateMap<Product, ResultProductsWithCategoryDto>().ReverseMap();
+        CreateMap<ResultSliderDto,Slider>().ReverseMap();
+        CreateMap<GetByIdSliderDto,Slider>().ReverseMap();
+        CreateMap<CreateSliderDto,Slider>().ReverseMap();
+        CreateMap<UpdateSliderDto,Slider>().ReverseMap();
     }
 }
