@@ -10,21 +10,27 @@
     var counter = 0;
 }
 
-<!-- Main content -->
 <section class="content container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="chart-box">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Product List</h4>
+                    <a asp-controller="Product" asp-action="Create" class="btn btn-sm btn-primary">
+                        <i class="fa fa-plus"></i> Create New Product
+                    </a>
+                </div>
+
                 <div class="bs-example" data-example-id="bordered-table">
-                    <table class="table table-bordered">
-                        <thead>
+                    <table class="table table-bordered table-hover">
+                        <thead class="thead-dark">
                             <tr>
-                                <th>#</th>
+                                <th style="width: 50px;">#</th>
                                 <th>Product Name</th>
                                 <th>Product Price</th>
                                 <th>Category</th>
-                                <th>Update</th>
-                                <th>Delete</th>
+                                <th style="width: 80px;">Update</th>
+                                <th style="width: 80px;">Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -32,20 +38,28 @@
                             {
                                 counter++;
                                 <tr>
-                                    <th scope="row">@counter</th>
+                                    <td>@counter</td>
                                     <td>@pdt.ProductName</td>
-                                    <td>@pdt.ProductPrice $</td>
+                                    <td>@pdt.ProductPrice.ToString("0.00") $</td>
                                     <td>@pdt.CategoryName</td>
-                                    <td><a asp-action="update" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-success">Update</a></td>
-                                    <td><a asp-action="delete" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-danger">Delete</a></td>
+                                    <td>
+                                        <a asp-action="Update" asp-controller="Product" asp-route-id="@pdt.ProductId" class="btn btn-sm btn-success">
+                                            <i class="fa fa-pen"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Delete" asp-controller="Product" asp-route-id="@pdt.ProductId" class="btn btn-sm btn-danger"
+                                           onclick="return confirm('Are you sure you want to delete this product?');">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                             }
                         </tbody>
                     </table>
-                    <a asp-controller="product" asp-action="create" class="btn btn-primary">Create new Product</a>
                 </div>
+
             </div>
         </div>
     </div>
 </section>
-<!-- content -->

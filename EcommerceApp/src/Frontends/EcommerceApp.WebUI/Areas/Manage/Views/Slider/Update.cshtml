@@ -1,0 +1,51 @@
+﻿@model UpdateSliderDto
+
+@{
+    ViewData["Title"] = "Sliders";
+    ViewData["h1"] = "Slider actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Slider";
+    ViewData["v3"] = "Update";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post">
+                        <input hidden asp-for="SliderId"/>
+                        <div class="form-group">
+                            <label asp-for="Title">Title</label>
+                            <input class="form-control" asp-for="Title" type="text"
+                                   style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        </div>
+                        <br />
+
+                        <div class="form-group">
+                            <label asp-for="Description">Description</label>
+                            <textarea class="form-control" asp-for="Description"
+                                      style="max-width: 400px; font-size: 14px; padding: 0.25rem 0.5rem;"></textarea>
+                        </div>
+                        <br />
+
+                        <div class="form-group">
+                            <label asp-for="ImageUrl">Image URL</label>
+                            <input class="form-control" asp-for="ImageUrl" type="text"
+                                   style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        </div>
+                        <br />
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" asp-for="Status" />
+                            <label class="form-check-label" asp-for="Status">Active</label>
+                        </div>
+                        <br />
+
+                        <button type="submit" class="btn btn-success">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

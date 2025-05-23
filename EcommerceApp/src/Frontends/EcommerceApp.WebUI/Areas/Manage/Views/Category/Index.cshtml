@@ -10,20 +10,18 @@
     var counter = 0;
 }
 
-<!-- Main content -->
 <section class="content container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="chart-box">
-                <h4>Category List</h4>
-                <i class="fa-solid fa-plus"></i>
                 <div class="bs-example" data-example-id="bordered-table">
                     <table class="table table-bordered">
-                        <thead>
+                        <thead class="thead-dark">
                             <tr>
-                                <th>No</th>
+                                <th>#</th>
                                 <th>Name</th>
-                                <th>Actions</th>
+                                <th>Update</th>
+                                <th>Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -34,17 +32,18 @@
                                     <th scope="row">@counter</th>
                                     <td>@ctg.CategoryName</td>
                                     <td>
-                                        <a asp-action="update" asp-controller="category" asp-area="manage" asp-route-id="@ctg.CategoryId"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <a asp-action="delete" asp-controller="category" asp-area="manage" asp-route-id="@ctg.CategoryId"><i class="fa-solid fa-trash"></i></a>
+                                        <a asp-action="update" asp-controller="category" asp-route-id="@ctg.CategoryId" class="btn btn-success">Update</a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="delete" asp-controller="category" asp-route-id="@ctg.CategoryId" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this category?');">Delete</a>
                                     </td>
                                 </tr>
                             }
                         </tbody>
                     </table>
-                    <a asp-controller="category" asp-action="create" class="btn btn-primary">Create new category</a>
+                    <a asp-controller="category" asp-action="create" class="btn btn-primary">Create new Category</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- content -->

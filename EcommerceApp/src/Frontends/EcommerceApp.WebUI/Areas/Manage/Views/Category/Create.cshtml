@@ -10,15 +10,19 @@
 
 <section class="content container-fluid">
     <div class="row">
-        <div class="col-md-12">
-            <div class="chart-box">
-                <div class="bs-example" data-example-id="bordered-table">
-                    <form method="post">
-                        <input class="form-control" asp-for="CategoryName" type="text" style="max-width: 200px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
-                        <br />
-                        <button type="submit" class="btn btn-success">Create</button>
-                    </form>
-                </div>
+        <div class="col-md-6">
+            <div class="chart-box p-3">
+                <h4>Create Category</h4>
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label asp-for="CategoryName" class="control-label">Category Name</label>
+                        <input asp-for="CategoryName" class="form-control"
+                               style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-success">Create</button>
+                </form>
             </div>
         </div>
     </div>

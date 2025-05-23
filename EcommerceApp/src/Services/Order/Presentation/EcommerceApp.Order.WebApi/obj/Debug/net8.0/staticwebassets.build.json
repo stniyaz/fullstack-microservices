@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "T5fGDb9GhUKHhprPLn52S0BAEVTaMsp7eBwYWfJId40=",
-  "Source": "EcommerceApp.Order.WebApi",
-  "BasePath": "_content/EcommerceApp.Order.WebApi",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"T5fGDb9GhUKHhprPLn52S0BAEVTaMsp7eBwYWfJId40=","Source":"EcommerceApp.Order.WebApi","BasePath":"_content/EcommerceApp.Order.WebApi","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

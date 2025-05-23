@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "sSk5Q4hQhJQn0UPGSmFOBy161A6DN2aG5uMgAU+OtE4=",
-  "Source": "Ecommerce.Discount",
-  "BasePath": "_content/Ecommerce.Discount",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"sSk5Q4hQhJQn0UPGSmFOBy161A6DN2aG5uMgAU+OtE4=","Source":"Ecommerce.Discount","BasePath":"_content/Ecommerce.Discount","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

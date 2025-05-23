@@ -81,15 +81,5 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\EcommerceApp.Cargo.EntityLayer.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Cargo\\EcommerceApp.Cargo.EntityLayer\\EcommerceApp.Cargo.EntityLayer.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

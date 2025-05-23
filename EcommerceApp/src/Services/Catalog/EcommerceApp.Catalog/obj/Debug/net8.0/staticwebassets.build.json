@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "sCJXcJK8pVx/6+vwyO9TRB6iaK33UXKBwZNuH7pZRgo=",
-  "Source": "EcommerceApp.Catalog",
-  "BasePath": "_content/EcommerceApp.Catalog",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"sCJXcJK8pVx/6+vwyO9TRB6iaK33UXKBwZNuH7pZRgo=","Source":"EcommerceApp.Catalog","BasePath":"_content/EcommerceApp.Catalog","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
