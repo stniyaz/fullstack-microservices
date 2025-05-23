@@ -11,12 +11,12 @@ public class ProductController(IHttpClientFactory _clientFactory) : Controller
     public async Task<IActionResult> Index()
     {
         var client = _clientFactory.CreateClient();
-        var responseMessage = await client.GetAsync("https://localhost:7070/api/products");
+        var responseMessage = await client.GetAsync("https://localhost:7070/api/products/getallproductswithcategory");
 
         if (responseMessage.IsSuccessStatusCode)
         {
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+            var values = JsonConvert.DeserializeObject<List<ResultProductWithCategoryDto>>(jsonData);
 
             return View(values);
         }

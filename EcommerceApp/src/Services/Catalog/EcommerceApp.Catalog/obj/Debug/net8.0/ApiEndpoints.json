@@ -294,5 +294,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.ProductsController",
+    "Method": "GetAllProductsWithCategory",
+    "RelativePath": "api/Products/GetAllProductsWithCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

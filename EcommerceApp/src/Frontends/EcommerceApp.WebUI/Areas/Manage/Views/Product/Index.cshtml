@@ -1,4 +1,4 @@
-﻿@model List<ResultProductDto>
+﻿@model List<ResultProductWithCategoryDto>
 
 @{
     ViewData["Title"] = "Products";
@@ -22,6 +22,7 @@
                                 <th>#</th>
                                 <th>Product Name</th>
                                 <th>Product Price</th>
+                                <th>Category</th>
                                 <th>Update</th>
                                 <th>Delete</th>
                             </tr>
@@ -34,6 +35,7 @@
                                     <th scope="row">@counter</th>
                                     <td>@pdt.ProductName</td>
                                     <td>@pdt.ProductPrice $</td>
+                                    <td>@pdt.CategoryName</td>
                                     <td><a asp-action="update" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-success">Update</a></td>
                                     <td><a asp-action="delete" asp-controller="product" asp-route-id="@pdt.ProductId" class="btn btn-danger">Delete</a></td>
                                 </tr>
