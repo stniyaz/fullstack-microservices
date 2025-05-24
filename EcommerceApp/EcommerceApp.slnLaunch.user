@@ -8,7 +8,7 @@
       },
       {
         "Path": "src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
-        "Action": "StartWithoutDebugging"
+        "Action": "Start"
       }
     ]
   }

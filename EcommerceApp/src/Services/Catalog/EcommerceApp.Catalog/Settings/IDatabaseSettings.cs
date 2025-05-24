@@ -9,4 +9,5 @@ public interface IDatabaseSettings
     public string CategoryCollectionName { get; set; }
     public string ProductImageCollectionName { get; set; }
     public string ProductDetailCollectionName { get; set; }
+    public string SpecialOfferCollectionName { get; set; }
 }
