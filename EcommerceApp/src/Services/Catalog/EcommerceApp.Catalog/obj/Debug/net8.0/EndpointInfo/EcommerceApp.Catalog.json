@@ -803,6 +803,10 @@
           "categoryName": {
             "type": "string",
             "nullable": true
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -934,6 +938,10 @@
             "nullable": true
           },
           "categoryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageUrl": {
             "type": "string",
             "nullable": true
           }

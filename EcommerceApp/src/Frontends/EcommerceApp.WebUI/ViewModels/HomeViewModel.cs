@@ -1,4 +1,5 @@
-﻿using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
+﻿using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
+using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
 
@@ -9,4 +10,5 @@ public class HomeViewModel
     public List<ResultSliderDto> Sliders { get; set; }
     public List<ResultSpecialOfferDto> SpecialOffers { get; set; }
     public List<ResultFeatureDto> Features { get; set; }
+    public List<ResultCategoryDto> Categories { get; set; }
 }

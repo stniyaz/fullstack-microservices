@@ -20,6 +20,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
+                                <th>Image</th>
                                 <th>Update</th>
                                 <th>Delete</th>
                             </tr>
@@ -31,6 +32,9 @@
                                 <tr>
                                     <th scope="row">@counter</th>
                                     <td>@ctg.CategoryName</td>
+                                    <td>
+                                        <img src="@ctg.ImageUrl" alt="Slider Image" width="100" height="60" />
+                                    </td>
                                     <td>
                                         <a asp-action="update" asp-controller="category" asp-route-id="@ctg.CategoryId" class="btn btn-success">Update</a>
                                     </td>

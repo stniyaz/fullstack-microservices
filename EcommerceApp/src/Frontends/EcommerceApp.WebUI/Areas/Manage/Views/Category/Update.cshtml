@@ -21,7 +21,17 @@
                                style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
                         <span asp-validation-for="CategoryName" class="text-danger"></span>
                     </div>
+
                     <br />
+
+                    <div class="form-group">
+                        <label asp-for="ImageUrl">Image URL</label>
+                        <input class="form-control" asp-for="ImageUrl" type="text"
+                               style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                    </div>
+
+                    <br />
+
                     <button type="submit" class="btn btn-success">Update</button>
                 </form>
             </div>
