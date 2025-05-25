@@ -24,7 +24,7 @@ public class FeatureService : IFeatureService
     public async Task DeleteFeatureAsync(string featureId)
         => await _featureCollection.DeleteOneAsync(x => x.FeatureId == featureId);
 
-    public async Task<List<ResultFeatureDto>> GetAllCategoriesAsync()
+    public async Task<List<ResultFeatureDto>> GetAllFeaturesAsync()
         => _mapper.Map<List<ResultFeatureDto>>(await _featureCollection.Find(x => true).ToListAsync());
 
     public async Task<GetByIdFeatureDto> GetByIdFeatureAsync(string featureId)

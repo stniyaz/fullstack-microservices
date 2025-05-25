@@ -1,3 +1,4 @@
+using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
 using EcommerceApp.WebUI.ViewModels;
@@ -17,6 +18,7 @@ public class HomeController(IHttpClientFactory _httpClientFactory) : Controller
 
         var sliderResponse = await client.GetAsync("https://localhost:7070/api/sliders/");
         var specialOfferResponse = await client.GetAsync("https://localhost:7070/api/specialoffers/");
+        var featureResponse = await client.GetAsync("https://localhost:7070/api/features/");
 
         if (sliderResponse.IsSuccessStatusCode)
         {
@@ -28,6 +30,12 @@ public class HomeController(IHttpClientFactory _httpClientFactory) : Controller
         {
             var jsonData = await specialOfferResponse.Content.ReadAsStringAsync();
             viewModel.SpecialOffers = JsonConvert.DeserializeObject<List<ResultSpecialOfferDto>>(jsonData);
+        }
+
+        if (featureResponse.IsSuccessStatusCode)
+        {
+            var jsonData = await featureResponse.Content.ReadAsStringAsync();
+            viewModel.Features = JsonConvert.DeserializeObject<List<ResultFeatureDto>>(jsonData);
         }
 
         return View(viewModel);

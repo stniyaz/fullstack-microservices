@@ -1,0 +1,38 @@
+﻿@model UpdateFeatureDto
+
+@{
+    ViewData["Title"] = "Features";
+    ViewData["h1"] = "Feature actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Features";
+    ViewData["v3"] = "Update";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <form method="post">
+                        <input hidden asp-for="FeatureId" />
+                        <div class="form-group">
+                            <label asp-for="Title">Title</label>
+                            <input class="form-control" asp-for="Title" type="text"
+                                   style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        </div>
+                        <br />
+
+                        <div class="form-group">
+                            <label asp-for="Icon"></label>
+                            <textarea class="form-control" asp-for="Icon"
+                                      style="max-width: 400px; font-size: 14px; padding: 0.25rem 0.5rem;"></textarea>
+                        </div>
+                        <br />
+
+                        <button type="submit" class="btn btn-success">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
