@@ -378,5 +378,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SpecialOffersController",
+    "Method": "GetAllSpecialOffers",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SpecialOffersController",
+    "Method": "CreateSpecialOffer",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSpecialOfferDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SpecialOfferDtos.CreateSpecialOfferDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SpecialOffersController",
+    "Method": "UpdateSpecialOffer",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSpecialOfferDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SpecialOfferDtos.UpdateSpecialOfferDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SpecialOffersController",
+    "Method": "DeleteSpecialOffer",
+    "RelativePath": "api/SpecialOffers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SpecialOffersController",
+    "Method": "GetSpecialOfferById",
+    "RelativePath": "api/SpecialOffers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

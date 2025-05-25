@@ -1,0 +1,56 @@
+﻿@model List<ResultSpecialOfferDto>
+
+@{
+    ViewData["Title"] = "SpecialOffers";
+    ViewData["h1"] = "Special offer actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "SpecialOffers";
+    ViewData["v3"] = null;
+
+    var counter = 0;
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Subtitle</th>
+                                <th>Image</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var spof in Model)
+                            {
+                                counter++;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>@spof.Title</td>
+                                    <td>@spof.SubTitle</td>
+                                    <td>
+                                        <img src="@spof.ImageUrl" alt="SpecialOffer Image" width="100" height="60" />
+                                    </td>
+
+                                    <td>
+                                        <a asp-action="Update" asp-controller="specialoffer" asp-route-id="@spof.SpecialOfferId" class="btn btn-success">Update</a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Delete" asp-controller="specialoffer" asp-route-id="@spof.SpecialOfferId" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this Special Offer?');">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a asp-controller="specialoffer" asp-action="create" class="btn btn-primary">Create new Special Offer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
