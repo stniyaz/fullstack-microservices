@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EcommerceApp.Catalog.Dtos.CategoryDtos;
+using EcommerceApp.Catalog.Dtos.FeatureDtos;
 using EcommerceApp.Catalog.Dtos.ProductDetailDtos;
 using EcommerceApp.Catalog.Dtos.ProductDtos;
 using EcommerceApp.Catalog.Dtos.ProductImageDtos;
@@ -43,5 +44,10 @@ public class GeneralMapping : Profile
         CreateMap<UpdateSpecialOfferDto, SpecialOffer>().ReverseMap();
         CreateMap<ResultSpecialOfferDto, SpecialOffer>().ReverseMap();
         CreateMap<GetByIdSpecialOfferDto, SpecialOffer>().ReverseMap();
+
+        CreateMap<CreateFeatureDto, Feature>().ReverseMap();
+        CreateMap<UpdateFeatureDto, Feature>().ReverseMap();
+        CreateMap<ResultFeatureDto, Feature>().ReverseMap();
+        CreateMap<GetByIdFeatureDto, Feature>().ReverseMap();
     }
 }

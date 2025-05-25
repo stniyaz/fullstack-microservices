@@ -9,6 +9,7 @@ using EcommerceApp.Catalog.Services.ProductServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using EcommerceApp.Catalog.Services.SliderServices;
 using EcommerceApp.Catalog.Services.SpecialOfferServices;
+using EcommerceApp.Catalog.Services.FeatureServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IFeatureService, FeatureService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ISpecialOfferService, SpecialOfferService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();
