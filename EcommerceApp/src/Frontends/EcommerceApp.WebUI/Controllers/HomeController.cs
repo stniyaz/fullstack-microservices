@@ -2,6 +2,7 @@ using EcommerceApp.DtoLayer.CatalogDtos.BrandDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.ProductDtos;
+using EcommerceApp.DtoLayer.CatalogDtos.SettingDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
 using EcommerceApp.WebUI.ViewModels;
@@ -61,10 +62,6 @@ public class HomeController(IHttpClientFactory _httpClientFactory) : Controller
             var jsonData = await brandResponse.Content.ReadAsStringAsync();
             viewModel.Brands = JsonConvert.DeserializeObject<List<ResultBrandDto>>(jsonData);
         }
-
-        var value = viewModel;
-
-        Console.WriteLine("salam");
 
         return View(viewModel);
     }

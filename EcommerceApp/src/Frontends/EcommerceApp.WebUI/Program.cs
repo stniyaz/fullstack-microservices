@@ -1,8 +1,12 @@
+using EcommerceApp.WebUI.Services.ViewServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
 

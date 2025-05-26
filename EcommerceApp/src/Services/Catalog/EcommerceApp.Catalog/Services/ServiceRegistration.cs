@@ -5,6 +5,7 @@ using EcommerceApp.Catalog.Services.ProductDetailServices;
 using EcommerceApp.Catalog.Services.ProductImageServices;
 using EcommerceApp.Catalog.Services.ProductImageServicesl;
 using EcommerceApp.Catalog.Services.ProductServices;
+using EcommerceApp.Catalog.Services.SettingServices;
 using EcommerceApp.Catalog.Services.SliderServices;
 using EcommerceApp.Catalog.Services.SpecialOfferServices;
 using EcommerceApp.Catalog.Settings;
@@ -29,6 +30,7 @@ public static class ServiceRegistration
         services.AddScoped<ISliderService, SliderService>();
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IFeatureService, FeatureService>();
+        services.AddScoped<ISettingService, SettingService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<ISpecialOfferService, SpecialOfferService>();
         services.AddScoped<IProductImageService, ProductImageService>();

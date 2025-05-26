@@ -454,6 +454,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
+    "Method": "GetAllSettings",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
+    "Method": "CreateSetting",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createSettingDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SettingDtos.CreateSettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
+    "Method": "UpdateSetting",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSettingDto",
+        "Type": "EcommerceApp.Catalog.Dtos.SettingDtos.UpdateSettingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
+    "Method": "DeleteSetting",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
+    "Method": "GetSettingById",
+    "RelativePath": "api/Settings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceApp.Catalog.Controllers.SlidersController",
     "Method": "GetAllSliders",
     "RelativePath": "api/Sliders",

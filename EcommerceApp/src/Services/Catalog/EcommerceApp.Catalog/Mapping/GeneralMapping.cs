@@ -5,6 +5,7 @@ using EcommerceApp.Catalog.Dtos.FeatureDtos;
 using EcommerceApp.Catalog.Dtos.ProductDetailDtos;
 using EcommerceApp.Catalog.Dtos.ProductDtos;
 using EcommerceApp.Catalog.Dtos.ProductImageDtos;
+using EcommerceApp.Catalog.Dtos.SettingDtos;
 using EcommerceApp.Catalog.Dtos.SliderDtos;
 using EcommerceApp.Catalog.Dtos.SpecialOfferDtos;
 using EcommerceApp.Catalog.Entities;
@@ -56,5 +57,9 @@ public class GeneralMapping : Profile
         CreateMap<ResultBrandDto, Brand>().ReverseMap();
         CreateMap<GetByIdBrandDto, Brand>().ReverseMap();
 
+        CreateMap<ResultSettingDto, Setting>().ReverseMap();
+        CreateMap<UpdateSettingDto, Setting>().ReverseMap();
+        CreateMap<GetByIdSettingDto, Setting>().ReverseMap();
+        CreateMap<CreateSettingDto, Setting>().ReverseMap();
     }
 }

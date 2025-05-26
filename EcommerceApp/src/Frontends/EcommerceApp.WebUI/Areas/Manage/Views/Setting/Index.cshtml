@@ -1,0 +1,47 @@
+﻿@model List<ResultSettingDto>
+
+@{
+    ViewData["Title"] = "Settings";
+    ViewData["h1"] = "Setting actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Settings";
+    ViewData["v3"] = null;
+
+    var counter = 0;
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Key</th>
+                                <th>Value</th>
+                                <th>Update</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var stng in Model)
+                            {
+                                counter++;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>@stng.Key</td>
+                                    <td>@stng.Value</td>
+
+                                    <td>
+                                        <a asp-action="Update" asp-controller="setting" asp-route-id="@stng.SettingId" class="btn btn-success">Update</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

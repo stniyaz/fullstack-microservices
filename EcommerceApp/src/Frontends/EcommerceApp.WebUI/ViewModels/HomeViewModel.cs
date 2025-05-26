@@ -2,6 +2,7 @@
 using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.ProductDtos;
+using EcommerceApp.DtoLayer.CatalogDtos.SettingDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
 
