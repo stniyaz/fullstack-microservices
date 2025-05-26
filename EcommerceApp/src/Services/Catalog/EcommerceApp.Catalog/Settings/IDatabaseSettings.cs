@@ -4,6 +4,7 @@ public interface IDatabaseSettings
 {
     public string DatabaseName { get; set; }
     public string ConnectionString { get; set; }
+    public string BrandCollectionName { get; set; }
     public string SliderCollectionName { get; set; }
     public string ProductCollectionName { get; set; }
     public string FeatureCollectionName { get; set; }

@@ -32,7 +32,7 @@ public class CategoriesController(ICategoryService _categoryService) : Controlle
     {
         await _categoryService.CreateCategoryAsync(createCategoryDto);
 
-        return StatusCode(201, "Catagory created successfully.");
+        return StatusCode(201, "Category created successfully.");
     }
 
     [HttpPut]

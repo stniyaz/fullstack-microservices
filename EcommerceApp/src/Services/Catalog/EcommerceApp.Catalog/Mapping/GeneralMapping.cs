@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EcommerceApp.Catalog.Dtos.BrandDtos;
 using EcommerceApp.Catalog.Dtos.CategoryDtos;
 using EcommerceApp.Catalog.Dtos.FeatureDtos;
 using EcommerceApp.Catalog.Dtos.ProductDetailDtos;
@@ -15,30 +16,30 @@ public class GeneralMapping : Profile
     public GeneralMapping()
     {
         CreateMap<CreateCategoryDto, Category>().ReverseMap();
-        CreateMap<GetByIdCategoryDto, Category>().ReverseMap();
         CreateMap<ResultCategoryDto, Category>().ReverseMap();
         CreateMap<UpdateCategoryDto, Category>().ReverseMap();
+        CreateMap<GetByIdCategoryDto, Category>().ReverseMap();
 
         CreateMap<CreateProductDto, Product>().ReverseMap();
         CreateMap<ResultProductDto, Product>().ReverseMap();
-        CreateMap<GetByIdProductDto, Product>().ReverseMap();
         CreateMap<UpdateProductDto, Product>().ReverseMap();
+        CreateMap<GetByIdProductDto, Product>().ReverseMap();
         CreateMap<ResultProductsWithCategoryDto, Product>().ReverseMap();
 
         CreateMap<CreateProductDetailDto, ProductDetail>().ReverseMap();
         CreateMap<UpdateProductDetailDto, ProductDetail>().ReverseMap();
-        CreateMap<GetByIdProductDetailDto, ProductDetail>().ReverseMap();
         CreateMap<ResultProductDetailDto, ProductDetail>().ReverseMap();
+        CreateMap<GetByIdProductDetailDto, ProductDetail>().ReverseMap();
 
         CreateMap<CreateProductImageDto, ProductImage>().ReverseMap();
-        CreateMap<GetByIdProductImageDto, ProductImage>().ReverseMap();
         CreateMap<UpdateProductImageDto, ProductImage>().ReverseMap();
         CreateMap<ResultProductImageDto, ProductImage>().ReverseMap();
+        CreateMap<GetByIdProductImageDto, ProductImage>().ReverseMap();
 
         CreateMap<ResultSliderDto, Slider>().ReverseMap();
-        CreateMap<GetByIdSliderDto, Slider>().ReverseMap();
         CreateMap<CreateSliderDto, Slider>().ReverseMap();
         CreateMap<UpdateSliderDto, Slider>().ReverseMap();
+        CreateMap<GetByIdSliderDto, Slider>().ReverseMap();
 
         CreateMap<CreateSpecialOfferDto, SpecialOffer>().ReverseMap();
         CreateMap<UpdateSpecialOfferDto, SpecialOffer>().ReverseMap();
@@ -49,5 +50,11 @@ public class GeneralMapping : Profile
         CreateMap<UpdateFeatureDto, Feature>().ReverseMap();
         CreateMap<ResultFeatureDto, Feature>().ReverseMap();
         CreateMap<GetByIdFeatureDto, Feature>().ReverseMap();
+
+        CreateMap<CreateBrandDto, Brand>().ReverseMap();
+        CreateMap<UpdateBrandDto, Brand>().ReverseMap();
+        CreateMap<ResultBrandDto, Brand>().ReverseMap();
+        CreateMap<GetByIdBrandDto, Brand>().ReverseMap();
+
     }
 }

@@ -1,5 +1,7 @@
+using EcommerceApp.DtoLayer.CatalogDtos.BrandDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
+using EcommerceApp.DtoLayer.CatalogDtos.ProductDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
 using EcommerceApp.WebUI.ViewModels;
@@ -21,6 +23,8 @@ public class HomeController(IHttpClientFactory _httpClientFactory) : Controller
         var specialOfferResponse = await client.GetAsync("https://localhost:7070/api/specialoffers/");
         var featureResponse = await client.GetAsync("https://localhost:7070/api/features/");
         var categoryResponse = await client.GetAsync("https://localhost:7070/api/categories/");
+        var productResponse = await client.GetAsync("https://localhost:7070/api/products/");
+        var brandResponse = await client.GetAsync("https://localhost:7070/api/brands/");
 
         if (sliderResponse.IsSuccessStatusCode)
         {
@@ -44,6 +48,18 @@ public class HomeController(IHttpClientFactory _httpClientFactory) : Controller
         {
             var jsonData = await categoryResponse.Content.ReadAsStringAsync();
             viewModel.Categories = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
+        }
+
+        if (productResponse.IsSuccessStatusCode)
+        {
+            var jsonData = await productResponse.Content.ReadAsStringAsync();
+            viewModel.Products = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+        }
+
+        if (brandResponse.IsSuccessStatusCode)
+        {
+            var jsonData = await brandResponse.Content.ReadAsStringAsync();
+            viewModel.Brands = JsonConvert.DeserializeObject<List<ResultBrandDto>>(jsonData);
         }
 
         var value = viewModel;

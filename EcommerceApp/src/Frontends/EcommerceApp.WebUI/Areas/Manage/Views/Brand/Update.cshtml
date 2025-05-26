@@ -1,0 +1,38 @@
+﻿@model UpdateBrandDto
+
+@{
+    ViewData["Title"] = "Brands";
+    ViewData["h1"] = "Brand actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Brand";
+    ViewData["v3"] = "Update";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="chart-box p-3">
+                <h4>Create Brand</h4>
+                <form method="post">
+                    <div class="form-group">
+                        <input hidden asp-for="BrandId"/>
+                        <label asp-for="Name" class="control-label">Brand Name</label>
+                        <input asp-for="Name" class="form-control"
+                               style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <label asp-for="ImageUrl">Image URL</label>
+                        <input class="form-control" asp-for="ImageUrl" type="text"
+                               style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                    </div>
+
+                    <br />
+                    <button type="submit" class="btn btn-success">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
