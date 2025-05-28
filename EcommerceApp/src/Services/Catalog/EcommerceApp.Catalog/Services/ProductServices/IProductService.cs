@@ -4,6 +4,7 @@ namespace EcommerceApp.Catalog.Services.ProductServices;
 
 public interface IProductService
 {
+    Task<List<ResultProductsWithCategoryDto>> GetProductsWithCategoryByCategoryIdAsync(string ctgId);
     Task<List<ResultProductsWithCategoryDto>> GetProductsWithCategoryAsync();
     Task<GetByIdProductDto> GetByIdProductAsync(string productId);
     Task CreateProductAsync(CreateProductDto createProductDto);

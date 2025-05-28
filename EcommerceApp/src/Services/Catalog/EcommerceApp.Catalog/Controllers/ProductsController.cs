@@ -27,6 +27,14 @@ public class ProductsController(IProductService _productService) : ControllerBas
         return Ok(values);
     }
 
+    [HttpGet("GetProductsWithCategoryByCategoryId")]
+    public async Task<IActionResult> GetProductsWithCategoryByCategoryId(string ctgId)
+    {
+        var values = await _productService.GetProductsWithCategoryByCategoryIdAsync(ctgId);
+
+        return Ok(values);
+    }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> GetProductById(string id)
     {

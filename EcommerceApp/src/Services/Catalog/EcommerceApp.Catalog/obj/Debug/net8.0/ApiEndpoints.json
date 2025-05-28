@@ -454,6 +454,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.ProductsController",
+    "Method": "GetProductsWithCategoryByCategoryId",
+    "RelativePath": "api/Products/GetProductsWithCategoryByCategoryId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ctgId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceApp.Catalog.Controllers.SettingsController",
     "Method": "GetAllSettings",
     "RelativePath": "api/Settings",

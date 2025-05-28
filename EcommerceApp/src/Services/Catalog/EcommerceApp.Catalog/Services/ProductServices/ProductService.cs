@@ -48,6 +48,21 @@ public class ProductService : IProductService
         return productDtos;
     }
 
+    public async Task<List<ResultProductsWithCategoryDto>> GetProductsWithCategoryByCategoryIdAsync(string ctgId)
+    {
+        var products = await _productsCollection.Find(x => x.CategoryId == ctgId).ToListAsync();
+        var wantedCategory = await _categoriesCollection.Find(x => x.CategoryId == ctgId).FirstOrDefaultAsync();
+
+        var productDtos = _mapper.Map<List<ResultProductsWithCategoryDto>>(products);
+
+        foreach (var pdt in productDtos)
+        {
+            pdt.CategoryName = wantedCategory.CategoryName;
+        }
+
+        return productDtos;
+    }
+
     public async Task UpdateProductAsync(UpdateProductDto updateProductDto)
         => await _productsCollection.FindOneAndReplaceAsync(x => x.ProductId == updateProductDto.ProductId,
                                                                  _mapper.Map<Product>(updateProductDto));
