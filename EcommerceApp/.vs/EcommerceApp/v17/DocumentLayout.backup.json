@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB73838-A491-42BB-B7E7-A0EC85346D2C}|src\\Frontends\\EcommerceApp.DtoLayer\\EcommerceApp.DtoLayer.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.dtolayer\\catalogdtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB73838-A491-42BB-B7E7-A0EC85346D2C}|src\\Frontends\\EcommerceApp.DtoLayer\\EcommerceApp.DtoLayer.csproj|solutionrelative:src\\frontends\\ecommerceapp.dtolayer\\catalogdtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAABgAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:51:39.782Z",
+              "WhenOpened": "2025-05-28T09:48:46.371Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T09:48:50.952Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T09:50:56.123Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFcAAABfAAAAAAAAAA==",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Product\\Detail.cshtml*",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Product\\Detail.cshtml*",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T09:05:52.051Z",
+              "WhenOpened": "2025-05-28T09:51:18.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.DtoLayer\\CatalogDtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.DtoLayer\\CatalogDtos\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.DtoLayer\\CatalogDtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.DtoLayer\\CatalogDtos\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:49:23.172Z",
               "EditorCaption": ""
             },
             {

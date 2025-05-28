@@ -4,7 +4,9 @@ public class ResultProductsWithCategoryDto
 {
     public string ProductId { get; set; }
     public string ProductName { get; set; }
-    public string ProductDescription { get; set; }
+    public string ProductSummary { get; set; }
+    public string ProductDetailedDescription { get; set; }
+    public string ProductInformation { get; set; }
     public decimal ProductPrice { get; set; }
     public string ProductImageUrl { get; set; }
     public string CategoryId { get; set; }

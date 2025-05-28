@@ -338,228 +338,6 @@
         }
       }
     },
-    "/api/ProductDetails": {
-      "get": {
-        "tags": [
-          "ProductDetails"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "ProductDetails"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductDetailDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductDetailDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductDetailDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "ProductDetails"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductDetailDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductDetailDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductDetailDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "ProductDetails"
-        ],
-        "parameters": [
-          {
-            "name": "productDetailId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/ProductDetails/{id}": {
-      "get": {
-        "tags": [
-          "ProductDetails"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/ProductImages": {
-      "get": {
-        "tags": [
-          "ProductImages"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "ProductImages"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductImageDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductImageDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateProductImageDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "ProductImages"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductImageDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductImageDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateProductImageDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "ProductImages"
-        ],
-        "parameters": [
-          {
-            "name": "productImageId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/ProductImages/{id}": {
-      "get": {
-        "tags": [
-          "ProductImages"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Products": {
       "get": {
         "tags": [
@@ -1082,24 +860,6 @@
         },
         "additionalProperties": false
       },
-      "CreateProductDetailDto": {
-        "type": "object",
-        "properties": {
-          "productDescription": {
-            "type": "string",
-            "nullable": true
-          },
-          "productInfo": {
-            "type": "string",
-            "nullable": true
-          },
-          "productId": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateProductDto": {
         "type": "object",
         "properties": {
@@ -1107,7 +867,15 @@
             "type": "string",
             "nullable": true
           },
-          "productDescription": {
+          "productSummary": {
+            "type": "string",
+            "nullable": true
+          },
+          "productDetailedDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productInformation": {
             "type": "string",
             "nullable": true
           },
@@ -1120,28 +888,6 @@
             "nullable": true
           },
           "categoryId": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateProductImageDto": {
-        "type": "object",
-        "properties": {
-          "productImage1": {
-            "type": "string",
-            "nullable": true
-          },
-          "productImage2": {
-            "type": "string",
-            "nullable": true
-          },
-          "productImage3": {
-            "type": "string",
-            "nullable": true
-          },
-          "productId": {
             "type": "string",
             "nullable": true
           }
@@ -1255,28 +1001,6 @@
         },
         "additionalProperties": false
       },
-      "UpdateProductDetailDto": {
-        "type": "object",
-        "properties": {
-          "productDetailId": {
-            "type": "string",
-            "nullable": true
-          },
-          "productDescription": {
-            "type": "string",
-            "nullable": true
-          },
-          "productInfo": {
-            "type": "string",
-            "nullable": true
-          },
-          "productId": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UpdateProductDto": {
         "type": "object",
         "properties": {
@@ -1288,7 +1012,15 @@
             "type": "string",
             "nullable": true
           },
-          "productDescription": {
+          "productSummary": {
+            "type": "string",
+            "nullable": true
+          },
+          "productDetailedDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productInformation": {
             "type": "string",
             "nullable": true
           },
@@ -1301,32 +1033,6 @@
             "nullable": true
           },
           "categoryId": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateProductImageDto": {
-        "type": "object",
-        "properties": {
-          "productImageId": {
-            "type": "string",
-            "nullable": true
-          },
-          "productImage1": {
-            "type": "string",
-            "nullable": true
-          },
-          "productImage2": {
-            "type": "string",
-            "nullable": true
-          },
-          "productImage3": {
-            "type": "string",
-            "nullable": true
-          },
-          "productId": {
             "type": "string",
             "nullable": true
           }

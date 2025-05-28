@@ -1,9 +1,6 @@
 ﻿using EcommerceApp.Catalog.Services.BrandServices;
 using EcommerceApp.Catalog.Services.CategoryServices;
 using EcommerceApp.Catalog.Services.FeatureServices;
-using EcommerceApp.Catalog.Services.ProductDetailServices;
-using EcommerceApp.Catalog.Services.ProductImageServices;
-using EcommerceApp.Catalog.Services.ProductImageServicesl;
 using EcommerceApp.Catalog.Services.ProductServices;
 using EcommerceApp.Catalog.Services.SettingServices;
 using EcommerceApp.Catalog.Services.SliderServices;
@@ -33,8 +30,6 @@ public static class ServiceRegistration
         services.AddScoped<ISettingService, SettingService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<ISpecialOfferService, SpecialOfferService>();
-        services.AddScoped<IProductImageService, ProductImageService>();
-        services.AddScoped<IProductDetailService, ProductDetailService>();
 
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
