@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "GetAllUserComments",
+    "RelativePath": "api/UserComments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "CreateUserComment",
+    "RelativePath": "api/UserComments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EcommerceApp.Comment.Dtos.UserCommentDtos.CreateUserCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "UpdateUserComment",
+    "RelativePath": "api/UserComments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EcommerceApp.Comment.Dtos.UserCommentDtos.UpdateUserCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "DeleteUserComment",
+    "RelativePath": "api/UserComments",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/UserComments",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "GetUserCommentById",
+    "RelativePath": "api/UserComments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

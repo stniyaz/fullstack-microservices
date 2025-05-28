@@ -141,3 +141,5 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Comment\EcommerceApp.Comment\obj\Debug\net8.0\EcommerceApp.Comment.pdb
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Comment\EcommerceApp.Comment\obj\Debug\net8.0\EcommerceApp.Comment.genruntimeconfig.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Comment\EcommerceApp.Comment\obj\Debug\net8.0\ref\EcommerceApp.Comment.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Comment\EcommerceApp.Comment\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Comment\EcommerceApp.Comment\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

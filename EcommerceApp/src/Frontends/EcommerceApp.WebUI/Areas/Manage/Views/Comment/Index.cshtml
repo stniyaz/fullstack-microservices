@@ -1,0 +1,71 @@
+﻿@model List<ResultUserCommentDto>
+
+@{
+    ViewData["Title"] = "Comments";
+    ViewData["h1"] = "Comment actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Comment";
+    ViewData["v3"] = null;
+
+    var counter = 0;
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Comment List</h4>
+                </div>
+
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th style="width: 50px;">#</th>
+                                <th>Fullname</th>
+                                <th>Email</th>
+                                <th>Detail</th>
+                                <th>Rating</th>
+                                <th style="width: 80px;">Status</th>
+                                <th style="width: 80px;">Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var cmt in Model)
+                            {
+                                counter++;
+                                <tr>
+                                    <td>@counter</td>
+                                    <td>@cmt.Fullname</td>
+                                    <td>@cmt.Email</td>
+                                    <td>@cmt.CommentDetail</td>
+                                    <td>@cmt.Rating</td>
+                                    <td>
+                                        <a asp-action="togglestatus" asp-controller="comment" asp-route-id="@cmt.UserCommentId" class="btn btn-sm btn-success">
+                                            @if (cmt.Status)
+                                            {
+                                                <i class="fa-solid fa-eye-slash"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fa-solid fa-eye"></i>
+                                            }
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="delete" asp-controller="comment" asp-route-id="@cmt.UserCommentId" class="btn btn-sm btn-danger"
+                                           onclick="return confirm('Are you sure you want to delete this comment?');">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

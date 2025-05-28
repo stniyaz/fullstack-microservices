@@ -11,22 +11,22 @@ namespace EcommerceApp.Comment.Controllers;
 [AllowAnonymous]
 [Route("api/[controller]")]
 [ApiController]
-public class CommentsController(AppDbContext _context, IMapper _mapper) : ControllerBase
+public class UserCommentsController(AppDbContext _context, IMapper _mapper) : ControllerBase
 {
     [HttpGet("")]
     public async Task<IActionResult> GetAllUserComments()
     {
-        var values = await _context.UserComments.ToListAsync();
+        var values = _mapper.Map<List<ResultUserCommentDto>>(await _context.UserComments.ToListAsync());
 
         return Ok(values);
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetAllUserComments(int id)
+    public async Task<IActionResult> GetUserCommentById(int id)
     {
-        var values = await _context.UserComments.ToListAsync();
+        var value = await _context.UserComments.FindAsync(id);
 
-        return Ok(values);
+        return Ok(value);
     }
 
     [HttpPost]
@@ -44,6 +44,8 @@ public class CommentsController(AppDbContext _context, IMapper _mapper) : Contro
     {
         _context.UserComments.Update(_mapper.Map<UserComment>(dto));
 
+        await _context.SaveChangesAsync();
+
         return Ok("User comment updated successfully.");
     }
 
@@ -56,5 +58,15 @@ public class CommentsController(AppDbContext _context, IMapper _mapper) : Contro
 
         return Ok("User comment deleted successfully.");
     }
-}
 
+    [HttpPatch]
+    public async Task<IActionResult> ToggleStatus(int id)
+    {
+        var value = await _context.UserComments.FindAsync(id);
+
+        value.Status = !value.Status;
+        await _context.SaveChangesAsync();
+
+        return Ok("Comment status changed successfully.");
+    }
+}

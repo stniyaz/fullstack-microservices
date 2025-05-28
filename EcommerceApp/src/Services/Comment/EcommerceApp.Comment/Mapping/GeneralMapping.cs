@@ -8,9 +8,9 @@ public class GeneralMapping : Profile
 {
     public GeneralMapping()
     {
-        CreateMap<CreateUserCommentDto, UserComment>();
-        CreateMap<UpdateUserCommentDto, UserComment>();
-        CreateMap<ResultUserCommentDto, UserComment>();
-        CreateMap<GetByIdUserCommentDto, UserComment>();
+        CreateMap<CreateUserCommentDto, UserComment>().ReverseMap();
+        CreateMap<UpdateUserCommentDto, UserComment>().ReverseMap();
+        CreateMap<ResultUserCommentDto, UserComment>().ReverseMap();
+        CreateMap<GetByIdUserCommentDto, UserComment>().ReverseMap();
     }
 }
