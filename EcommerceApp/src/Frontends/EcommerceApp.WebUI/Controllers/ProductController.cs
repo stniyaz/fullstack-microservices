@@ -28,8 +28,18 @@ public class ProductController(IHttpClientFactory _httpClientFactory) : Controll
         return View(viewModel);
     }
 
-    public IActionResult Detail()
+    public async Task<IActionResult> Detail(string pdtId)
     {
-        return View();
+        var client = _httpClientFactory.CreateClient();
+        var productResponse = await client.GetAsync($"https://localhost:7070/api/products/{pdtId}");
+
+        if (productResponse.IsSuccessStatusCode)
+        {
+            var jsonData = await productResponse.Content.ReadAsStringAsync();
+            var product = JsonConvert.DeserializeObject<ResultProductDto>(jsonData);
+            return View(product);
+        }
+
+        return NotFound();
     }
 }

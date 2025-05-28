@@ -85,7 +85,7 @@
         @foreach (var ctg in Model.Categories)
         {
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <a class="text-decoration-none" href="">
+                <a asp-action="index" asp-controller="product" asp-route-ctgId="@ctg.CategoryId" class="text-decoration-none">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
                             <img class="img-fluid" src="@ctg.ImageUrl" alt="">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">@pdt.ProductName</a>
+                        <a asp-action="detail" asp-controller="product" asp-route-pdtId="@pdt.ProductId" class="h6 text-decoration-none text-truncate">@pdt.ProductName</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$@pdt.ProductPrice.ToString("F2")</h5><h6 class="text-muted ml-2"><del>$@oldPrice.ToString("F2")</del></h6>
                         </div>
