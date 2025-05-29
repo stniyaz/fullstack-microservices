@@ -21,12 +21,20 @@ public class UserCommentsController(AppDbContext _context, IMapper _mapper) : Co
         return Ok(values);
     }
 
+    [HttpGet("GetCommentsByProductId")]
+    public async Task<IActionResult> GetCommentsByProductId(string id)
+    {
+        var values = await _context.UserComments.Where(x => x.ProductId == id).ToListAsync();
+
+        return Ok(_mapper.Map<List<ResultUserCommentDto>>(values));
+    }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> GetUserCommentById(int id)
     {
         var value = await _context.UserComments.FindAsync(id);
 
-        return Ok(value);
+        return Ok(_mapper.Map<GetByIdUserCommentDto>(value));
     }
 
     [HttpPost]

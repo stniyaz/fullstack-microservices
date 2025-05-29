@@ -2,7 +2,7 @@
 
 namespace EcommerceApp.WebUI.ViewModels;
 
-public class ProductViewModel
+public class ProductIndexViewModel
 {
     public List<ResultProductWithCategoryDto> Products { get; set; }
 }

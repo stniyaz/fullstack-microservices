@@ -88,5 +88,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
+    "Method": "GetCommentsByProductId",
+    "RelativePath": "api/UserComments/GetCommentsByProductId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
