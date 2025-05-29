@@ -13,6 +13,10 @@
       {
         "Path": "src\\Services\\Comment\\EcommerceApp.Comment\\EcommerceApp.Comment.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
+        "Action": "Start"
       }
     ]
   }

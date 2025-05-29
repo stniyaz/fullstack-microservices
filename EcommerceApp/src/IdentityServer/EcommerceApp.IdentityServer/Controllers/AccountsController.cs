@@ -4,22 +4,25 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using static IdentityServer4.IdentityServerConstants;
 
 namespace EcommerceApp.IdentityServer.Controllers
 {
-    [Authorize(LocalApi.PolicyName)]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        public AccountsController(UserManager<ApplicationUser> userManager)
+        private readonly SignInManager<ApplicationUser> _signInManager;
+
+        public AccountsController(UserManager<ApplicationUser> userManager,
+                                  SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
         }
 
-        [HttpPost]
+        [HttpPost("signup")]
         public async Task<IActionResult> SignUp(RegisterDto dto)
         {
             var newUser = new ApplicationUser
@@ -40,6 +43,27 @@ namespace EcommerceApp.IdentityServer.Controllers
             {
                 return StatusCode(201, "User created successfully.");
             }
+        }
+
+        [HttpPost("signin")]
+        public async Task<IActionResult> SignIn(LoginDto dto)
+        {
+            var result = await _signInManager.PasswordSignInAsync(dto.Username, dto.Password, dto.RememberMe, false);
+
+            if (result.Succeeded)
+            {
+                return Ok("Login successfull.");
+            }
+
+            return BadRequest("Invalid username or password.");
+        }
+
+        [HttpGet("signout")]
+        public async Task<IActionResult> SignOut()
+        {
+            await _signInManager.SignOutAsync();
+
+            return Ok("Signout successfull.");
         }
     }
 }

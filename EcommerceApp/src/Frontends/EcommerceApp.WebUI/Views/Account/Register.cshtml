@@ -1,0 +1,79 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register | Ecommerce</title>
+
+    <link rel="icon" href="~/assets/img/logo.jpg" type="image/png">
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/assets/account/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/assets/account/css/style.css">
+    <meta name="robots" content="noindex, follow">
+</head>
+<body>
+
+    <div class="main">
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="post" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="surname"><i class="fa-solid fa-signature"></i></label>
+                                <input type="text" name="surname" id="surname" placeholder="Your Surname" />
+                            </div>
+                            <div class="form-group">
+                                <label for="username"><i class="fa-solid fa-address-card"></i></label>
+                                <input type="text" name="username" id="username" placeholder="Your Username" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="Password" />
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="~/assets/account/images/signup-image.jpg" alt="sing up image"></figure>
+                        <a asp-action="login" asp-controller="account" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- JS -->
+    <script src="~/assets/account/vendor/jquery/jquery.min.js"></script>
+    <script src="~/assets/account/js/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+</body>
+</html>
