@@ -3,6 +3,7 @@ using EcommerceApp.DtoLayer.CommentDtos.UserCommentDtos;
 using EcommerceApp.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace EcommerceApp.WebUI.Controllers;
 
@@ -51,5 +52,20 @@ public class ProductController(IHttpClientFactory _httpClientFactory) : Controll
         }
 
         return NotFound();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Detail(CreateUserCommentDto dto)
+    {
+        var client = _httpClientFactory.CreateClient();
+        var jsonData = JsonConvert.SerializeObject(dto);
+        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+        var responseMessage = await client.PostAsync("https://localhost:7075/api/usercomments/", content);
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            return RedirectToAction("detail", "product", new { pdtId = dto.ProductId });
+        }
+
+        return View(dto);
     }
 }
