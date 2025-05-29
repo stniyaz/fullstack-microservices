@@ -1,5 +1,6 @@
 ﻿using EcommerceApp.Catalog.Services.BrandServices;
 using EcommerceApp.Catalog.Services.CategoryServices;
+using EcommerceApp.Catalog.Services.ContactServices;
 using EcommerceApp.Catalog.Services.FeatureServices;
 using EcommerceApp.Catalog.Services.ProductServices;
 using EcommerceApp.Catalog.Services.SettingServices;
@@ -27,6 +28,7 @@ public static class ServiceRegistration
         services.AddScoped<ISliderService, SliderService>();
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IFeatureService, FeatureService>();
+        services.AddScoped<IContactService, ContactService>();
         services.AddScoped<ISettingService, SettingService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<ISpecialOfferService, SpecialOfferService>();

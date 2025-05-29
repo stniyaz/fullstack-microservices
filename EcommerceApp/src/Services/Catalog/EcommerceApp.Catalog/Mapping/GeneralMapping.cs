@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EcommerceApp.Catalog.Dtos.BrandDtos;
 using EcommerceApp.Catalog.Dtos.CategoryDtos;
+using EcommerceApp.Catalog.Dtos.ContactDtos;
 using EcommerceApp.Catalog.Dtos.FeatureDtos;
 using EcommerceApp.Catalog.Dtos.ProductDtos;
 using EcommerceApp.Catalog.Dtos.SettingDtos;
@@ -49,5 +50,9 @@ public class GeneralMapping : Profile
         CreateMap<UpdateSettingDto, Setting>().ReverseMap();
         CreateMap<GetByIdSettingDto, Setting>().ReverseMap();
         CreateMap<CreateSettingDto, Setting>().ReverseMap();
+
+        CreateMap<CreateContactDto, Contact>().ReverseMap();
+        CreateMap<GetByIdContactDto, Contact>().ReverseMap();
+        CreateMap<ResultContactDto, Contact>().ReverseMap();
     }
 }

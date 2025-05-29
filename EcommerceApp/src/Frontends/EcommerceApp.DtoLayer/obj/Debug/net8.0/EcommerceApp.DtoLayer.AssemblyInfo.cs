@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcommerceApp.DtoLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20a23666874108d85717d2e3bd5c27946be3c9e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde84975a207dbf669a057f391cc18258cb3580e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommerceApp.DtoLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommerceApp.DtoLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
