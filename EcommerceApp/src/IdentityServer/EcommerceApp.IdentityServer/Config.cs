@@ -17,6 +17,10 @@ namespace EcommerceApp.IdentityServer
             new ApiResource("resource_order"){Scopes={"order_fullpermission"}},
             new ApiResource("resource_cargo"){Scopes={"cargo_fullpermission"}},
             new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
+            new ApiResource("resource_comment"){Scopes={"comment_fullpermission"}},
+            new ApiResource("resource_payment"){Scopes={"payment_fullpermission"}},
+            new ApiResource("resource_images"){Scopes={"images_fullpermission"}},
+            new ApiResource("resource_ocelot"){Scopes={"ocelot_fullpermission"}},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName),
         };
 
@@ -35,6 +39,10 @@ namespace EcommerceApp.IdentityServer
             new ApiScope("order_fullpermission", "Full permission for Order API."),
             new ApiScope("cargo_fullpermission", "Full permission for Cargo API."),
             new ApiScope("basket_fullpermission", "Full permission for Basket API."),
+            new ApiScope("comment_fullpermission", "Full permission for Comment API."),
+            new ApiScope("payment_fullpermission", "Full permission for Payment API."),
+            new ApiScope("images_fullpermission", "Full permission for Images API."),
+            new ApiScope("ocelot_fullpermission", "Full permission for Ocelot API."),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName),
         };
 
@@ -47,7 +55,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName="EcommerceApp Visitor User",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "catalog_readPermission" }
+                AllowedScopes = { "catalog_readPermission", "disocunt_fullpermission", "ocelot_fullpermission", "images_fullpermission", "catalog_fullpermission" }
             },
 
             // Manager
@@ -57,7 +65,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName ="EcommerceApp Manager",
                 AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "disocunt_fullpermission" }
+                AllowedScopes = { "disocunt_fullpermission", "ocelot_fullpermission", "comment_fullpermission", "payment_fullpermission", "images_fullpermission" }
             },
 
             // Admin
@@ -67,7 +75,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName = "EcommerceApp Admin",
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "catalog_fullpermission", "disocunt_fullpermission","order_fullpermission","cargo_fullpermission","basket_fullpermission",
+                AllowedScopes = { "catalog_fullpermission", "disocunt_fullpermission","order_fullpermission","cargo_fullpermission","basket_fullpermission","ocelot_fullpermission","comment_fullpermission", "payment_fullpermission","images_fullpermission",
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.Profile,

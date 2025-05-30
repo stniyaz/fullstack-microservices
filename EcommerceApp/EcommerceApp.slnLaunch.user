@@ -7,15 +7,11 @@
         "Action": "Start"
       },
       {
-        "Path": "src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "src\\Services\\Comment\\EcommerceApp.Comment\\EcommerceApp.Comment.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "src\\IdentityServer\\EcommerceApp.IdentityServer\\EcommerceApp.IdentityServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\ApiGateway\\EcommerceApp.OcelotGateway\\EcommerceApp.OcelotGateway.csproj",
         "Action": "Start"
       }
     ]
