@@ -227,3 +227,11 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Fro
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\EcommerceApp.DtoLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\EcommerceApp.DtoLayer.pdb
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,5 +1,6 @@
 ﻿using EcommerceApp.IdentityServer.Dtos;
 using EcommerceApp.IdentityServer.Models;
+using EcommerceApp.IdentityServer.Tools;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -52,7 +53,14 @@ namespace EcommerceApp.IdentityServer.Controllers
 
             if (result.Succeeded)
             {
-                return Ok("Login successfull.");
+                var user = await _userManager.FindByNameAsync(dto.Username);
+                var model = new GetCheckAppUserViewModel();
+                model.Username = dto.Username;
+                model.Id = user.Id;
+
+                var token = JwtTokenGenerator.GenereateToken(model);
+
+                return Ok(token);
             }
 
             return BadRequest("Invalid username or password.");
