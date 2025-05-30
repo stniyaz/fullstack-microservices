@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Catalog.Controllers;
 
-[AllowAnonymous]
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class SettingsController(ISettingService _settingService) : ControllerBase

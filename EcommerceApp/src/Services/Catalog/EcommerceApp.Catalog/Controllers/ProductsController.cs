@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Catalog.Controllers;
 
-//[Authorize]
+[Authorize]
 [AllowAnonymous]
 [Route("api/[controller]")]
 [ApiController]

@@ -235,3 +235,6 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Fro
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Duende.IdentityModel.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Duende.IdentityServer.Storage.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll

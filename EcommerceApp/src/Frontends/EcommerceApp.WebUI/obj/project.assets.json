@@ -2,6 +2,36 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Duende.IdentityModel/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Duende.IdentityModel.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Duende.IdentityModel.dll": {
+            "related": ".xml;.pdb"
+          }
+        }
+      },
+      "Duende.IdentityServer.Storage/7.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Duende.IdentityModel": "7.0.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "8.0.10"
+        },
+        "compile": {
+          "lib/net8.0/Duende.IdentityServer.Storage.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Duende.IdentityServer.Storage.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -614,6 +644,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
       },
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
         "type": "package",
@@ -2136,6 +2179,43 @@
     }
   },
   "libraries": {
+    "Duende.IdentityModel/7.0.0": {
+      "sha512": "h6xvWQi9bASgroNh+6Z/BpSUpKTy/sSuc2l4twi0igSY0X0z7Y8eYMGMHB7trwdT56EGlWeXLA6qAb8VOg8ATA==",
+      "type": "package",
+      "path": "duende.identitymodel/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "duende.identitymodel.7.0.0.nupkg.sha512",
+        "duende.identitymodel.nuspec",
+        "icon.png",
+        "lib/net8.0/Duende.IdentityModel.dll",
+        "lib/net8.0/Duende.IdentityModel.pdb",
+        "lib/net8.0/Duende.IdentityModel.xml",
+        "lib/netstandard2.0/Duende.IdentityModel.dll",
+        "lib/netstandard2.0/Duende.IdentityModel.pdb",
+        "lib/netstandard2.0/Duende.IdentityModel.xml"
+      ]
+    },
+    "Duende.IdentityServer.Storage/7.2.3": {
+      "sha512": "QVm8vEp1D/vT7WlsSyE4+PwSj5FK0BqhpqCvvvQtoyqNb+18MMevpXJ6+XkplBwZcGY8SYpGgwabehxg6ylrXQ==",
+      "type": "package",
+      "path": "duende.identityserver.storage/7.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "duende.identityserver.storage.7.2.3.nupkg.sha512",
+        "duende.identityserver.storage.nuspec",
+        "icon.png",
+        "lib/net8.0/Duende.IdentityServer.Storage.dll",
+        "lib/net8.0/Duende.IdentityServer.Storage.xml",
+        "lib/net9.0/Duende.IdentityServer.Storage.dll",
+        "lib/net9.0/Duende.IdentityServer.Storage.xml"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -2895,6 +2975,25 @@
         "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
+      "sha512": "tDA68PYc0M/gyijcERsC3E1anqRpOmmmWJqpHmbbmrv6h/IjelnwzKaQwXdeJ36sEyB7dRuteC+j3fKyl/J/7A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/8.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/net462/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "microsoft.aspnetcore.dataprotection.abstractions.8.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
@@ -5884,6 +5983,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Duende.IdentityServer.Storage >= 7.2.3",
       "EcommerceApp.DtoLayer >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.16",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
@@ -5944,6 +6044,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Duende.IdentityServer.Storage": {
+            "target": "Package",
+            "version": "[7.2.3, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.16, )"

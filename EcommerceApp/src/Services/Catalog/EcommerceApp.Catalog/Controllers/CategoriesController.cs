@@ -5,10 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Catalog.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
-//[Authorize]
-[AllowAnonymous]
 public class CategoriesController(ICategoryService _categoryService) : ControllerBase
 {
     [HttpGet("")]

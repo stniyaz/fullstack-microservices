@@ -8,12 +8,33 @@
     ".NETCoreApp,Version=v8.0": {
       "EcommerceApp.WebUI/1.0.0": {
         "dependencies": {
+          "Duende.IdentityServer.Storage": "7.2.3",
           "EcommerceApp.DtoLayer": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.16",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
         },
         "runtime": {
           "EcommerceApp.WebUI.dll": {}
+        }
+      },
+      "Duende.IdentityModel/7.0.0": {
+        "runtime": {
+          "lib/net8.0/Duende.IdentityModel.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Duende.IdentityServer.Storage/7.2.3": {
+        "dependencies": {
+          "Duende.IdentityModel": "7.0.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "8.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/Duende.IdentityServer.Storage.dll": {
+            "assemblyVersion": "7.2.3.0",
+            "fileVersion": "7.2.3.0"
+          }
         }
       },
       "Humanizer/2.14.1": {
@@ -564,6 +585,14 @@
           "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
             "assemblyVersion": "8.0.16.0",
             "fileVersion": "8.0.1625.21611"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46804"
           }
         }
       },
@@ -1589,6 +1618,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Duende.IdentityModel/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h6xvWQi9bASgroNh+6Z/BpSUpKTy/sSuc2l4twi0igSY0X0z7Y8eYMGMHB7trwdT56EGlWeXLA6qAb8VOg8ATA==",
+      "path": "duende.identitymodel/7.0.0",
+      "hashPath": "duende.identitymodel.7.0.0.nupkg.sha512"
+    },
+    "Duende.IdentityServer.Storage/7.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QVm8vEp1D/vT7WlsSyE4+PwSj5FK0BqhpqCvvvQtoyqNb+18MMevpXJ6+XkplBwZcGY8SYpGgwabehxg6ylrXQ==",
+      "path": "duende.identityserver.storage/7.2.3",
+      "hashPath": "duende.identityserver.storage.7.2.3.nupkg.sha512"
+    },
     "Humanizer/2.14.1": {
       "type": "package",
       "serviceable": true,
@@ -1945,6 +1988,13 @@
       "sha512": "sha512-WtKPOmlqzwWGQZCOixnOE+3bIYzxmUw7zjfs7VRWDhZlxfcmw5Qw2c4r87XWPk+kkurntzvE0sWyruI6KDpTiA==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.16",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tDA68PYc0M/gyijcERsC3E1anqRpOmmmWJqpHmbbmrv6h/IjelnwzKaQwXdeJ36sEyB7dRuteC+j3fKyl/J/7A==",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/8.0.10",
+      "hashPath": "microsoft.aspnetcore.dataprotection.abstractions.8.0.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "type": "package",
