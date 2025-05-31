@@ -6,4 +6,5 @@ public interface IAccountService
 {
     public string GetUserId { get; }
     public Task<bool> LoginAsync(LoginDto loginDto);
+    public Task<bool> GetRefreshToken();
 }

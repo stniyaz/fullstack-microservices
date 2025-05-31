@@ -1,0 +1,20 @@
+﻿@model UserDetailViewModel
+
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="container">
+    <br />
+
+    <h3>User info</h3>
+
+    <div class="alert alert-info">Id: @Model.Id</div>
+    <div class="alert alert-warning">Username: @Model.Username</div>
+    <div class="alert alert-info">Name: @Model.Name</div>
+    <div class="alert alert-warning">Surname: @Model.Surname</div>
+    <div class="alert alert-info">Email: @Model.Email</div>
+
+</div>

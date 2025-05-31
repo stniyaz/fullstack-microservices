@@ -4,11 +4,14 @@ using EcommerceApp.IdentityServer.Tools;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Threading.Tasks;
+using static IdentityServer4.IdentityServerConstants;
 
 namespace EcommerceApp.IdentityServer.Controllers
 {
-    [AllowAnonymous]
+    [Authorize(LocalApi.PolicyName)]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
@@ -72,6 +75,23 @@ namespace EcommerceApp.IdentityServer.Controllers
             await _signInManager.SignOutAsync();
 
             return Ok("Signout successfull.");
+        }
+
+        [HttpGet("getuserinfo")]
+        public async Task<IActionResult> GetUserInfo()
+        {
+            var userClaim = User.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Sub);
+
+            var user = await _userManager.FindByIdAsync(userClaim.Value);
+
+            return Ok(new
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Surname = user.Surname,
+                Username = user.UserName,
+            });
         }
     }
 }

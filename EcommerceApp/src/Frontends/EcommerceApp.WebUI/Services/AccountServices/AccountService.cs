@@ -13,22 +13,78 @@ public class AccountService : IAccountService
 {
     private readonly HttpClient _httpClient;
     private readonly ClientSettings _clientSettings;
+    private readonly ServiceApiSettings _serviceApiSettings;
     private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public AccountService(IHttpContextAccessor httpContextAccessor, HttpClient httpClient, IOptions<ClientSettings> clientSettings)
+    public AccountService(IHttpContextAccessor httpContextAccessor, HttpClient httpClient,
+                          IOptions<ClientSettings> clientSettings,
+                          IOptions<ServiceApiSettings> serviceApiSettings)
     {
         _httpContextAccessor = httpContextAccessor;
         _httpClient = httpClient;
         _clientSettings = clientSettings.Value;
+        _serviceApiSettings = serviceApiSettings.Value;
     }
 
     public string GetUserId => _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+    public async Task<bool> GetRefreshToken()
+    {
+        var discoveryEndpoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
+        {
+            Address = _serviceApiSettings.IdentityServerUrl,
+            Policy = new DiscoveryPolicy
+            {
+                RequireHttps = false,
+            }
+        });
+
+        var refreshToken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
+
+        RefreshTokenRequest refreshTokenRequest = new()
+        {
+            ClientId = _clientSettings.EcommerceAppManagerClient.ClientId,
+            ClientSecret = _clientSettings.EcommerceAppManagerClient.ClientSecret,
+            Address = discoveryEndpoint.TokenEndpoint,
+            RefreshToken = refreshToken
+        };
+
+        var token = await _httpClient.RequestRefreshTokenAsync(refreshTokenRequest);
+
+        var authenticationToken = new List<AuthenticationToken>()
+        {
+            new AuthenticationToken
+            {
+                Name = OpenIdConnectParameterNames.AccessToken,
+                Value = token.AccessToken
+            },
+            new AuthenticationToken
+            {
+                Name = OpenIdConnectParameterNames.RefreshToken,
+                Value = token.RefreshToken
+            },
+            new AuthenticationToken
+            {
+                Name = OpenIdConnectParameterNames.ExpiresIn,
+                Value = DateTime.Now.AddSeconds(token.ExpiresIn).ToString()
+            }
+        };
+
+        var result = await _httpContextAccessor.HttpContext.AuthenticateAsync();
+
+        var properties = result.Properties;
+        properties.StoreTokens(authenticationToken);
+
+        await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, result.Principal, properties);
+
+        return true;
+    }
 
     public async Task<bool> LoginAsync(LoginDto loginDto)
     {
         var discoveryEndpoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
         {
-            Address = "http://localhost:5001",
+            Address = _serviceApiSettings.IdentityServerUrl,
             Policy = new DiscoveryPolicy
             {
                 RequireHttps = false,
@@ -37,8 +93,8 @@ public class AccountService : IAccountService
 
         var passwordTokenRequest = new PasswordTokenRequest
         {
-            ClientId = _clientSettings.EcommerceAppManagerId.ClientId,
-            ClientSecret = _clientSettings.EcommerceAppManagerId.ClientSecret,
+            ClientId = _clientSettings.EcommerceAppManagerClient.ClientId,
+            ClientSecret = _clientSettings.EcommerceAppManagerClient.ClientSecret,
             UserName = loginDto.Username,
             Password = loginDto.Password,
             Address = discoveryEndpoint.TokenEndpoint

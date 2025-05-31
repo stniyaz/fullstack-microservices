@@ -2,9 +2,9 @@
 {
     public class ClientSettings
     {
-        public Client EcommerceAppVisitorId { get; set; }
-        public Client EcommerceAppManagerId { get; set; }
-        public Client EcommerceAppAdminId { get; set; }
+        public Client EcommerceAppVisitorClient { get; set; }
+        public Client EcommerceAppManagerClient { get; set; }
+        public Client EcommerceAppAdminClient { get; set; }
     }
     public class Client
     {

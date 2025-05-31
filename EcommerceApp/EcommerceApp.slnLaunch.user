@@ -13,6 +13,10 @@
       {
         "Path": "src\\ApiGateway\\EcommerceApp.OcelotGateway\\EcommerceApp.OcelotGateway.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
+        "Action": "Start"
       }
     ]
   }
