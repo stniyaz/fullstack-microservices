@@ -1,6 +1,9 @@
 using EcommerceApp.WebUI.Handlers;
 using EcommerceApp.WebUI.Services.AccountServices;
 using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
+using EcommerceApp.WebUI.Services.CatalogServices.ProductServices;
+using EcommerceApp.WebUI.Services.CatalogServices.SliderServices;
+using EcommerceApp.WebUI.Services.CatalogServices.SpecialOfferServices;
 using EcommerceApp.WebUI.Services.ClientCredentialTokenServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
@@ -52,13 +55,30 @@ builder.Services.AddHttpClient<IUserService, UserService>(opt =>
     opt.BaseAddress = new Uri(values.IdentityServerUrl);
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
+builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
+builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
+
+// microservices register
+
 builder.Services.AddHttpClient<ICategoryService, CategoryService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
-builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
-builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
+builder.Services.AddHttpClient<IProductService, ProductService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ISpecialOfferService, SpecialOfferService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ISliderService, SliderService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 var app = builder.Build();
 

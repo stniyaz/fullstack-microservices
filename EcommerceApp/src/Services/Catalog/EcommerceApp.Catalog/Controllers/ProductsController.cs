@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace EcommerceApp.Catalog.Controllers;
 
 [Authorize]
-[AllowAnonymous]
 [Route("api/[controller]")]
 [ApiController]
 public class ProductsController(IProductService _productService) : ControllerBase

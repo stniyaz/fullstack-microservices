@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:19:28.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Program.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:21:01.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\appsettings.json",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T18:21:01.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T07:13:58.286Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-06-02T18:19:33.501Z",
               "EditorCaption": ""
             },
             {

@@ -1,86 +1,50 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.SpecialOfferDtos;
+using EcommerceApp.WebUI.Services.CatalogServices.SpecialOfferServices;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Text;
 
 namespace EcommerceApp.WebUI.Areas.Manage.Controllers;
 [Area("manage")]
-public class SpecialOfferController(IHttpClientFactory _clientFactory) : Controller
+public class SpecialOfferController(ISpecialOfferService _specialOfferService) : Controller
 {
     public async Task<IActionResult> Index()
     {
-        var client = _clientFactory.CreateClient();
-        var responseMessage = await client.GetAsync("https://localhost:7070/api/specialOffers/");
+        var values = await _specialOfferService.GetAllSpecialOffersAsync();
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultSpecialOfferDto>>(jsonData);
-
-            return View(values);
-        }
-
-        return View();
+        return View(values);
     }
 
+    [HttpGet]
     public IActionResult Create()
     {
         return View();
     }
-    [HttpPost]
-    public async Task<IActionResult> Create(CreateSpecialOfferDto dto)
-    {
-        var client = _clientFactory.CreateClient();
-        var jsonData = JsonConvert.SerializeObject(dto);
-        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PostAsync("https://localhost:7070/api/specialOffers/", content);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "specialoffer", new { area = "manage" });
-        }
-        return View();
+    [HttpPost]
+    public async Task<IActionResult> Create(CreateSpecialOfferDto specialOfferDto)
+    {
+        await _specialOfferService.CreateSpecialOfferAsync(specialOfferDto);
+
+        return RedirectToAction("index", "specialOffer", new { area = "manage" });
     }
 
     public async Task<IActionResult> Update(string id)
     {
-        var client = _clientFactory.CreateClient();
-        var responseMessage = await client.GetAsync($"https://localhost:7070/api/specialOffers/{id}");
+        var value = await _specialOfferService.GetSpecialOfferByIdAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var value = JsonConvert.DeserializeObject<UpdateSpecialOfferDto>(jsonData);
-
-            return View(value);
-        }
-        return NotFound();
+        return View(value);
     }
+
     [HttpPost]
-    public async Task<IActionResult> Update(UpdateSpecialOfferDto dto)
+    public async Task<IActionResult> Update(UpdateSpecialOfferDto updatespecialOfferDto)
     {
-        var client = _clientFactory.CreateClient();
-        var jsonData = JsonConvert.SerializeObject(dto);
-        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PutAsync("https://localhost:7070/api/specialOffers/", content);
+        await _specialOfferService.UpdateSpecialOfferAsync(updatespecialOfferDto);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "specialoffer", new { area = "manage" });
-        }
-
-        return View();
+        return RedirectToAction("index", "specialOffer", new { area = "manage" });
     }
     public async Task<IActionResult> Delete(string id)
     {
-        var client = _clientFactory.CreateClient();
-        var responseMessage = await client.DeleteAsync($"https://localhost:7070/api/specialOffers?id={id}");
+        await _specialOfferService.DeleteSpecialOfferAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "specialoffer", new { area = "manage" });
-        }
-
-        return NotFound();
+        return RedirectToAction("index", "specialOffer", new { area = "manage" });
     }
 }

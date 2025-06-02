@@ -19,7 +19,7 @@ public class CategoryService(HttpClient _httpClient) : ICategoryService
         return values;
     }
 
-    public async Task<UpdateCategoryDto> GetByIdCategoryAsync(string categoryId)
+    public async Task<UpdateCategoryDto> GetCategoryByIdAsync(string categoryId)
     {
         var responseMessage = await _httpClient.GetAsync($"categories/{categoryId}");
         var value = await responseMessage.Content.ReadFromJsonAsync<UpdateCategoryDto>();

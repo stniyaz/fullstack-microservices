@@ -1,14 +1,11 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
 using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Text;
 
 namespace EcommerceApp.WebUI.Areas.Manage.Controllers;
 
 [Area("manage")]
-public class CategoryController(IHttpClientFactory _httpClientFactory,
-                                ICategoryService _categoryService) : Controller
+public class CategoryController(ICategoryService _categoryService) : Controller
 {
     public async Task<IActionResult> Index()
     {
@@ -33,7 +30,7 @@ public class CategoryController(IHttpClientFactory _httpClientFactory,
 
     public async Task<IActionResult> Update(string id)
     {
-        var value = await _categoryService.GetByIdCategoryAsync(id);
+        var value = await _categoryService.GetCategoryByIdAsync(id);
 
         return View(value);
     }
