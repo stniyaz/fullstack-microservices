@@ -1,92 +1,51 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.FeatureDtos;
-using EcommerceApp.DtoLayer.CatalogDtos.SliderDtos;
+using EcommerceApp.WebUI.Services.CatalogServices.FeatureServices;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Net.Http;
-using System.Text;
 
 namespace EcommerceApp.WebUI.Areas.Manage.Controllers;
 
 [Area("manage")]
-public class FeatureController(IHttpClientFactory _httpClientFactory) : Controller
+public class FeatureController(IFeatureService _featureService) : Controller
 {
     public async Task<IActionResult> Index()
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.GetAsync("https://localhost:7070/api/features");
+        var values = await _featureService.GetAllFeaturesAsync();
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var values = JsonConvert.DeserializeObject<List<ResultFeatureDto>>(jsonData);
-
-            return View(values);
-        }
-
-        return View();
+        return View(values);
     }
 
+    [HttpGet]
     public IActionResult Create()
     {
         return View();
     }
-    [HttpPost]
-    public async Task<IActionResult> Create(CreateFeatureDto createFeatureDto)
-    {
-        var client = _httpClientFactory.CreateClient();
-        var jsonData = JsonConvert.SerializeObject(createFeatureDto);
-        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PostAsync("https://localhost:7070/api/features", content);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "feature", new { area = "manage" });
-        }
-        return View(createFeatureDto);
+    [HttpPost]
+    public async Task<IActionResult> Create(CreateFeatureDto featureDto)
+    {
+        await _featureService.CreateFeatureAsync(featureDto);
+
+        return RedirectToAction("index", "feature", new { area = "manage" });
     }
 
     public async Task<IActionResult> Update(string id)
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage =
-            await client.GetAsync("https://localhost:7070/api/features/" + id);
+        var value = await _featureService.GetFeatureByIdAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var value = JsonConvert.DeserializeObject<UpdateFeatureDto>(jsonData);
-
-            return View(value);
-        }
-
-        return NotFound();
+        return View(value);
     }
+
     [HttpPost]
-    public async Task<IActionResult> Update(UpdateFeatureDto updateFeatureDto)
+    public async Task<IActionResult> Update(UpdateFeatureDto updatefeatureDto)
     {
-        var client = _httpClientFactory.CreateClient();
-        var jsonData = JsonConvert.SerializeObject(updateFeatureDto);
-        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PutAsync("https://localhost:7070/api/features/", content);
+        await _featureService.UpdateFeatureAsync(updatefeatureDto);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "feature", new { area = "manage" });
-        }
-
-        return View(updateFeatureDto);
+        return RedirectToAction("index", "feature", new { area = "manage" });
     }
-
     public async Task<IActionResult> Delete(string id)
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.DeleteAsync($"https://localhost:7070/api/features?id={id}");
+        await _featureService.DeleteFeatureAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "feature", new { area = "manage" });
-        }
-
-        return NotFound();
+        return RedirectToAction("index", "feature", new { area = "manage" });
     }
 }

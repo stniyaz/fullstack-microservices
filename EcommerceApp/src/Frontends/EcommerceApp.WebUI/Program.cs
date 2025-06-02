@@ -1,7 +1,10 @@
 using EcommerceApp.WebUI.Handlers;
 using EcommerceApp.WebUI.Services.AccountServices;
+using EcommerceApp.WebUI.Services.CatalogServices.BrandServices;
 using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
+using EcommerceApp.WebUI.Services.CatalogServices.FeatureServices;
 using EcommerceApp.WebUI.Services.CatalogServices.ProductServices;
+using EcommerceApp.WebUI.Services.CatalogServices.SettingServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SliderServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SpecialOfferServices;
 using EcommerceApp.WebUI.Services.ClientCredentialTokenServices;
@@ -79,6 +82,22 @@ builder.Services.AddHttpClient<ISliderService, SliderService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IFeatureService, FeatureService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IBrandService, BrandService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ISettingService, SettingService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
 
 var app = builder.Build();
 

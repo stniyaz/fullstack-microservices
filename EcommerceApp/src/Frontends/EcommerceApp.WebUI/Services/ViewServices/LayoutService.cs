@@ -1,39 +1,18 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
 using EcommerceApp.DtoLayer.CatalogDtos.SettingDtos;
+using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
+using EcommerceApp.WebUI.Services.CatalogServices.SettingServices;
 using Microsoft.AspNetCore.Http.Metadata;
 using Newtonsoft.Json;
 
 namespace EcommerceApp.WebUI.Services.ViewServices;
 
-public class LayoutService(IHttpClientFactory _httpClientFactory)
+public class LayoutService(ISettingService _settingService,
+                           ICategoryService _categoryService)
 {
     public async Task<List<ResultSettingDto>> GetSettingsAsync()
-    {
-        var client = _httpClientFactory.CreateClient();
-        var settingResponse = await client.GetAsync("https://localhost:7070/api/settings/");
-        List<ResultSettingDto> settings = new List<ResultSettingDto>();
-
-        if (settingResponse.IsSuccessStatusCode)
-        {
-            var jsonData = await settingResponse.Content.ReadAsStringAsync();
-            settings = JsonConvert.DeserializeObject<List<ResultSettingDto>>(jsonData);
-        }
-
-        return settings;
-    }
+        => await _settingService.GetAllSettingsAsync();
 
     public async Task<List<ResultCategoryDto>> GetCategoriesAsync()
-    {
-        var client = _httpClientFactory.CreateClient();
-        var categoryResponse = await client.GetAsync("https://localhost:7070/api/categories/");
-        var categories = new List<ResultCategoryDto>();
-
-        if (categoryResponse.IsSuccessStatusCode)
-        {
-            var jsonData = await categoryResponse.Content.ReadAsStringAsync();
-            categories = JsonConvert.DeserializeObject<List<ResultCategoryDto>>(jsonData);
-        }
-
-        return categories;
-    }
+        => await _categoryService.GetAllCategoriesAsync();
 }
