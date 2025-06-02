@@ -9,7 +9,7 @@ public class CategoryService(HttpClient _httpClient) : ICategoryService
         => await _httpClient.PostAsJsonAsync<CreateCategoryDto>("categories", createCategoryDto);
 
     public async Task DeleteCategoryAsync(string categoryId)
-        => await _httpClient.DeleteAsync($"categories?id={categoryId}");
+        => await _httpClient.DeleteAsync($"categories?categoryId={categoryId}");
 
     public async Task<List<ResultCategoryDto>> GetAllCategoriesAsync()
     {
@@ -19,10 +19,10 @@ public class CategoryService(HttpClient _httpClient) : ICategoryService
         return values;
     }
 
-    public async Task<GetByIdCategoryDto> GetByIdCategoryAsync(string categoryId)
+    public async Task<UpdateCategoryDto> GetByIdCategoryAsync(string categoryId)
     {
         var responseMessage = await _httpClient.GetAsync($"categories/{categoryId}");
-        var value = await responseMessage.Content.ReadFromJsonAsync<GetByIdCategoryDto>();
+        var value = await responseMessage.Content.ReadFromJsonAsync<UpdateCategoryDto>();
 
         return value;
     }
