@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcommerceApp.Comment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+106776c87ccdd71207105faaaf7aea59b0b7f01b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b0f30ea8b2e35cdbff8882f6644ee1f1f7f8772")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommerceApp.Comment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommerceApp.Comment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -626,6 +626,43 @@
           }
         }
       },
+      "IdentityModel/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {
+            "related": ".xml;.pdb"
+          }
+        }
+      },
+      "IdentityModel.AspNetCore/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "4.5.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/IdentityModel.AspNetCore.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.AspNetCore.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.16": {
         "type": "package",
         "dependencies": {
@@ -638,6 +675,25 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
             "related": ".xml"
           }
         },
@@ -2166,6 +2222,23 @@
           }
         }
       },
+      "Thinktecture.IdentityModel/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "5.0.6",
+          "System.IdentityModel.Tokens.Jwt": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Thinktecture.IdentityModel.dll": {
+            "related": ".XML;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/Thinktecture.IdentityModel.dll": {
+            "related": ".XML;.pdb"
+          }
+        }
+      },
       "EcommerceApp.DtoLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2962,6 +3035,48 @@
         "logo.png"
       ]
     },
+    "IdentityModel/4.5.0": {
+      "sha512": "8W2YtlzCpKRQt0s/pEuaVqUOibbXJA7VFEMMfCfrQB0m0O9VIJ2p/pJljtluFbvSOubmnszqxjKa2BDVgqlesg==",
+      "type": "package",
+      "path": "identitymodel/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.4.5.0.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/net5.0/IdentityModel.dll",
+        "lib/net5.0/IdentityModel.pdb",
+        "lib/net5.0/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityModel.AspNetCore/3.0.0": {
+      "sha512": "6ttoSmcuuGir4uP7BNGkd24D6kfrYw8Rbb2VJ/LnB6hbcWki2W+QN1fDtKR3GyhALKoKhDemQvgkKmCPoilNoQ==",
+      "type": "package",
+      "path": "identitymodel.aspnetcore/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.aspnetcore.3.0.0.nupkg.sha512",
+        "identitymodel.aspnetcore.nuspec",
+        "lib/net5.0/IdentityModel.AspNetCore.dll",
+        "lib/net5.0/IdentityModel.AspNetCore.pdb",
+        "lib/net5.0/IdentityModel.AspNetCore.xml",
+        "lib/netcoreapp3.1/IdentityModel.AspNetCore.dll",
+        "lib/netcoreapp3.1/IdentityModel.AspNetCore.pdb",
+        "lib/netcoreapp3.1/IdentityModel.AspNetCore.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.16": {
       "sha512": "WtKPOmlqzwWGQZCOixnOE+3bIYzxmUw7zjfs7VRWDhZlxfcmw5Qw2c4r87XWPk+kkurntzvE0sWyruI6KDpTiA==",
       "type": "package",
@@ -2975,6 +3090,21 @@
         "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+      "sha512": "YzUMJYSVWEEQmHpOhEzOcZ2/ltQ/uP1s8DHK8oaobgsjKUdIeRvEwtVQ5D6zO0vdlj4j9Mw0JD1FrZPGI07fHw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
+        "microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
     },
     "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
@@ -5975,6 +6105,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Thinktecture.IdentityModel/3.0.0": {
+      "sha512": "98b0Qxj5xTPT5m9mihv8A2m7VGGiKw2zcZHhT3zCPfYh59okPCrczJPAMqvNPdYUN7IWxQ5oKwZsyA3/k6alGg==",
+      "type": "package",
+      "path": "thinktecture.identitymodel/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Thinktecture.IdentityModel.XML",
+        "lib/net40/Thinktecture.IdentityModel.dll",
+        "lib/net40/Thinktecture.IdentityModel.pdb",
+        "lib/net45/Thinktecture.IdentityModel.XML",
+        "lib/net45/Thinktecture.IdentityModel.dll",
+        "lib/net45/Thinktecture.IdentityModel.pdb",
+        "thinktecture.identitymodel.3.0.0.nupkg.sha512",
+        "thinktecture.identitymodel.nuspec"
+      ]
+    },
     "EcommerceApp.DtoLayer/1.0.0": {
       "type": "project",
       "path": "../EcommerceApp.DtoLayer/EcommerceApp.DtoLayer.csproj",
@@ -5985,8 +6132,10 @@
     "net8.0": [
       "Duende.IdentityServer.Storage >= 7.2.3",
       "EcommerceApp.DtoLayer >= 1.0.0",
+      "IdentityModel.AspNetCore >= 3.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.16",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Thinktecture.IdentityModel >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -6048,6 +6197,10 @@
             "target": "Package",
             "version": "[7.2.3, )"
           },
+          "IdentityModel.AspNetCore": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.16, )"
@@ -6055,6 +6208,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "Thinktecture.IdentityModel": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
@@ -6079,5 +6236,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Thinktecture.IdentityModel 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Thinktecture.IdentityModel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

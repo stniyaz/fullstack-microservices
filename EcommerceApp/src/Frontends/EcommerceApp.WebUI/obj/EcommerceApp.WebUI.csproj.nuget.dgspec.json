@@ -125,6 +125,10 @@
               "target": "Package",
               "version": "[7.2.3, )"
             },
+            "IdentityModel.AspNetCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.16, )"
@@ -132,6 +136,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Thinktecture.IdentityModel": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

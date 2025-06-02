@@ -1,4 +1,5 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.CategoryDtos;
+using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -6,7 +7,7 @@ using System.Net.Http.Headers;
 
 namespace EcommerceApp.WebUI.Controllers
 {
-    public class TestController(IHttpClientFactory _httpClientFactory) : Controller
+    public class TestController(IHttpClientFactory _httpClientFactory, ICategoryService _categoryService) : Controller
     {
         public async Task<IActionResult> Index()
         {
@@ -48,6 +49,13 @@ namespace EcommerceApp.WebUI.Controllers
             }
 
             return Ok();
+        }
+
+        public async Task<IActionResult> TestPage()
+        {
+            var values = await _categoryService.GetAllCategoriesAsync();
+
+            return Json(JsonConvert.SerializeObject(values));
         }
     }
 }

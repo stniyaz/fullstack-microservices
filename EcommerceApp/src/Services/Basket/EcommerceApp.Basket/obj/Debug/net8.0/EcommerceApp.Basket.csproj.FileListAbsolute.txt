@@ -30,6 +30,7 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\EcommerceApp.Basket.sourcelink.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\scopedcss\bundle\EcommerceApp.Basket.styles.css
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
@@ -39,4 +40,3 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\EcommerceApp.Basket.pdb
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\EcommerceApp.Basket.genruntimeconfig.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\ref\EcommerceApp.Basket.dll
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Basket\EcommerceApp.Basket\obj\Debug\net8.0\staticwebassets.build.json.cache

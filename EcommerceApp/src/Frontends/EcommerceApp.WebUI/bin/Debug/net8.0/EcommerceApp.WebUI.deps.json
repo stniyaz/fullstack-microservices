@@ -10,8 +10,10 @@
         "dependencies": {
           "Duende.IdentityServer.Storage": "7.2.3",
           "EcommerceApp.DtoLayer": "1.0.0",
+          "IdentityModel.AspNetCore": "3.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.16",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
+          "Thinktecture.IdentityModel": "3.0.0"
         },
         "runtime": {
           "EcommerceApp.WebUI.dll": {}
@@ -577,6 +579,30 @@
           }
         }
       },
+      "IdentityModel/4.5.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
+      "IdentityModel.AspNetCore/3.0.0": {
+        "dependencies": {
+          "IdentityModel": "4.5.0",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.AspNetCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.16": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
@@ -585,6 +611,17 @@
           "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
             "assemblyVersion": "8.0.16.0",
             "fileVersion": "8.0.1625.21611"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.52605"
           }
         }
       },
@@ -1602,6 +1639,18 @@
           }
         }
       },
+      "Thinktecture.IdentityModel/3.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.IdentityModel.Tokens.Jwt": "7.1.2"
+        },
+        "runtime": {
+          "lib/net45/Thinktecture.IdentityModel.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "EcommerceApp.DtoLayer/1.0.0": {
         "runtime": {
           "EcommerceApp.DtoLayer.dll": {
@@ -1982,12 +2031,33 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
+    "IdentityModel/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8W2YtlzCpKRQt0s/pEuaVqUOibbXJA7VFEMMfCfrQB0m0O9VIJ2p/pJljtluFbvSOubmnszqxjKa2BDVgqlesg==",
+      "path": "identitymodel/4.5.0",
+      "hashPath": "identitymodel.4.5.0.nupkg.sha512"
+    },
+    "IdentityModel.AspNetCore/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ttoSmcuuGir4uP7BNGkd24D6kfrYw8Rbb2VJ/LnB6hbcWki2W+QN1fDtKR3GyhALKoKhDemQvgkKmCPoilNoQ==",
+      "path": "identitymodel.aspnetcore/3.0.0",
+      "hashPath": "identitymodel.aspnetcore.3.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.16": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-WtKPOmlqzwWGQZCOixnOE+3bIYzxmUw7zjfs7VRWDhZlxfcmw5Qw2c4r87XWPk+kkurntzvE0sWyruI6KDpTiA==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.16",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YzUMJYSVWEEQmHpOhEzOcZ2/ltQ/uP1s8DHK8oaobgsjKUdIeRvEwtVQ5D6zO0vdlj4j9Mw0JD1FrZPGI07fHw==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/5.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.DataProtection.Abstractions/8.0.10": {
       "type": "package",
@@ -2506,6 +2576,13 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "Thinktecture.IdentityModel/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98b0Qxj5xTPT5m9mihv8A2m7VGGiKw2zcZHhT3zCPfYh59okPCrczJPAMqvNPdYUN7IWxQ5oKwZsyA3/k6alGg==",
+      "path": "thinktecture.identitymodel/3.0.0",
+      "hashPath": "thinktecture.identitymodel.3.0.0.nupkg.sha512"
     },
     "EcommerceApp.DtoLayer/1.0.0": {
       "type": "project",

@@ -1,6 +1,8 @@
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.deps.json
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.runtimeconfig.json
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.pdb
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.AssemblyInfo.cs
@@ -9,7 +11,5 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Ser
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\refint\EcommerceApp.Cargo.EntityLayer.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.pdb
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.EntityLayer.dll
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\bin\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.runtimeconfig.json
-C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\EcommerceApp.Cargo.EntityLayer.genruntimeconfig.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Services\Cargo\EcommerceApp.Cargo.EntityLayer\obj\Debug\net8.0\ref\EcommerceApp.Cargo.EntityLayer.dll
