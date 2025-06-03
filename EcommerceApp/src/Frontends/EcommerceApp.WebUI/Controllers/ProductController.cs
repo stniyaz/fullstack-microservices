@@ -18,6 +18,8 @@ public class ProductController(IProductService _productService,
                            ? await _productService.GetAllProductsWithCategory()
                            : await _productService.GetProductsWithCategoryByCategoryIdAsync(ctgId);
 
+        var a = 3;
+
 
         return View(viewModel);
     }

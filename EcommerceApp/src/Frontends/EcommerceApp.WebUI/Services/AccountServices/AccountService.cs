@@ -30,12 +30,12 @@ public class AccountService : IAccountService
 
     public async Task<bool> GetRefreshToken()
     {
-        var discoveryEndpoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
+        var discoveryEndPoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
         {
             Address = _serviceApiSettings.IdentityServerUrl,
             Policy = new DiscoveryPolicy
             {
-                RequireHttps = false,
+                RequireHttps = false
             }
         });
 
@@ -45,30 +45,30 @@ public class AccountService : IAccountService
         {
             ClientId = _clientSettings.EcommerceAppManagerClient.ClientId,
             ClientSecret = _clientSettings.EcommerceAppManagerClient.ClientSecret,
-            Address = discoveryEndpoint.TokenEndpoint,
-            RefreshToken = refreshToken
+            RefreshToken = refreshToken,
+            Address = discoveryEndPoint.TokenEndpoint
         };
 
         var token = await _httpClient.RequestRefreshTokenAsync(refreshTokenRequest);
 
         var authenticationToken = new List<AuthenticationToken>()
-        {
-            new AuthenticationToken
             {
-                Name = OpenIdConnectParameterNames.AccessToken,
-                Value = token.AccessToken
-            },
-            new AuthenticationToken
-            {
-                Name = OpenIdConnectParameterNames.RefreshToken,
-                Value = token.RefreshToken
-            },
-            new AuthenticationToken
-            {
-                Name = OpenIdConnectParameterNames.ExpiresIn,
-                Value = DateTime.Now.AddSeconds(token.ExpiresIn).ToString()
-            }
-        };
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.AccessToken,
+                    Value = token.AccessToken
+                },
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.RefreshToken,
+                    Value = token.RefreshToken
+                },
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.ExpiresIn,
+                    Value=DateTime.Now.AddSeconds(token.ExpiresIn).ToString()
+                }
+            };
 
         var result = await _httpContextAccessor.HttpContext.AuthenticateAsync();
 
@@ -82,12 +82,12 @@ public class AccountService : IAccountService
 
     public async Task<bool> LoginAsync(LoginDto loginDto)
     {
-        var discoveryEndpoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
+        var discoveryEndPoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
         {
             Address = _serviceApiSettings.IdentityServerUrl,
             Policy = new DiscoveryPolicy
             {
-                RequireHttps = false,
+                RequireHttps = false
             }
         });
 
@@ -97,7 +97,7 @@ public class AccountService : IAccountService
             ClientSecret = _clientSettings.EcommerceAppManagerClient.ClientSecret,
             UserName = loginDto.Username,
             Password = loginDto.Password,
-            Address = discoveryEndpoint.TokenEndpoint
+            Address = discoveryEndPoint.TokenEndpoint
         };
 
         var token = await _httpClient.RequestPasswordTokenAsync(passwordTokenRequest);
@@ -105,35 +105,35 @@ public class AccountService : IAccountService
         var userInfoRequest = new UserInfoRequest
         {
             Token = token.AccessToken,
-            Address = discoveryEndpoint.TokenEndpoint
+            Address = discoveryEndPoint.UserInfoEndpoint
         };
 
         var userValues = await _httpClient.GetUserInfoAsync(userInfoRequest);
 
-        ClaimsIdentity calimsIdentity = new ClaimsIdentity(userValues.Claims, CookieAuthenticationDefaults.AuthenticationScheme, "name", "role");
+        ClaimsIdentity claimsIdentity = new ClaimsIdentity(userValues.Claims, CookieAuthenticationDefaults.AuthenticationScheme, "name", "role");
 
-        ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(calimsIdentity);
+        ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
         var authenticationProperties = new AuthenticationProperties();
 
         authenticationProperties.StoreTokens(new List<AuthenticationToken>()
-        {
-            new AuthenticationToken
             {
-                Name = OpenIdConnectParameterNames.AccessToken,
-                Value = token.AccessToken
-            },
-            new AuthenticationToken
-            {
-                Name = OpenIdConnectParameterNames.RefreshToken,
-                Value = token.RefreshToken
-            },
-            new AuthenticationToken
-            {
-                Name = OpenIdConnectParameterNames.ExpiresIn,
-                Value = DateTime.Now.AddSeconds(token.ExpiresIn).ToString()
-            }
-        });
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.AccessToken,
+                    Value = token.AccessToken
+                },
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.RefreshToken,
+                    Value = token.RefreshToken
+                },
+                new AuthenticationToken
+                {
+                    Name=OpenIdConnectParameterNames.ExpiresIn,
+                    Value=DateTime.Now.AddSeconds(token.ExpiresIn).ToString()
+                }
+            });
 
         authenticationProperties.IsPersistent = false;
 

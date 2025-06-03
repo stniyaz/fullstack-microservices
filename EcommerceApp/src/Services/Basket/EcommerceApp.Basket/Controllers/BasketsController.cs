@@ -1,6 +1,7 @@
 ﻿using EcommerceApp.Basket.Dtos.BasketDtos;
 using EcommerceApp.Basket.Services.BasketServices;
 using EcommerceApp.Basket.Services.LoginServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceApp.Basket.Controllers;

@@ -21,6 +21,10 @@
       {
         "Path": "src\\Services\\Comment\\EcommerceApp.Comment\\EcommerceApp.Comment.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Basket\\EcommerceApp.Basket\\EcommerceApp.Basket.csproj",
+        "Action": "Start"
       }
     ]
   }

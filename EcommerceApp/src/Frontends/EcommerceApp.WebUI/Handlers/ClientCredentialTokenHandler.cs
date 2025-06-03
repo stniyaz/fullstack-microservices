@@ -9,14 +9,11 @@ public class ClientCredentialTokenHandler(IClientCredentialTokenService _clientC
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", await _clientCredentialTokenService.GetTokenAsync());
-
         var response = await base.SendAsync(request, cancellationToken);
-
-        if(response.StatusCode == HttpStatusCode.Unauthorized)
+        if (response.StatusCode == HttpStatusCode.Unauthorized)
         {
             // error message
         }
-
         return response;
     }
 }

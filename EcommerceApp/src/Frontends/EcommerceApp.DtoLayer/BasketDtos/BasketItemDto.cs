@@ -1,4 +1,4 @@
-﻿namespace EcommerceApp.Basket.Dtos.BasketDtos;
+﻿namespace EcommerceApp.DtoLayer.BasketDtos;
 
 public class BasketItemDto
 {

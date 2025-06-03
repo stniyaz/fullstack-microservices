@@ -13,18 +13,16 @@ public class ResourceOwnerPasswordTokenHandler(IHttpContextAccessor _httpContext
     {
         var accessToken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-
         var response = await base.SendAsync(request, cancellationToken);
 
         if (response.StatusCode == HttpStatusCode.Unauthorized)
         {
             var tokenResponse = await _accountService.GetRefreshToken();
+
+            if (tokenResponse != null)
             {
-                if (tokenResponse != null)
-                {
-                    request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-                    response = await base.SendAsync(request, cancellationToken);
-                }
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+                response = await base.SendAsync(request, cancellationToken);
             }
         }
 
@@ -32,7 +30,6 @@ public class ResourceOwnerPasswordTokenHandler(IHttpContextAccessor _httpContext
         {
             // error message
         }
-
         return response;
     }
 }
