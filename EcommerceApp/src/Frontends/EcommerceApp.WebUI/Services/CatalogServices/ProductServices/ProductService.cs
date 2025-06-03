@@ -38,7 +38,7 @@ public class ProductService(HttpClient _httpClient) : IProductService
 
     public async Task<List<ResultProductWithCategoryDto>> GetProductsWithCategoryByCategoryIdAsync(string ctgId)
     {
-        var responseMessage = await _httpClient.GetAsync("products/GetProductsWithCategoryByCategoryIdAsync");
+        var responseMessage = await _httpClient.GetAsync($"products/GetProductsWithCategoryByCategoryIdAsync?ctgId={ctgId}");
         var jsonData = await responseMessage.Content.ReadAsStringAsync();
         var values = JsonConvert.DeserializeObject<List<ResultProductWithCategoryDto>>(jsonData);
 

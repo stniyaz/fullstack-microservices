@@ -2,12 +2,14 @@ using EcommerceApp.WebUI.Handlers;
 using EcommerceApp.WebUI.Services.AccountServices;
 using EcommerceApp.WebUI.Services.CatalogServices.BrandServices;
 using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
+using EcommerceApp.WebUI.Services.CatalogServices.ContactServices;
 using EcommerceApp.WebUI.Services.CatalogServices.FeatureServices;
 using EcommerceApp.WebUI.Services.CatalogServices.ProductServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SettingServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SliderServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SpecialOfferServices;
 using EcommerceApp.WebUI.Services.ClientCredentialTokenServices;
+using EcommerceApp.WebUI.Services.CommentServices.UserCommentServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
 using EcommerceApp.WebUI.Settings;
@@ -94,6 +96,16 @@ builder.Services.AddHttpClient<IBrandService, BrandService>(opt =>
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<ISettingService, SettingService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IUserCommentService, UserCommentService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<IContactService, ContactService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();

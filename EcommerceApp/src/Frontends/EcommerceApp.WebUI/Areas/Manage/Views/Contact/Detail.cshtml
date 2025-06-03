@@ -1,0 +1,45 @@
+﻿@model GetByIdContactDto
+
+@{
+    ViewData["Title"] = "Contacts";
+    ViewData["h1"] = "Contact actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Contact";
+    ViewData["v3"] = "Detail";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label asp-for="FullName"></label>
+                            <input class="form-control" asp-for="FullName" disabled />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" type="text" class="form-control" disabled />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label asp-for="Subject"></label>
+                            <input class="form-control" asp-for="Subject" disabled />
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label asp-for="SendDate"></label>
+                            <input class="form-control" value='@Model.SendDate.ToString("dd MMM yyyy, HH:mm:ss")' disabled />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Message">Description</label>
+                        <textarea disabled class="form-control" asp-for="Message" rows="3"></textarea>
+                    </div>
+                    <a asp-action="index" asp-controller="contact" asp-area="manage" class="btn btn-primary">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

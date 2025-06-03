@@ -7,7 +7,7 @@ namespace EcommerceApp.WebUI.Services.CatalogServices.BrandServices;
 public class BrandService(HttpClient _httpClient) : IBrandService
 {
     public async Task CreateBrandAsync(CreateBrandDto createBrandDto)
-        => await _httpClient.PostAsJsonAsync<CreateBrandDto>("Brands", createBrandDto);
+        => await _httpClient.PostAsJsonAsync<CreateBrandDto>("brands", createBrandDto);
 
     public async Task DeleteBrandAsync(string brandId)
         => await _httpClient.DeleteAsync($"brands?brandId={brandId}");

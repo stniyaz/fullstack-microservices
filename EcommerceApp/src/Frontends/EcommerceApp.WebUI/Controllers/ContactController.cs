@@ -1,13 +1,10 @@
 ﻿using EcommerceApp.DtoLayer.CatalogDtos.ContactDtos;
-using Humanizer;
+using EcommerceApp.WebUI.Services.CatalogServices.ContactServices;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Net.Http;
-using System.Text;
 
 namespace EcommerceApp.WebUI.Controllers;
 
-public class ContactController(IHttpClientFactory _httpClientFactory) : Controller
+public class ContactController(IContactService _contactService) : Controller
 {
     public IActionResult Index()
     {
@@ -19,16 +16,8 @@ public class ContactController(IHttpClientFactory _httpClientFactory) : Controll
     [HttpPost]
     public async Task<IActionResult> Index(CreateContactDto dto)
     {
-        var client = _httpClientFactory.CreateClient();
-        var jsonData = JsonConvert.SerializeObject(dto);
-        var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PostAsync("https://localhost:7070/api/contacts/", content);
+        await _contactService.CreateContactAsync(dto);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "contact");
-        }
-
-        return View(dto);
+        return RedirectToAction("index", "contact");
     }
 }

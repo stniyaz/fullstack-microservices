@@ -28,6 +28,12 @@ public class ContactService : IContactService
     public async Task<List<ResultContactDto>> GetAllContactsAsync()
         => _mapper.Map<List<ResultContactDto>>(await _contactsCollection.Find(x => true).ToListAsync());
     public async Task<GetByIdContactDto> GetByIdContactAsync(string ContactId)
-        => _mapper.Map<GetByIdContactDto>(await _contactsCollection.Find(x => x.ContactId == ContactId)
-                                                                   .FirstOrDefaultAsync());
+    {
+        var value = await _contactsCollection.Find(x => x.ContactId == ContactId).FirstOrDefaultAsync();
+        value.IsSeen = true;
+
+        await _contactsCollection.ReplaceOneAsync(x => x.ContactId == value.ContactId, value);
+
+        return _mapper.Map<GetByIdContactDto>(value);
+    }
 }

@@ -1,9 +1,17 @@
 using EcommerceApp.Comment.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServer"];
+    opt.Audience = "resource_comment";
+    opt.RequireHttpsMetadata = false;
+});
 
 builder.Services.AddControllers();
 
@@ -25,6 +33,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

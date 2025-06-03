@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApp.Comment.Controllers;
 
-[AllowAnonymous]
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class UserCommentsController(AppDbContext _context, IMapper _mapper) : ControllerBase

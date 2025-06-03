@@ -101,7 +101,7 @@
         }
       ],
       "UpstreamPathTemplate": "/services/comment/{everything}",
-      "UpstreamHttpMethod": [ "Get", "Delete", "Post", "Put" ],
+      "UpstreamHttpMethod": [ "Get", "Delete", "Post", "Put", "Patch" ],
       "UpstreamScheme": "http",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "OceltoAuthenticationScheme",

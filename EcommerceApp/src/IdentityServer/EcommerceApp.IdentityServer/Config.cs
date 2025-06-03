@@ -55,7 +55,7 @@ namespace EcommerceApp.IdentityServer
                 ClientName="EcommerceApp Visitor User",
                 AllowedGrantTypes = GrantTypes.ClientCredentials,
                 ClientSecrets = {new Secret("ecommerceSecret".Sha256())},
-                AllowedScopes = { "catalog_readPermission", "disocunt_fullpermission", "ocelot_fullpermission", "images_fullpermission", "catalog_fullpermission" }
+                AllowedScopes = { "catalog_readPermission", "disocunt_fullpermission", "ocelot_fullpermission", "images_fullpermission", "catalog_fullpermission", "comment_fullpermission" }
             },
 
             // Manager

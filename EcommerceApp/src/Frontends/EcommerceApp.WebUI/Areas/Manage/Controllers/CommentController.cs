@@ -1,67 +1,44 @@
-﻿using EcommerceApp.DtoLayer.CommentDtos.UserCommentDtos;
+﻿using EcommerceApp.WebUI.Services.CommentServices.UserCommentServices;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Text;
 
 namespace EcommerceApp.WebUI.Areas.Manage.Controllers;
 
 [Area("manage")]
-public class CommentController(IHttpClientFactory _httpClientFactory) : Controller
+public class CommentController(IUserCommentService _userCommentService) : Controller
 {
     public async Task<IActionResult> Index()
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.GetAsync("https://localhost:7075/api/usercomments/");
+        var values = await _userCommentService.GetAllCommentsAsync();
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var comments = JsonConvert.DeserializeObject<List<ResultUserCommentDto>>(jsonData);
-
-            return View(comments);
-        }
-
-        return View();
+        return View(values);
     }
 
-    public async Task<IActionResult> Update(int id)
-    {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.GetAsync($"https://localhost:7075/usercomments/{id}");
+    //public async Task<IActionResult> Update(int id)
+    //{
+    //    var client = _httpClientFactory.CreateClient();
+    //    var responseMessage = await client.GetAsync($"https://localhost:7075/usercomments/{id}");
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            var commentDto = JsonConvert.DeserializeObject<UpdateUserCommentDto>(jsonData);
+    //    if (responseMessage.IsSuccessStatusCode)
+    //    {
+    //        var jsonData = await responseMessage.Content.ReadAsStringAsync();
+    //        var commentDto = JsonConvert.DeserializeObject<UpdateUserCommentDto>(jsonData);
 
-            return View(commentDto);
-        }
+    //        return View(commentDto);
+    //    }
 
-        return NotFound();
-    }
+    //    return NotFound();
+    //}
 
     public async Task<IActionResult> ToggleStatus(int id)
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.PatchAsync($"https://localhost:7075/api/usercomments?id={id}", null);
+        await _userCommentService.ToggleUserCommentStatusAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "comment", new { area = "manage" });
-        }
-
-        return NotFound();
+        return RedirectToAction("index", "comment", new { area = "manage" });
     }
     public async Task<IActionResult> Delete(int id)
     {
-        var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.DeleteAsync($"https://localhost:7075/api/usercomments?id={id}");
+        await _userCommentService.DeleteUserCommentAsync(id);
 
-        if (responseMessage.IsSuccessStatusCode)
-        {
-            return RedirectToAction("index", "comment", new { area = "manage" });
-        }
-
-        return NotFound();
+        return RedirectToAction("index", "comment", new { area = "manage" });
     }
 }

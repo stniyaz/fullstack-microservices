@@ -17,6 +17,10 @@
       {
         "Path": "src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Comment\\EcommerceApp.Comment\\EcommerceApp.Comment.csproj",
+        "Action": "Start"
       }
     ]
   }
