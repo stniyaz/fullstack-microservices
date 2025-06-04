@@ -86,6 +86,7 @@ wwwroot\assets\css\bootstrap-grid.css
 wwwroot\assets\css\bootstrap-grid.min.css
 wwwroot\assets\css\bootstrap-reboot.css
 wwwroot\assets\css\bootstrap-reboot.min.css
+wwwroot\assets\css\card.css
 wwwroot\assets\css\style.css
 wwwroot\assets\css\style.min.css
 wwwroot\assets\img\carousel-1.jpg
@@ -117,6 +118,7 @@ wwwroot\assets\img\vendor-5.jpg
 wwwroot\assets\img\vendor-6.jpg
 wwwroot\assets\img\vendor-7.jpg
 wwwroot\assets\img\vendor-8.jpg
+wwwroot\assets\js\card.js
 wwwroot\assets\js\main.js
 wwwroot\assets\lib\animate\animate.min.css
 wwwroot\assets\lib\easing\easing.js
