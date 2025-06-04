@@ -41,6 +41,11 @@ public class AccountService : IAccountService
 
         var refreshToken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
 
+        if (string.IsNullOrWhiteSpace(refreshToken))
+        {
+            return false;
+        }
+
         RefreshTokenRequest refreshTokenRequest = new()
         {
             ClientId = _clientSettings.EcommerceAppManagerClient.ClientId,

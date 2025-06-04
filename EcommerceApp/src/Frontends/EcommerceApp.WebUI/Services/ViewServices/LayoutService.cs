@@ -15,7 +15,4 @@ public class LayoutService(ISettingService _settingService,
 
     public async Task<List<ResultCategoryDto>> GetCategoriesAsync()
         => await _categoryService.GetAllCategoriesAsync();
-
-    public async Task<int> GetBasketItemsCountAsync()
-        => await _basketService.GetBasketItemCountAsync();
 }

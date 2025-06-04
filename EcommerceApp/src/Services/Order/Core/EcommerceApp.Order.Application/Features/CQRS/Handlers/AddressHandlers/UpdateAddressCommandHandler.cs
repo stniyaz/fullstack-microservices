@@ -19,10 +19,16 @@ public class UpdateAddressCommandHandler
 
         if (value != null)
         {
-            value.Detail = updateAddressCommand.Detail;
-            value.City = updateAddressCommand.City;
-            value.District = updateAddressCommand.District;
             value.UserId = updateAddressCommand.UserId;
+            value.Name = updateAddressCommand.Name;
+            value.Surname = updateAddressCommand.Surname;
+            value.Email = updateAddressCommand.Email;
+            value.Number = updateAddressCommand.Number;
+            value.Line1 = updateAddressCommand.Line1;
+            value.Line2 = updateAddressCommand.Line2;
+            value.Country = updateAddressCommand.Country;
+            value.City = updateAddressCommand.City;
+            value.ZipCode = updateAddressCommand.ZipCode;
 
             await _repository.UpdateAsync(value);
         }

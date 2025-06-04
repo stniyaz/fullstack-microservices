@@ -29,6 +29,10 @@
       {
         "Path": "src\\Services\\Discount\\Ecommerce.Discount\\Ecommerce.Discount.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
+        "Action": "Start"
       }
     ]
   }

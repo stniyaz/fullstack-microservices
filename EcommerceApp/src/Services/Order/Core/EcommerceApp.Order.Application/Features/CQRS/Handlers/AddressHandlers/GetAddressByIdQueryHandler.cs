@@ -21,10 +21,16 @@ public class GetAddressByIdQueryHandler
         return new GetAddressByIdQueryResult
         {
             AddressId = value.AddressId,
-            City = value.City,
-            District = value.District,
             UserId = value.UserId,
-            Detail = value.Detail,
+            Name = value.Name,
+            Surname = value.Surname,
+            Email = value.Email,
+            Number = value.Number,
+            Line1 = value.Line1,
+            Line2 = value.Line2,
+            Country = value.Country,
+            City = value.City,
+            ZipCode = value.ZipCode,
         };
     }
 }

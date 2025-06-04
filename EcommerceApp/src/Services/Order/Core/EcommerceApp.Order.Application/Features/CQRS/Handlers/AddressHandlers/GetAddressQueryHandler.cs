@@ -1,4 +1,5 @@
-﻿using EcommerceApp.Order.Application.Features.CQRS.Results.AddressResults;
+﻿using EcommerceApp.Order.Application.Features.CQRS.Commands.AddressCommands;
+using EcommerceApp.Order.Application.Features.CQRS.Results.AddressResults;
 using EcommerceApp.Order.Application.Interfaces;
 using EcommerceApp.Order.Domain.Entities;
 
@@ -21,9 +22,15 @@ public class GetAddressQueryHandler
         {
             AddressId = x.AddressId,
             UserId = x.UserId,
-            Detail = x.Detail,
+            Name = x.Name,
+            Surname = x.Surname,
+            Email = x.Email,
+            Number = x.Number,
+            Line1 = x.Line1,
+            Line2 = x.Line2,
+            Country = x.Country,
             City = x.City,
-            District = x.District,
+            ZipCode = x.ZipCode,
         }).ToList();
     }
 }

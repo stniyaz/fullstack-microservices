@@ -354,7 +354,31 @@
             "type": "string",
             "nullable": true
           },
-          "district": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "number": {
+            "type": "string",
+            "nullable": true
+          },
+          "line1": {
+            "type": "string",
+            "nullable": true
+          },
+          "line2": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
             "type": "string",
             "nullable": true
           },
@@ -362,7 +386,7 @@
             "type": "string",
             "nullable": true
           },
-          "detail": {
+          "zipCode": {
             "type": "string",
             "nullable": true
           }
@@ -428,7 +452,31 @@
             "type": "string",
             "nullable": true
           },
-          "district": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "number": {
+            "type": "string",
+            "nullable": true
+          },
+          "line1": {
+            "type": "string",
+            "nullable": true
+          },
+          "line2": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
             "type": "string",
             "nullable": true
           },
@@ -436,7 +484,7 @@
             "type": "string",
             "nullable": true
           },
-          "detail": {
+          "zipCode": {
             "type": "string",
             "nullable": true
           }
