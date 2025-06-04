@@ -75,8 +75,24 @@
   },
   {
     "ContainingType": "Ecommerce.Discount.Controllers.CouponsController",
-    "Method": "GetCodeDetailByCode",
-    "RelativePath": "api/Coupons/GetCodeDetailByCode",
+    "Method": "GetCouponByCode",
+    "RelativePath": "api/Coupons/GetCouponByCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce.Discount.Controllers.CouponsController",
+    "Method": "GetCouponRateByCode",
+    "RelativePath": "api/Coupons/GetCouponRateByCode",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

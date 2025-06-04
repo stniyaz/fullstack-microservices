@@ -107,7 +107,7 @@
             },
             "nullable": true
           },
-          "totatPrice": {
+          "totalPrice": {
             "type": "number",
             "format": "double",
             "readOnly": true

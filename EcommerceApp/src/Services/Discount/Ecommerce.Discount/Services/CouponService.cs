@@ -70,7 +70,7 @@ public class CouponService : ICouponService
         }
     }
 
-    public async Task<ResultCouponDto> GetCodeDetailByCodeAsync(string code)
+    public async Task<ResultCouponDto> GetCouponByCodeAsync(string code)
     {
         var query = "Select * From Coupons Where Code = @code";
 
@@ -81,6 +81,20 @@ public class CouponService : ICouponService
         using (var connection = _context.CreateConnection())
         {
             return await connection.QueryFirstOrDefaultAsync<ResultCouponDto>(query, parameters);
+        }
+    }
+
+    public async Task<int> GetCouponRateByCodeAsync(string code)
+    {
+        var query = "Select Rate From Coupons Where Code = @code";
+
+        var parameters = new DynamicParameters();
+
+        parameters.Add("@code", code);
+
+        using (var connection = _context.CreateConnection())
+        {
+            return await connection.QueryFirstOrDefaultAsync<int>(query, parameters);
         }
     }
 

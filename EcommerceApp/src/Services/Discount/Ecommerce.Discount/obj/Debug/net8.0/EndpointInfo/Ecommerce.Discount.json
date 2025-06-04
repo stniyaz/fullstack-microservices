@@ -118,7 +118,28 @@
         }
       }
     },
-    "/api/Coupons/GetCodeDetailByCode": {
+    "/api/Coupons/GetCouponByCode": {
+      "get": {
+        "tags": [
+          "Coupons"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Coupons/GetCouponRateByCode": {
       "get": {
         "tags": [
           "Coupons"

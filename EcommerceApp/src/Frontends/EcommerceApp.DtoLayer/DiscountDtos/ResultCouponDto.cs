@@ -1,6 +1,6 @@
 ﻿namespace EcommerceApp.DtoLayer.DiscountDtos;
 
-public class GetDiscountCodeDetailByCode
+public class ResultCouponDto
 {
     public int CouponId { get; set; }
     public string Code { get; set; }

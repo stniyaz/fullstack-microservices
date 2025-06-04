@@ -26,10 +26,18 @@ public class CouponsController(ICouponService _couponService) : ControllerBase
         return Ok(value);
     }
 
-    [HttpGet("GetCodeDetailByCode")]
-    public async Task<IActionResult> GetCodeDetailByCode(string code)
+    [HttpGet("GetCouponByCode")]
+    public async Task<IActionResult> GetCouponByCode(string code)
     {
-        var value = await _couponService.GetCodeDetailByCodeAsync(code);
+        var value = await _couponService.GetCouponByCodeAsync(code);
+
+        return Ok(value);
+    }
+
+    [HttpGet("GetCouponRateByCode")]
+    public async Task<IActionResult> GetCouponRateByCode(string code)
+    {
+        var value = await _couponService.GetCouponRateByCodeAsync(code);
 
         return Ok(value);
     }
