@@ -10,8 +10,9 @@ public class CartController(IBasketService _basketService,
 {
     public async Task<IActionResult> Index()
     {
-        var values = await _basketService.GetBasketAsync();
-        return View(values);
+        var basketTotalDto = await _basketService.GetBasketAsync();
+        ViewBag.TotalPriceWithTax = (basketTotalDto.TotatPrice * 10) / 100;
+        return View(basketTotalDto);
     }
 
     public async Task<IActionResult> AddBasketItem(string productId)

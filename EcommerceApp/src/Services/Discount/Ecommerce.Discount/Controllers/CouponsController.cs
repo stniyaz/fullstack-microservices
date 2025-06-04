@@ -26,6 +26,14 @@ public class CouponsController(ICouponService _couponService) : ControllerBase
         return Ok(value);
     }
 
+    [HttpGet("GetCodeDetailByCode")]
+    public async Task<IActionResult> GetCodeDetailByCode(string code)
+    {
+        var value = await _couponService.GetCodeDetailByCodeAsync(code);
+
+        return Ok(value);
+    }
+
     [HttpPost]
     public async Task<IActionResult> CreateCoupon(CreateCouponDto createCouponDto)
     {

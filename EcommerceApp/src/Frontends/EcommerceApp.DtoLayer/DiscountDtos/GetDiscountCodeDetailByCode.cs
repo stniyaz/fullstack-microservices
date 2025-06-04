@@ -1,6 +1,6 @@
-﻿namespace Ecommerce.Discount.Entities;
+﻿namespace EcommerceApp.DtoLayer.DiscountDtos;
 
-public class Coupon
+public class GetDiscountCodeDetailByCode
 {
     public int CouponId { get; set; }
     public string Code { get; set; }

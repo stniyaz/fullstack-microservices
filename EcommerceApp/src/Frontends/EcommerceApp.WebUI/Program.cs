@@ -11,6 +11,7 @@ using EcommerceApp.WebUI.Services.CatalogServices.SliderServices;
 using EcommerceApp.WebUI.Services.CatalogServices.SpecialOfferServices;
 using EcommerceApp.WebUI.Services.ClientCredentialTokenServices;
 using EcommerceApp.WebUI.Services.CommentServices.UserCommentServices;
+using EcommerceApp.WebUI.Services.DiscountServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
 using EcommerceApp.WebUI.Settings;
@@ -114,6 +115,11 @@ builder.Services.AddHttpClient<IContactService, ContactService>(opt =>
 builder.Services.AddHttpClient<IBasketService, BasketService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Basket.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Discount.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 var app = builder.Build();

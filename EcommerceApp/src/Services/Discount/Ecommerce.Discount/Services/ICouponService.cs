@@ -9,4 +9,5 @@ public interface ICouponService
     Task<GetByIdCouponDto> GetByIdCouponAsync(int id);
     Task<List<ResultCouponDto>> GetAllCouponsAsync();
     Task UpdateCouponAsync(UpdateCouponDto updateCouponDto);
+    Task<ResultCouponDto> GetCodeDetailByCodeAsync(string code);
 }
