@@ -1,5 +1,11 @@
-﻿@{
+﻿@model List<ResultOrderingDto>
+
+@{
     ViewBag.Title = "Active Orders";
+
+    var counter = 0;
+
+    string[] tableColours = { "table-info", "table-danger", "table-success" };
 }
 
 <div class="col-lg-12 grid-margin stretch-card">
@@ -10,43 +16,29 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Profile</th>
-                            <th>VatNo.</th>
-                            <th>Created</th>
-                            <th>Status</th>
+                            <th>#</th>
+                            <th>Total Price</th>
+                            <th>Order Date</th>
+                            <th>Order Details</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Jacob</td>
-                            <td>53275531</td>
-                            <td>12 May 2017</td>
-                            <td><label class="badge badge-danger">Pending</label></td>
-                        </tr>
-                        <tr>
-                            <td>Messsy</td>
-                            <td>53275532</td>
-                            <td>15 May 2017</td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                        </tr>
-                        <tr>
-                            <td>John</td>
-                            <td>53275533</td>
-                            <td>14 May 2017</td>
-                            <td><label class="badge badge-info">Fixed</label></td>
-                        </tr>
-                        <tr>
-                            <td>Peter</td>
-                            <td>53275534</td>
-                            <td>16 May 2017</td>
-                            <td><label class="badge badge-success">Completed</label></td>
-                        </tr>
-                        <tr>
-                            <td>Dave</td>
-                            <td>53275535</td>
-                            <td>20 May 2017</td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                        </tr>
+
+                        @foreach (var ords in Model.OrderByDescending(x => x.OrderDate))
+                        {
+                            string rowClass = tableColours[counter % tableColours.Length];
+                            counter++;
+
+                            <tr class="@rowClass">
+                                <td>@counter</td>
+                                <td>@ords.TotalPrice.ToString("F2")</td>
+                                <td>@ords.OrderDate.ToString("dd MMM yyyy")</td>
+                                <td>
+                                    <a class="btn btn-info">Details</a>
+                                </td>
+                            </tr>
+                        }
+
                     </tbody>
                 </table>
             </div>

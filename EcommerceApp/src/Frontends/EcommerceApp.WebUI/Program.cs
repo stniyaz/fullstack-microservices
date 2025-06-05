@@ -13,6 +13,7 @@ using EcommerceApp.WebUI.Services.ClientCredentialTokenServices;
 using EcommerceApp.WebUI.Services.CommentServices.UserCommentServices;
 using EcommerceApp.WebUI.Services.DiscountServices;
 using EcommerceApp.WebUI.Services.OrderServices.OrderAddressServices;
+using EcommerceApp.WebUI.Services.OrderServices.OrderingServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
 using EcommerceApp.WebUI.Settings;
@@ -82,6 +83,12 @@ builder.Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
 
 // order
 builder.Services.AddHttpClient<IOrderAddressService, OrderAddressService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// ordering
+builder.Services.AddHttpClient<IOrderingService, OrderingService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();

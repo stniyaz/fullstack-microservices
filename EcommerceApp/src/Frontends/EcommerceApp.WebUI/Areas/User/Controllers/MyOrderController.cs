@@ -1,13 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EcommerceApp.WebUI.Services.OrderServices.OrderingServices;
+using EcommerceApp.WebUI.Services.UserServices;
+using Microsoft.AspNetCore.Mvc;
 
-namespace EcommerceApp.WebUI.Areas.User.Controllers
+namespace EcommerceApp.WebUI.Areas.User.Controllers;
+
+[Area("user")]
+public class MyOrderController(IUserService _userService, IOrderingService _orderingService) : Controller
 {
-    [Area("user")]
-    public class MyOrderController : Controller
+    public async Task<IActionResult> Index()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        var userInfo = await _userService.GetUserInfoAsync();
+
+        var values = await _orderingService.GetOrderingsByUserIdAsync(userInfo.Id);
+
+        return View(values);
     }
 }
