@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace EcommerceApp.WebUI.Areas.User.Controllers
+{
+    [Area("user")]
+    public class MessageController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+    }
+}
