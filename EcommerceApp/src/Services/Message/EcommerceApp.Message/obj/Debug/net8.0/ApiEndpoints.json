@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "GetAllUserMessages",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "CreateUserMessage",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EcommerceApp.Message.Dtos.UserMessageDtos.CreateUserMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "UpdateUserMessage",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EcommerceApp.Message.Dtos.UserMessageDtos.UpdateUserMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "DeleteUserMessage",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "GetUserMessageById",
+    "RelativePath": "api/UserMessages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "GetInboxMessages",
+    "RelativePath": "api/UserMessages/GetInboxMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "GetSendboxMessages",
+    "RelativePath": "api/UserMessages/GetSendboxMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

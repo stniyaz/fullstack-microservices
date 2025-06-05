@@ -33,6 +33,10 @@
       {
         "Path": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Message\\EcommerceApp.Message\\EcommerceApp.Message.csproj",
+        "Action": "Start"
       }
     ]
   }

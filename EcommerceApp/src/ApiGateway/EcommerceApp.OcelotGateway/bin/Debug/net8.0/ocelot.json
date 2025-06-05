@@ -143,6 +143,24 @@
         "AuthenticationProviderKey": "OceltoAuthenticationScheme",
         "AllowedScopes": [ "images_fullpermission" ]
       }
+    },
+    // message 7078
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7078
+        }
+      ],
+      "UpstreamPathTemplate": "/services/message/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Delete", "Post", "Put" ],
+      "UpstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "OceltoAuthenticationScheme",
+        "AllowedScopes": [ "message_fullpermission" ]
+      }
     }
   ],
   "GlobalConfiguration": {
