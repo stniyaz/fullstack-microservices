@@ -28,6 +28,9 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class, new()
     public async Task<List<T>> GetAllAsync()
         => await _orderContext.Set<T>().ToListAsync();
 
+    public async Task<List<T>> GetAllWhereAsync(Expression<Func<T, bool>> predicate)
+        => await _orderContext.Set<T>().Where(predicate).ToListAsync();
+
     public async Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter)
         => await _orderContext.Set<T>().SingleOrDefaultAsync(filter);
 

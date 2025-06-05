@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0523A911-45BE-4C88-A601-421805B7A483}|src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\order\\presentation\\ecommerceapp.order.webapi\\controllers\\orderingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0523A911-45BE-4C88-A601-421805B7A483}|src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\EcommerceApp.Order.WebApi.csproj|solutionrelative:src\\services\\order\\presentation\\ecommerceapp.order.webapi\\controllers\\orderingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2261B864-4786-49E9-A1F2-9A94FAB79DED}|src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\EcommerceApp.Order.Application.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\order\\core\\ecommerceapp.order.application\\features\\mediator\\handlers\\getorderingbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261B864-4786-49E9-A1F2-9A94FAB79DED}|src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\EcommerceApp.Order.Application.csproj|solutionrelative:src\\services\\order\\core\\ecommerceapp.order.application\\features\\mediator\\handlers\\getorderingbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4823246-AA29-4E76-8BB9-FFAB9B3B6CEE}|src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\EcommerceApp.Order.Domain.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\services\\order\\core\\ecommerceapp.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4823246-AA29-4E76-8BB9-FFAB9B3B6CEE}|src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\EcommerceApp.Order.Domain.csproj|solutionrelative:src\\services\\order\\core\\ecommerceapp.order.domain\\entities\\ordering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,38 +25,54 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ordering.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\Entities\\Ordering.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\Entities\\Ordering.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\Entities\\Ordering.cs",
+              "RelativeToolTip": "src\\Services\\Order\\Core\\EcommerceApp.Order.Domain\\Entities\\Ordering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:51:30.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOrderingByUserIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\Features\\Mediator\\Handlers\\GetOrderingByUserIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\Features\\Mediator\\Handlers\\GetOrderingByUserIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\Features\\Mediator\\Handlers\\GetOrderingByUserIdQueryHandler.cs",
+              "RelativeToolTip": "src\\Services\\Order\\Core\\EcommerceApp.Order.Application\\Features\\Mediator\\Handlers\\GetOrderingByUserIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:54:32.704Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "RelativeToolTip": "src\\Services\\Order\\Presentation\\EcommerceApp.Order.WebApi\\Controllers\\OrderingsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:06:38.647Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Profile\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Profile\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Views\\Profile\\Index.cshtml",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Views\\Profile\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T11:28:50.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:28:47.07Z",
-              "EditorCaption": ""
             }
           ]
         }

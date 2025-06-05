@@ -27,6 +27,14 @@ public class OrderingsController(IMediator _mediator) : ControllerBase
         return Ok(value);
     }
 
+    [HttpGet("GetOrderingsByUserId")]
+    public async Task<IActionResult> GetOrderingsByUserId(string userId)
+    {
+        var value = await _mediator.Send(new GetOrderingByUserIdQuery(userId));
+
+        return Ok(value);
+    }
+
     [HttpPost]
     public async Task<IActionResult> CreateOrdering(CreateOrderingCommand command)
     {

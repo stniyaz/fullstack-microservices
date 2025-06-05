@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace EcommerceApp.Order.Domain.Entities;
+﻿namespace EcommerceApp.Order.Domain.Entities;
 
 public class OrderDetail
 {

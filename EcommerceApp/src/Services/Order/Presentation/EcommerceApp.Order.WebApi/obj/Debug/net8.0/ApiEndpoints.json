@@ -220,5 +220,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Order.WebApi.Controllers.OrderingsController",
+    "Method": "GetOrderingsByUserId",
+    "RelativePath": "api/Orderings/GetOrderingsByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

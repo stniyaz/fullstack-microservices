@@ -9,5 +9,6 @@ public interface IGenericRepository<T> where T : class, new()
     Task DeleteAsync(T entity);
     Task<List<T>> GetAllAsync();
     Task<T> GetByIdAsync(int id);
+    Task<List<T>> GetAllWhereAsync(Expression<Func<T, bool>> predicate);
     Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter);
 }
