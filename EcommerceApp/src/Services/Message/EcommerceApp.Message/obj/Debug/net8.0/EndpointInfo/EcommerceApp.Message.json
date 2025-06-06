@@ -159,6 +159,18 @@
           }
         }
       }
+    },
+    "/api/UserMessages/GetTotalUserMessageCount": {
+      "get": {
+        "tags": [
+          "UserMessages"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

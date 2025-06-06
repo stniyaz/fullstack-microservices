@@ -21,6 +21,7 @@ using EcommerceApp.WebUI.Services.StatisticServices.CatalogStatisticServices;
 using EcommerceApp.WebUI.Services.StatisticServices.CommentStatisticServices;
 using EcommerceApp.WebUI.Services.StatisticServices.DiscountStatisticServices;
 using EcommerceApp.WebUI.Services.StatisticServices.MessageStatisticServices;
+using EcommerceApp.WebUI.Services.StatisticServices.UserStatisticServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
 using EcommerceApp.WebUI.Settings;
@@ -140,6 +141,12 @@ builder.Services.AddHttpClient<IMessageStatisticService, MessageStatisticService
 builder.Services.AddHttpClient<IDiscountStatisticService, DiscountStatisticService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Discount.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// usertatistic
+builder.Services.AddHttpClient<IUserStatisticService, UserStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri(values.IdentityServerUrl);
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 // --------------

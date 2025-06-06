@@ -1,4 +1,6 @@
-﻿@{
+﻿@model DashboardViewModel
+
+@{
     ViewData["Title"] = "Dashboard";
     ViewData["h1"] = "Dashboard Page";
     ViewData["v1"] = "Dashboard";
@@ -15,7 +17,7 @@
                 <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
                 <div class="media-info">
                     <h5>Total Brands</h5>
-                    <h3>@ViewBag.getBrandCount</h3>
+                    <h3>@Model.BrandCount</h3>
                 </div>
             </div>
         </div>
@@ -24,7 +26,7 @@
                 <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
                 <div class="media-info">
                     <h5>Total Products</h5>
-                    <h3>@ViewBag.getProductCount</h3>
+                    <h3>@Model.ProductCount</h3>
                 </div>
             </div>
         </div>
@@ -33,7 +35,7 @@
                 <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
                 <div class="media-info">
                     <h5>Total Categories</h5>
-                    <h3>@ViewBag.getCategoryCount</h3>
+                    <h3>@Model.CategoryCount</h3>
                 </div>
             </div>
         </div>
@@ -42,7 +44,7 @@
                 <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
                 <div class="media-info">
                     <h5>Average Product Price</h5>
-                    <h3>254.38 $</h3>
+                    <h3>$@Model.ProductAvgPrice.ToString("F2")</h3>
                 </div>
             </div>
         </div>
@@ -54,7 +56,7 @@
                 <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
                 <div class="media-info">
                     <h5>Most Expensive Product</h5>
-                    <h3>@ViewBag.getMaxPriceProductName</h3>
+                    <h3>@Model.MaxPriceProductName</h3>
                 </div>
             </div>
         </div>
@@ -63,7 +65,7 @@
                 <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
                 <div class="media-info">
                     <h5>Cheapest Product</h5>
-                    <h3>@ViewBag.getMinPriceProductName</h3>
+                    <h3>@Model.MinPriceProductName</h3>
                 </div>
             </div>
         </div>
@@ -72,7 +74,7 @@
                 <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
                 <div class="media-info">
                     <h5>Total Users</h5>
-                    <h3>@ViewBag.getUserCount</h3>
+                    <h3>@Model.UserCount</h3>
                 </div>
             </div>
         </div>
@@ -81,7 +83,7 @@
                 <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
                 <div class="media-info">
                     <h5>Total Comments</h5>
-                    <h3>@ViewBag.getTotalCommentCount</h3>
+                    <h3>@Model.TotalUserCommentCount</h3>
                 </div>
             </div>
         </div>
@@ -93,7 +95,7 @@
                 <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
                 <div class="media-info">
                     <h5>Active Comments</h5>
-                    <h3>@ViewBag.getActiveCommentCount</h3>
+                    <h3>@Model.ActiveUserCommentCount</h3>
                 </div>
             </div>
         </div>
@@ -102,7 +104,7 @@
                 <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
                 <div class="media-info">
                     <h5>Inactive Comments</h5>
-                    <h3>@ViewBag.getPassiveCommentCount</h3>
+                    <h3>@Model.PassiveUserCommentCount</h3>
                 </div>
             </div>
         </div>
@@ -111,7 +113,7 @@
                 <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
                 <div class="media-info">
                     <h5>Discount Coupon Count</h5>
-                    <h3>@ViewBag.getDiscountCouponCount</h3>
+                    <h3>@Model.CouponCount</h3>
                 </div>
             </div>
         </div>
@@ -120,13 +122,13 @@
                 <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
                 <div class="media-info">
                     <h5>Total Message Count</h5>
-                    <h3>@ViewBag.getMessageTotalCount</h3>
+                    <h3>@Model.TotalUserMessageCount</h3>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row">
+@*     <div class="row">
         <div class="col-lg-3 col-xs-6">
             <div class="media-box">
                 <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
@@ -202,6 +204,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> *@
 </section>
 <!-- content -->

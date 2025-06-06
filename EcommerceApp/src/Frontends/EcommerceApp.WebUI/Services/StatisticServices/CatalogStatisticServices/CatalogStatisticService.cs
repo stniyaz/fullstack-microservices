@@ -1,4 +1,6 @@
 ﻿
+using Newtonsoft.Json;
+
 namespace EcommerceApp.WebUI.Services.StatisticServices.CatalogStatisticServices;
 
 public class CatalogStatisticService(HttpClient _httpClient) : ICatalogStatisticService
@@ -22,22 +24,22 @@ public class CatalogStatisticService(HttpClient _httpClient) : ICatalogStatistic
     public async Task<string> GetMaxPriceProductNameAsync()
     {
         var responseMessage = await _httpClient.GetAsync("statistics/GetMaxPriceProductName");
-        var value = await responseMessage.Content.ReadFromJsonAsync<string>();
+        var value = await responseMessage.Content.ReadAsStringAsync();
 
         return value;
     }
 
     public async Task<string> GetMinPriceProductNameAsync()
     {
-        var responseMessage = await _httpClient.GetAsync("GetMinPriceProductName");
-        var value = await responseMessage.Content.ReadFromJsonAsync<string>();
+        var responseMessage = await _httpClient.GetAsync("statistics/GetMinPriceProductName");
+        var value = await responseMessage.Content.ReadAsStringAsync();
 
         return value;
     }
 
     public async Task<decimal> GetProductAvgPriceAsync()
     {
-        var responseMessage = await _httpClient.GetAsync("GetProductAvgPrice");
+        var responseMessage = await _httpClient.GetAsync("statistics/GetProductsAvgPrice");
         var value = await responseMessage.Content.ReadFromJsonAsync<decimal>();
 
         return value;
@@ -45,7 +47,7 @@ public class CatalogStatisticService(HttpClient _httpClient) : ICatalogStatistic
 
     public async Task<long> GetProductCountAsync()
     {
-        var responseMessage = await _httpClient.GetAsync("GetProductCount");
+        var responseMessage = await _httpClient.GetAsync("statistics/GetProductCount");
         var value = await responseMessage.Content.ReadFromJsonAsync<long>();
 
         return value;

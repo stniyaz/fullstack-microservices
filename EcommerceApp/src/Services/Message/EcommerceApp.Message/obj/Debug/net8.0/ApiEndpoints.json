@@ -104,5 +104,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Message.Controllers.UserMessagesController",
+    "Method": "GetTotalUserMessageCount",
+    "RelativePath": "api/UserMessages/GetTotalUserMessageCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

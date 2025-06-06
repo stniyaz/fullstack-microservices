@@ -38,7 +38,7 @@ public class UserMessageService(AppDbContext _dbContext, IMapper _mapper) : IUse
         return _mapper.Map<List<ResultSendboxUserMessageDto>>(values);
     }
 
-    public async Task<int> GetTotalMessageCountAsync()
+    public async Task<int> GetTotalUserMessageCountAsync()
         => await _dbContext.Set<UserMessage>().CountAsync();
 
     public async Task<GetByIdUserMessageDto> GetUserMessageByIdAsync(int id)

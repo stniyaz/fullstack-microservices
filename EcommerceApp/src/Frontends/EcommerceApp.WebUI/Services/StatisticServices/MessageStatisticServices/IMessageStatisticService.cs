@@ -2,5 +2,5 @@
 
 public interface IMessageStatisticService
 {
-    Task<int> GetTotalUserMessageCount();
+    Task<int> GetTotalUserMessageCountAsync();
 }

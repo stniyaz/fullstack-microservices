@@ -7,7 +7,7 @@ public class UserStatisticService(HttpClient _httpClient) : IUserStatisticServic
 {
     public async Task<int> GetUserCountAsync()
     {
-        var responseMessage = await _httpClient.GetAsync("http://localhost:5001/Api/Statistics/GetUserCount");
+        var responseMessage = await _httpClient.GetAsync("/api/statistics/GetUserCount");
         var jsonData = await responseMessage.Content.ReadAsStringAsync();
         var value = JsonConvert.DeserializeObject<int>(jsonData);
         return value;
