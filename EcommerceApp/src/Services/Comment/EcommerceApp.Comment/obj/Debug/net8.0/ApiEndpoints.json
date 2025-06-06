@@ -1,5 +1,35 @@
 [
   {
+    "ContainingType": "EcommerceApp.Comment.Controllers.StatisticsController",
+    "Method": "GetActiveUserCommentCount",
+    "RelativePath": "api/Statistics/GetActiveUserCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.StatisticsController",
+    "Method": "GetPassiveUserCommentCount",
+    "RelativePath": "api/Statistics/GetPassiveUserCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Comment.Controllers.StatisticsController",
+    "Method": "GetTotalUserCommentCount",
+    "RelativePath": "api/Statistics/GetTotalUserCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceApp.Comment.Controllers.UserCommentsController",
     "Method": "GetAllUserComments",
     "RelativePath": "api/UserComments",

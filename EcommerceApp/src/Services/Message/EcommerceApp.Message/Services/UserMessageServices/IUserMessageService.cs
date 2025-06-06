@@ -5,6 +5,7 @@ namespace EcommerceApp.Message.Services.UserMessageServices;
 public interface IUserMessageService
 {
     Task DeleteUserMessageAsync(int id);
+    Task<int> GetTotalUserMessageCountAsync();
     Task CreateUserMessageAsync(CreateUserMessageDto dto);
     Task UpdateUserMessageAsync(UpdateUserMessageDto dto);
     Task<List<ResultUserMessageDto>> GetAllUserMessagesAsync();

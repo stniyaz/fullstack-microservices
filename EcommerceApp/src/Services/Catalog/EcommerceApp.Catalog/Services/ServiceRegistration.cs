@@ -6,6 +6,7 @@ using EcommerceApp.Catalog.Services.ProductServices;
 using EcommerceApp.Catalog.Services.SettingServices;
 using EcommerceApp.Catalog.Services.SliderServices;
 using EcommerceApp.Catalog.Services.SpecialOfferServices;
+using EcommerceApp.Catalog.Services.StatisticServices;
 using EcommerceApp.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
@@ -31,6 +32,7 @@ public static class ServiceRegistration
         services.AddScoped<IContactService, ContactService>();
         services.AddScoped<ISettingService, SettingService>();
         services.AddScoped<ICategoryService, CategoryService>();
+        services.AddScoped<IStatisticService, StatisticService>();
         services.AddScoped<ISpecialOfferService, SpecialOfferService>();
 
         services.AddAutoMapper(Assembly.GetExecutingAssembly());

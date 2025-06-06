@@ -91,6 +91,16 @@
   },
   {
     "ContainingType": "Ecommerce.Discount.Controllers.CouponsController",
+    "Method": "GetCouponCount",
+    "RelativePath": "api/Coupons/GetCouponCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce.Discount.Controllers.CouponsController",
     "Method": "GetCouponRateByCode",
     "RelativePath": "api/Coupons/GetCouponRateByCode",
     "HttpMethod": "GET",

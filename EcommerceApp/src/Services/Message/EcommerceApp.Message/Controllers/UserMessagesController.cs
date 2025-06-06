@@ -42,6 +42,14 @@ public class UserMessagesController(IUserMessageService _userMessageService) : C
         return Ok(values);
     }
 
+    [HttpGet("GetTotalUserMessageCount")]
+    public async Task<IActionResult> GetTotalUserMessageCount()
+    {
+        var value = await _userMessageService.GetTotalUserMessageCountAsync();
+
+        return Ok(value);
+    }
+
     [HttpPost]
     public async Task<IActionResult> CreateUserMessage(CreateUserMessageDto dto)
     {

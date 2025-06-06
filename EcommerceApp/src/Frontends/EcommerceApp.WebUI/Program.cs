@@ -17,6 +17,10 @@ using EcommerceApp.WebUI.Services.DiscountServices;
 using EcommerceApp.WebUI.Services.MessageServices.UserMessageServices;
 using EcommerceApp.WebUI.Services.OrderServices.OrderAddressServices;
 using EcommerceApp.WebUI.Services.OrderServices.OrderingServices;
+using EcommerceApp.WebUI.Services.StatisticServices.CatalogStatisticServices;
+using EcommerceApp.WebUI.Services.StatisticServices.CommentStatisticServices;
+using EcommerceApp.WebUI.Services.StatisticServices.DiscountStatisticServices;
+using EcommerceApp.WebUI.Services.StatisticServices.MessageStatisticServices;
 using EcommerceApp.WebUI.Services.UserServices;
 using EcommerceApp.WebUI.Services.ViewServices;
 using EcommerceApp.WebUI.Settings;
@@ -108,10 +112,34 @@ builder.Services.AddHttpClient<ICargoCompanyService, CargoCompanyService>(opt =>
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
-// cargocustoemr
+// cargocustomer
 builder.Services.AddHttpClient<ICargoCustomerService, CargoCustomerService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// catalogstatistic
+builder.Services.AddHttpClient<ICatalogStatisticService, CatalogStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// commentstatistic
+builder.Services.AddHttpClient<ICommentStatisticService, CommentStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// messagestatistic
+builder.Services.AddHttpClient<IMessageStatisticService, MessageStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Message.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// messagestatistic
+builder.Services.AddHttpClient<IDiscountStatisticService, DiscountStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Discount.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 // --------------

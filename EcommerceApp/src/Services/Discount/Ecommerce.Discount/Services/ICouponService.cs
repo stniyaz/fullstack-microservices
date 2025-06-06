@@ -5,10 +5,11 @@ namespace Ecommerce.Discount.Services;
 public interface ICouponService
 {
     Task DeleteCouponAsync(int id);
-    Task CreateCouponAsync(CreateCouponDto createCouponDto);
-    Task<GetByIdCouponDto> GetByIdCouponAsync(int id);
+    Task<int> GetCouponCountAsync();
+    Task<int> GetCouponRateByCodeAsync(string code);
     Task<List<ResultCouponDto>> GetAllCouponsAsync();
+    Task<GetByIdCouponDto> GetByIdCouponAsync(int id);
     Task UpdateCouponAsync(UpdateCouponDto updateCouponDto);
     Task<ResultCouponDto> GetCouponByCodeAsync(string code);
-    Task<int> GetCouponRateByCodeAsync(string code);
+    Task CreateCouponAsync(CreateCouponDto createCouponDto);
 }

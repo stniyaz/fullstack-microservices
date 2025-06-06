@@ -84,6 +84,16 @@ public class CouponService : ICouponService
         }
     }
 
+    public async Task<int> GetCouponCountAsync()
+    {
+        var query = "Select Count(*) From Coupons";
+
+        using (var connection = _context.CreateConnection())
+        {
+            return await connection.QueryFirstAsync<int>(query);
+        }
+    }
+
     public async Task<int> GetCouponRateByCodeAsync(string code)
     {
         var query = "Select Rate From Coupons Where Code = @code";

@@ -600,5 +600,65 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetBrandCount",
+    "RelativePath": "api/Statistics/GetBrandCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetCategoryCount",
+    "RelativePath": "api/Statistics/GetCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetMaxPriceProductName",
+    "RelativePath": "api/Statistics/GetMaxPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetMinPriceProductName",
+    "RelativePath": "api/Statistics/GetMinPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductCount",
+    "RelativePath": "api/Statistics/GetProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceApp.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductsAvgPrice",
+    "RelativePath": "api/Statistics/GetProductsAvgPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -42,6 +42,14 @@ public class CouponsController(ICouponService _couponService) : ControllerBase
         return Ok(value);
     }
 
+    [HttpGet("GetCouponCount")]
+    public async Task<IActionResult> GetCouponCount()
+    {
+        var value = await _couponService.GetCouponCountAsync();
+
+        return Ok(value);
+    }
+
     [HttpPost]
     public async Task<IActionResult> CreateCoupon(CreateCouponDto createCouponDto)
     {

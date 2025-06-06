@@ -159,6 +159,18 @@
           }
         }
       }
+    },
+    "/api/Coupons/GetCouponCount": {
+      "get": {
+        "tags": [
+          "Coupons"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
