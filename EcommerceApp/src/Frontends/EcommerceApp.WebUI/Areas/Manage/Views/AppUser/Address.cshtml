@@ -1,0 +1,28 @@
+﻿@model ResultCargoCustomerDto
+
+@{
+    ViewData["Title"] = "Users";
+    ViewData["h1"] = "User actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Users";
+    ViewData["v3"] = "Address";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+
+                    <h3>User Address and Contact Information</h3>
+                    <div class="alert alert-info">Full Name: @Model.Name @Model.Surname</div>
+                    <div class="alert alert-warning">Email Address: @Model.Email</div>
+                    <div class="alert alert-info">Phone: @Model.Phone</div>
+                    <div class="alert alert-warning">City, District: @Model.City, @Model.District</div>
+                    <div class="alert alert-info">Address: @Model.Address</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

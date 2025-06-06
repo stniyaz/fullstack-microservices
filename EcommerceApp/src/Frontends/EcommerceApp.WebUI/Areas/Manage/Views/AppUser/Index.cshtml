@@ -1,0 +1,46 @@
+﻿@model List<ResultUserDto>
+
+@{
+    ViewData["Title"] = "Users";
+    ViewData["h1"] = "User actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Users";
+    ViewData["v3"] = null;
+
+    var counter = 0;
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Fullname</th>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Address Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model)
+                            {
+                                counter++;
+                                <tr>
+                                    <th scope="row">@counter</th>
+                                    <td>@user.Name @user.Surname</td>
+                                    <td>@user.UserName</td>
+                                    <td>@user.Email</td>
+                                    <td><a asp-action="address" asp-controller="appuser" asp-route-id="@user.Id" class="btn btn-warning">Detail</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

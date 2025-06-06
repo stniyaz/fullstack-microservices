@@ -1,0 +1,31 @@
+﻿@model UpdateCargoCompanyDto
+
+@{
+    ViewData["Title"] = "Cargo Companies";
+    ViewData["h1"] = "Cargo Company actions";
+    ViewData["v1"] = "Dashboard";
+    ViewData["v2"] = "Cargo Companies";
+    ViewData["v3"] = "Update";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="chart-box p-3">
+                <h4>Create Category</h4>
+                <form asp-action="update" method="post">
+                    <div class="form-group">
+                        <input asp-for="CargoCompanyId" hidden />
+                        <label asp-for="CompanyName" class="control-label">Category Name</label>
+                        <input asp-for="CompanyName" class="form-control"
+                               style="max-width: 400px; height: 30px; font-size: 14px; padding: 0.25rem 0.5rem;" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                    </div>
+                    <br />
+
+                    <button type="submit" class="btn btn-success">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,6 +1,7 @@
 ﻿using EcommerceApp.Cargo.DataAccessLayer.Abstract;
 using EcommerceApp.Cargo.DataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace EcommerceApp.Cargo.DataAccessLayer.Repositories;
 
@@ -17,6 +18,9 @@ public class GenericRepository<T>(CargoContext _context) : IGenericRepository<T>
 
     public async Task<T> GetByIdAsync(int id)
         => await _context.Set<T>().FindAsync(id);
+
+    public async Task<T> GetWhereAsync(Expression<Func<T, bool>> expression)
+        => await _context.Set<T>().Where(expression).FirstOrDefaultAsync();
 
     public async Task SaveChangesAsync()
         => await _context.SaveChangesAsync();

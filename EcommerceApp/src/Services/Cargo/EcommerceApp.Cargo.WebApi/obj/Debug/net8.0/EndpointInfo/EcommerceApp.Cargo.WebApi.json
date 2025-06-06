@@ -231,6 +231,27 @@
         }
       }
     },
+    "/api/CargoCustomers/GetCargoCustomerByUserId": {
+      "get": {
+        "tags": [
+          "CargoCustomers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/CargoDetails": {
       "get": {
         "tags": [

@@ -4,6 +4,7 @@ using EcommerceApp.IdentityServer.Tools;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,7 +26,7 @@ namespace EcommerceApp.IdentityServer.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-
+        [AllowAnonymous]
         [HttpPost("signup")]
         public async Task<IActionResult> SignUp(RegisterDto dto)
         {
@@ -92,6 +93,14 @@ namespace EcommerceApp.IdentityServer.Controllers
                 Surname = user.Surname,
                 Username = user.UserName,
             });
+        }
+
+        [HttpGet("GetAllUsers")]
+        public async Task<IActionResult> GetAllUsers(string userId)
+        {
+            var existUsers = await _userManager.Users.Where(x=> x.Id != userId).ToListAsync();
+
+            return Ok(existUsers);
         }
     }
 }

@@ -67,6 +67,24 @@ public class CargoCustomerService(ICargoCustomerRepository _repository) : ICargo
         };
     }
 
+    public async Task<ResultCargoCustomerDto> GetCargoCustomerByUserIdAsync(string userId)
+    {
+        var value = await _repository.GetWhereAsync(x => x.UserCustomerId == userId);
+
+        return new ResultCargoCustomerDto
+        {
+            CargoCustomerId = value.CargoCustomerId,
+            Name = value.Name,
+            Surname = value.Surname,
+            Email = value.Email,
+            Phone = value.Phone,
+            City = value.City,
+            District = value.District,
+            Address = value.Address,
+            UserCustomerId = value.UserCustomerId,
+        };
+    }
+
     public async Task UpdateAsync(UpdateCargoCustomerDto updateCargoCustomerDto)
     {
         var value = await _repository.GetByIdAsync(updateCargoCustomerDto.CargoCustomerId);

@@ -26,6 +26,14 @@ public class CargoCustomersController(ICargoCustomerService _cargoCustomerServic
         return Ok(value);
     }
 
+    [HttpGet("GetCargoCustomerByUserId")]
+    public async Task<IActionResult> GetCargoCustomerByUserId(string id)
+    {
+        var value = await _cargoCustomerService.GetCargoCustomerByUserIdAsync(id);
+
+        return Ok(value);
+    }
+
     [HttpPost]
     public async Task<IActionResult> CreateCargoCustomer(CreateCargoCustomerDto createCargoCustomerDto)
     {

@@ -37,6 +37,10 @@
       {
         "Path": "src\\Services\\Message\\EcommerceApp.Message\\EcommerceApp.Message.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Cargo\\EcommerceApp.Cargo.WebApi\\EcommerceApp.Cargo.WebApi.csproj",
+        "Action": "Start"
       }
     ]
   }

@@ -1,6 +1,8 @@
 using EcommerceApp.WebUI.Handlers;
 using EcommerceApp.WebUI.Services.AccountServices;
 using EcommerceApp.WebUI.Services.BasketServices;
+using EcommerceApp.WebUI.Services.CargoServices.CargoCompanyServices;
+using EcommerceApp.WebUI.Services.CargoServices.CargoCustomerServices;
 using EcommerceApp.WebUI.Services.CatalogServices.BrandServices;
 using EcommerceApp.WebUI.Services.CatalogServices.CategoryServices;
 using EcommerceApp.WebUI.Services.CatalogServices.ContactServices;
@@ -98,6 +100,18 @@ builder.Services.AddHttpClient<IOrderingService, OrderingService>(opt =>
 builder.Services.AddHttpClient<IUserMessageService, UserMessageService>(opt =>
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Message.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// cargocompany
+builder.Services.AddHttpClient<ICargoCompanyService, CargoCompanyService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+// cargocustoemr
+builder.Services.AddHttpClient<ICargoCustomerService, CargoCustomerService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 // --------------

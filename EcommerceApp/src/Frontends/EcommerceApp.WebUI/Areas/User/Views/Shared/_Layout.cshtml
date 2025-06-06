@@ -23,21 +23,29 @@
         <!-- partial:./partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <ul class="nav">
+
                 <li class="nav-item sidebar-category">
                     <p>Navigation</p>
                     <span></span>
                 </li>
                 <li class="nav-item">
                     <a asp-action="index" asp-controller="profile" asp-area="user" class="nav-link">
-                        <i class="mdi mdi-view-quilt menu-icon"></i>
+                        <i class="mdi mdi-account menu-icon"></i>
                         <span class="menu-title">Profile</span>
                         @* <div class="badge badge-info badge-pill">2</div> *@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a asp-action="index" asp-controller="myorder" asp-area="user" class="nav-link">
-                        <i class="mdi mdi-view-quilt menu-icon"></i>
-                        <span class="menu-title">My Active Orders</span>
+                    <a asp-action="inbox" asp-controller="mymessage" asp-area="user" class="nav-link">
+                        <i class="mdi mdi-inbox menu-icon"></i>
+                        <span class="menu-title">Inbox</span>
+                        @* <div class="badge badge-info badge-pill">2</div> *@
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-action="sendbox" asp-controller="mymessage" asp-area="user" class="nav-link">
+                        <i class="mdi mdi-message-draw menu-icon"></i>
+                        <span class="menu-title">Sendbox</span>
                         @* <div class="badge badge-info badge-pill">2</div> *@
                     </a>
                 </li>
@@ -49,16 +57,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a asp-action="past" asp-controller="myorder" asp-area="user" class="nav-link">
-                        <i class="mdi mdi-view-quilt menu-icon"></i>
-                        <span class="menu-title">My Past Orders</span>
+                    <a asp-action="index" asp-controller="myorder" asp-area="user" class="nav-link">
+                        <i class="mdi mdi-briefcase menu-icon"></i>
+                        <span class="menu-title">My Active Orders</span>
                         @* <div class="badge badge-info badge-pill">2</div> *@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a asp-action="index" asp-controller="mymessage" asp-area="user" class="nav-link">
-                        <i class="mdi mdi-view-quilt menu-icon"></i>
-                        <span class="menu-title">My Message</span>
+                    <a asp-action="past" asp-controller="myorder" asp-area="user" class="nav-link">
+                        <i class="mdi mdi-briefcase-check menu-icon"></i>
+                        <span class="menu-title">My Past Orders</span>
                         @* <div class="badge badge-info badge-pill">2</div> *@
                     </a>
                 </li>

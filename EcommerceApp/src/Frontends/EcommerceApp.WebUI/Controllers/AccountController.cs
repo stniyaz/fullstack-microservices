@@ -19,7 +19,7 @@ public class AccountController(IHttpClientFactory _httpClientFactory,
         var client = _httpClientFactory.CreateClient();
         var jsonData = JsonConvert.SerializeObject(registerDto);
         var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-        var responseMessage = await client.PostAsync("http://localhost:5001/api/accounts/", content);
+        var responseMessage = await client.PostAsync("http://localhost:5001/api/accounts/signup", content);
 
         if (responseMessage.IsSuccessStatusCode)
         {
@@ -37,7 +37,7 @@ public class AccountController(IHttpClientFactory _httpClientFactory,
             Password = "Salam123!!"
         });
 
-        return RedirectToAction("index", "profile");
+        return RedirectToAction("index", "home");
     }
     //[HttpPost]
     //public async Task<IActionResult> Login(LoginDto loginDto)

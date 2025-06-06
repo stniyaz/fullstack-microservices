@@ -7,6 +7,7 @@ public interface ICargoCustomerService
     Task DeleteAsync(int id);
     Task<List<ResultCargoCustomerDto>> GetAllAsync();
     Task<GetByIdCargoCustomerDto> GetByIdAsync(int id);
+    Task<ResultCargoCustomerDto> GetCargoCustomerByUserIdAsync(string userId);
     Task CreateAsync(CreateCargoCustomerDto createCargoCustomerDto);
     Task UpdateAsync(UpdateCargoCustomerDto updateCargoCustomerDto);
 }

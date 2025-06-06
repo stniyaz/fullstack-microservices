@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\user\\views\\mymessage\\sendbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\user\\views\\mymessage\\sendbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\appuser\\address.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\views\\appuser\\address.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\user\\controllers\\mymessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\user\\controllers\\mymessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\areas\\manage\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|c:\\users\\admin\\desktop\\udemy course\\fullstack-microservices\\ecommerceapp\\src\\frontends\\ecommerceapp.webui\\services\\cargoservices\\cargocustomerservices\\cargocustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C13C0D-0ADB-4233-B9A7-A07103A95084}|src\\Frontends\\EcommerceApp.WebUI\\EcommerceApp.WebUI.csproj|solutionrelative:src\\frontends\\ecommerceapp.webui\\services\\cargoservices\\cargocustomerservices\\cargocustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyMessageController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Controllers\\MyMessageController.cs",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Controllers\\MyMessageController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Controllers\\MyMessageController.cs",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Controllers\\MyMessageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CargoCustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Services\\CargoServices\\CargoCustomerServices\\CargoCustomerService.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Services\\CargoServices\\CargoCustomerServices\\CargoCustomerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Services\\CargoServices\\CargoCustomerServices\\CargoCustomerService.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Services\\CargoServices\\CargoCustomerServices\\CargoCustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:38:41.307Z",
-              "IsPinned": true
+              "WhenOpened": "2025-06-06T10:21:45.443Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\AppUserController.cs",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\AppUserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\AppUserController.cs",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Controllers\\AppUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T10:23:21.364Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Address.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\AppUser\\Address.cshtml",
+              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\AppUser\\Address.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\AppUser\\Address.cshtml",
+              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\Manage\\Views\\AppUser\\Address.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T10:31:13.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -40,19 +72,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sendbox.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Views\\MyMessage\\Sendbox.cshtml",
-              "RelativeDocumentMoniker": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Views\\MyMessage\\Sendbox.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\udemy course\\fullstack-microservices\\EcommerceApp\\src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Views\\MyMessage\\Sendbox.cshtml",
-              "RelativeToolTip": "src\\Frontends\\EcommerceApp.WebUI\\Areas\\User\\Views\\MyMessage\\Sendbox.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T18:49:39.496Z",
-              "EditorCaption": ""
             }
           ]
         }
