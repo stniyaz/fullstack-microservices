@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommerceApp.IdentityServer")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a690fd3f590bf4c26dc0b3cacfce9d44f6d09ad2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539c8efd90fde8b38e25caae357c3c09b24d4762")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommerceApp.IdentityServer.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

@@ -242,3 +242,7 @@ C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Fro
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\IdentityModel.AspNetCore.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\Thinktecture.IdentityModel.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\bin\Debug\net8.0\tr\EcommerceApp.WebUI.resources.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\EcommerceApp.WebUI.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\tr\EcommerceApp.WebUI.resources.dll
+C:\Users\Admin\Desktop\udemy course\fullstack-microservices\EcommerceApp\src\Frontends\EcommerceApp.WebUI\obj\Debug\net8.0\EcommerceApp.WebUI.Resources.Views.Information.Index.tr.resources

@@ -17,6 +17,11 @@
         },
         "runtime": {
           "EcommerceApp.WebUI.dll": {}
+        },
+        "resources": {
+          "tr/EcommerceApp.WebUI.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "Duende.IdentityModel/7.0.0": {
