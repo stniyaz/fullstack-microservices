@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcommerceApp.OcelotGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61ced1ac39898f8d041624698d809b3dc529387e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+119680bed01f54e867bcfe058b00e137c7b574f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommerceApp.OcelotGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommerceApp.OcelotGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

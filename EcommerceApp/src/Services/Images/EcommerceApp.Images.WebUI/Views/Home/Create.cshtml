@@ -1,0 +1,24 @@
+﻿@model ImageDrive
+
+@{
+    ViewData["Title"] = "Upload";
+}
+<h1>Create</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <label>Product Name</label>
+    <input type="text" asp-for="Name" class="form-control border" />
+    <br />
+    <label>Choose Phote</label>
+    <input type="file" class="form-control border" asp-for="Photo" />
+    <br />
+
+    <input asp-for="SavedUrl" type="hidden" class="form-control" />
+    <input asp-for="SavedFileName" type="hidden" class="form-control" />
+    <button class="btn btn-outline-info">Save</button>
+</form>
+
+
+<div>
+    <a href="Index">Back to List</a>
+</div>
